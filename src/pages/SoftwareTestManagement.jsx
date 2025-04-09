@@ -1,0 +1,30 @@
+'use client'
+import React from 'react'
+
+import Overview from "../container/Services/Testing and QA/Software Test Management/Overview"
+import Hero from '../container/Services/Testing and QA/Software Test Management/HeroSection';
+import ScalableAutomation from '../container/Services/Testing and QA/Software Test Management/ScalableAutomation';
+import TestManagementSystem from '../container/Services/Testing and QA/Software Test Management/TestManagementSystem';
+import Benifits from '../container/Services/Testing and QA/Software Test Management/Benifits';
+import BodyData from '../container/Services/Testing and QA/Software Test Management/BodyData';
+import AnalystRecognition from '../container/Services/Testing and QA/Software Test Management/AnalystRecognition';
+import AccelerateBusiness from '../container/Services/Testing and QA/Software Test Management/AccelerateBusiness';
+
+
+const SoftwareTestManagement = () => {
+  return (
+    <>
+        <Hero/>
+		
+		<Overview/>
+		<ScalableAutomation/>
+		<TestManagementSystem/>
+		<Benifits/>
+		<BodyData/>
+		<AnalystRecognition/>
+		<AccelerateBusiness/>
+    </>
+  )
+}
+
+export default SoftwareTestManagement
