@@ -55,18 +55,20 @@ export const mainNavItems = [
         hasDropdown: true,
         dropdownType: "technology",
     },
-    // {
-    //     label: "Products",
-    //     href: "#",
-    //     hasDropdown: true,
-    //     dropdownType: "products",
-    // },
-    // {
-    //     label: "Industry",
-    //     href: "#",
-    //     hasDropdown: false,
-    //     dropdownType: "industries",
-    // },
+    // /{
+    // //     label: "Industry",
+    // //     href: "#",
+    // //     hasDropdown: false,
+    // //     dropdownType: "industries",
+    // // },
+    {
+        label: "Products",
+        href: "#",
+        hasDropdown: true,
+        dropdownType: "products",
+    },
+
+
     // {
     //     label: "Marketing",
     //     href: "/marketing"
@@ -652,15 +654,54 @@ export const technologyCategories = [
 
 export const productCategories = [
     {
-        id: "white-lebal",
-        title: "White Lebal",
-        hasDropdown: true,
-        dropdownType: "white-lebal",
+      id: "white-lebal",
+      title: "White Lebal",
+      hasDropdown: true,
+      dropdownType: "white-lebal",
     },
     {
-        id: "ready-made",
-        title: " Ready Made",
-        hasDropdown: true,
-        dropdownType: "ready-made",
+      id: "ready-made",
+      title: " Ready Made",
+      hasDropdown: true,
+      dropdownType: "ready-made",
+      features: [
+        {
+          icon: Globe,
+          title: "TRAVEL CRM",
+          path: "/travel-crm-software",
+        },
+        {
+          icon: Globe,
+          title: "HOSPITAL CRM",
+          path: "/hospital-crm-solutions",
+        },
+        {
+          icon: Globe,
+          title: "BOOKING ENGINE",
+          path: "/booking-engine-software",
+        },
+        {
+          icon: Globe,
+          title: "B2B PORTAL",
+          path: "/b2b-portal-solutions",
+        },
+        {
+          icon: Globe,
+          title: "SCHOOL MANAGEMENT CRM",
+          path: "/school-management-crm",
+        },
+        {
+          icon: Globe,
+          title: "HRMS SOLUTION",
+          path: "/hrms-software-solutions",
+        },
+        {
+          icon: Globe,
+          title: "REAL ESTATE CRM",
+          path: "/real-estate-crm-software",
+        },
+      ],
+      image:
+      "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=600&q=80",
     },
-];
+  ];
