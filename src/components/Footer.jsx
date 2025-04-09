@@ -53,7 +53,7 @@ const socialLinks = [
   { url: "https://www.facebook.com/questdigiflex", network: "facebook" },
   { url: "https://x.com/QuestDigiflex", network: "x" },
   { url: "https://linkedin.com/company/quest-digiflex", network: "linkedin" },
-  { url: "https://wa.me/9111454949", network: "whatsapp" },
+  { url: "https://whatsapp.me/9111454949", network: "whatsapp" },
   { url: "https://www.youtube.com/@QuestDigiflex", network: "youtube" },
   { url: "https://in.pinterest.com/questdigiflex/", network: "pinterest" },
   { url: "https://digiflex.quora.com/", network: "quora" },
@@ -77,11 +77,13 @@ const FooterContent = () => (
           </Link>
         </div>
         <div className="w-full h-px bg-blue-800 mb-4"></div>
-        
+
+
+
         <div className="flex flex-col lg:flex-row justify-between gap-8 mb-4 max-w-[1275px] mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-[1275px] pt-10">
             {locations.map((loc, index) => (
-              <div key={index} className="rounded-none flex flex-col text-left">
+              <div key={index} className=" rounded-none flex flex-col text-left">
                 <div className="flex items-center gap-2">
                   <h2 className="text-lg font-semibold">{loc.city}</h2>
                   <Image
@@ -97,12 +99,20 @@ const FooterContent = () => (
                 {loc.location && <p className="text-sm">{loc.location}</p>}
                 {loc.postalCode && <p className="text-sm">{loc.postalCode}</p>}
                 {loc.phone && (
-                  <div className="flex items-center gap-2  text-sm">
-                    <Phone className="w-4 h-4 text-blue-400 flex-shrink-0" />
-                    <a href={`tel:${loc.phone.replace(/[^\d+]/g, "")}`} className="hover:text-blue-300 transition-colors text-gray-200">
-                      {loc.phone}
-                    </a>
+
+                  <div className="flex flex-col justify-end h-full">
+                    <div className="flex items-center gap-2 text-sm">
+                      <Phone className="w-4 h-4 text-blue-400 flex-shrink-0" />
+                      <a
+                        href={`tel:${loc.phone.replace(/[^\d+]/g, "")}`}
+                        className="hover:text-blue-300 transition-colors text-gray-200"
+                      >
+                        {loc.phone}
+                      </a>
+                    </div>
                   </div>
+
+
                 )}
               </div>
             ))}
@@ -134,6 +144,12 @@ const FooterContent = () => (
             </div>
           </div>
         </div>
+
+
+
+
+
+
 
         <div className="w-full h-px bg-blue-800 mb-3"></div>
 
