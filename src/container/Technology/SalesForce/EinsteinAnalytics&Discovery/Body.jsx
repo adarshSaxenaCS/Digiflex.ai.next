@@ -1,8 +1,19 @@
-import React from 'react'
+import EinsteinFeatures from './EinsteinFeatures'
+import EinsteinProcess from './EinsteinProcess'
+import EinsteinTools from './EinsteinTools'
+import Benefits from './Benefits'
+import Faq from '@/components/Faq'; 
+import { EinsteinAnalyticsFAQData } from '../FAQData'
 
 const Body = () => {
   return (
-    <div>Body</div>
+    <>
+      <EinsteinFeatures />
+      <EinsteinProcess />
+      <EinsteinTools />
+      <Benefits />
+      <Faq faqs={EinsteinAnalyticsFAQData} />
+    </>
   )
 }
 

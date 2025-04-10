@@ -1,9 +1,23 @@
-import React from 'react'
+
+import Faq from "@/components/Faq";
+import SalesIntro from "./SalesIntro";
+import SalesFeatures from "./SalesFeatures";
+import SalesProcess from "./SalesProcess";
+import SalesTools from "./SalesTools";
+import Benefits from "./Benefits";
+import { SalesCloudFAQData } from "../FAQData";
 
 const Body = () => {
   return (
-    <div>Body</div>
-  )
-}
+    <>
+      <SalesIntro />
+      <SalesFeatures />
+      <SalesProcess />
+      <SalesTools />
+      <Benefits />
+      <Faq faqs={SalesCloudFAQData} />
+    </>
+  );
+};
 
-export default Body
+export default Body;
