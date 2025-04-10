@@ -126,7 +126,7 @@ const NavItem = ({ setActiveDropdown, service, topbarHeight }) => {
               <div
                 className={`${
                   service.features?.length > 4
-                    ? "grid grid-cols-1 md:grid-cols-2 gap-3"
+                    ? "grid grid-cols-1 md:grid-cols-2 gap-2 max-h-80 p-1 overflow-y-auto scrollbar-hide"
                     : "space-y-3"
                 }`}
               >
