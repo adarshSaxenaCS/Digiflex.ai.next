@@ -55,20 +55,19 @@ export const mainNavItems = [
         hasDropdown: true,
         dropdownType: "technology",
     },
-    // /{
-    // //     label: "Industry",
-    // //     href: "#",
-    // //     hasDropdown: false,
-    // //     dropdownType: "industries",
-    // // },
     {
         label: "Products",
         href: "#",
         hasDropdown: true,
         dropdownType: "products",
     },
+    // {
 
-
+    //     label: "Industry",
+    //     href: "#",
+    //     hasDropdown: false,
+    //     dropdownType: "industries",
+    // },
     // {
     //     label: "Marketing",
     //     href: "/marketing"
@@ -659,10 +658,50 @@ export const technologyCategories = [
 
 export const productCategories = [
     {
-      id: "white-lebal",
-      title: "White Lebal",
-      hasDropdown: true,
-      dropdownType: "white-lebal",
+        id: "mobile-app",
+        icon: Smartphone,
+        title: "White Lebal Products ",
+        color: "text-indigo-500",
+        description: "Building high-performance mobile applications for iOS and Android using the latest technologies.",
+        features: [
+            { icon: Smartphone, title: "ZILLOW CLONE REAL ESTATE", path: "zillow-clone-real-estate-platform" },
+            { icon: Smartphone, title: "AIRBNB CLONE", path: "airbnb-clone-booking-platform" },
+            { icon: Layers, title: "FIVERR CLONE", path: "fiverr-clone-freelance-marketplace" },
+            { icon: Layers, title: "UPWORK CLONE", path: "upwork-clone-freelancer-platform" },
+            { icon: Layers, title: "AMAZON CLONE", path: "amazon-clone-ecommerce-platform" },
+            { icon: Layers, title: "ALIBABA CLONE", path: "alibaba-clone-b2b-platform" },
+            { icon: Layers, title: "PINDUODUO CLONE", path: "pinduoduo-clone-social-commerce" },
+            { icon: Layers, title: "NOON CLONE", path: "noon-clone-online-shopping-platform" },
+            { icon: Layers, title: "TASKRABBIT CLONE", path: "taskrabbit-clone-task-management" },
+            { icon: Layers, title: "BINANCE CLONE CRYPTO EXCHANGE", path: "binance-clone-crypto-exchange" },
+            { icon: Layers, title: "PANCAKESWAP CLONE", path: "pancakeswap-clone-defi-platform" },
+            { icon: Layers, title: "UNISWAP CLONE SWAP", path: "uniswap-clone-decentralized-exchange" },
+            { icon: Layers, title: "LOCALCRYPTOS CLONE P2P EXCHANGE", path: "localcryptos-clone-p2p-exchange" },
+            { icon: Layers, title: "OPENSEA CLONE", path: "opensea-clone-nft-marketplace" },
+            { icon: Layers, title: "RARIBLE CLONE", path: "rarible-clone-nft-marketplace" },
+            { icon: Layers, title: "GLOVO CLONE", path: "glovo-clone-on-demand-delivery" },
+            { icon: Layers, title: "INSTACART CLONE", path: "instacart-clone-grocery-delivery" },
+            { icon: Layers, title: "PAYPAL CLONE", path: "aypal-clone-payment-gateway" },
+            { icon: Layers, title: "CASH APP CLONE", path: "cash-app-clone-mobile-payment" },
+            { icon: Layers, title: "TWITTER CLONE MICROBLOGGING", path: "twitter-clone-microblogging-platform" },
+            { icon: Layers, title: "TIKTOK CLONE", path: "tiktok-clone-video-sharing" },
+            { icon: Layers, title: "FACEBOOK CLONE", path: "facebook-clone-social-network" },
+            { icon: Layers, title: "NETFLIX CLONE OTT", path: "netflix-clone-ott-streaming" },
+            { icon: Layers, title: "THREADS CLONE", path: "threads-clone-social-network" },
+            { icon: Layers, title: "TINDER CLONE", path: "tinder-clone-dating-app" },
+            { icon: Layers, title: "ONLYFANS CLONE", path: "onlyfans-clone-content-sharing" },
+            { icon: Layers, title: "INDRIVER CLONE BID RIDES", path: "indriver-clone-ride-sharing" },
+            { icon: Layers, title: "GOJEK CLONE", path: "gojek-clone-multi-service-app" },
+            { icon: Layers, title: "UBER CLONE", path: "uber-clone-ride-hailing" },
+            { icon: Layers, title: "CAREEM CLONE", path: "careem-clone-ride-hailing-app" },
+            { icon: Layers, title: "UBEREATS CLONE", path: "ubereats-clone-food-delivery" },
+            { icon: Layers, title: "DOORDASH CLONE", path: "doordash-clone-food-delivery" },
+            { icon: Layers, title: "JUSTEAT CLONE", path: "justeat-clone-food-delivery" },
+            { icon: Layers, title: "FOODPANDA CLONE", path: "foodpanda-clone-food-delivery" },
+            { icon: Layers, title: "GRUBHUB CLONE", path: "grubhub-clone-food-delivery" }
+        ],
+        
+        image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=600&q=80",
     },
     {
       id: "ready-made",
