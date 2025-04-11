@@ -4,6 +4,8 @@ import About from './About'
 import Services from './Services'
 import Feature from './Feature'
 import Benifits from './Benifits'
+import Faq from '@/components/Faq'; 
+import {revenueCloudFaqs} from '../FAQData'
 const Body = () => {
   return (
   <>
@@ -11,6 +13,7 @@ const Body = () => {
   <Services/>
   <Feature/>
   <Benifits/>
+  <Faq faqs={revenueCloudFaqs} />
   </>
   )
 }

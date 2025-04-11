@@ -1,8 +1,12 @@
 import React from 'react'
+import Faq from '@/components/Faq'; 
+import {educationCloudFAQ} from '../FAQData'
 
 const Body = () => {
   return (
-    <div>Body</div>
+<>
+<Faq faqs={educationCloudFAQ} />
+</>
   )
 }
 

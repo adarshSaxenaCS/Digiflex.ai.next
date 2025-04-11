@@ -274,6 +274,309 @@ export const LightningExperienceFAQData = [
   },
 ];
 
+ export const AppExchangeAppFAQ = [
+  {
+    question: "What is Salesforce AppExchange?",
+    answer: "AppExchange is Salesforce’s official online marketplace for third-party apps and consulting services that extend Salesforce’s core functionality."
+  },
+  {
+    question: "What are AppExchange Apps used for?",
+    answer: "They are used to enhance Salesforce with features like marketing automation, customer service tools, document management, analytics, and industry-specific solutions."
+  },
+  {
+    question: "Are AppExchange apps free?",
+    answer: "Some apps are free, while others are paid. Many offer free trials as well."
+  },
+  {
+    question: "How can I install an AppExchange App into my Salesforce org?",
+    answer: "Log in to your Salesforce org, visit AppExchange, choose the app, and click 'Get It Now' to follow the installation steps."
+  },
+  {
+    question: "Are AppExchange Apps secure?",
+    answer: "Yes, all apps listed go through a Salesforce security review. Still, you should test them in a sandbox environment."
+  },
+  {
+    question: "What’s the difference between managed and unmanaged packages?",
+    answer: "Managed packages are maintained by providers with version control. Unmanaged packages are editable but not upgradable."
+  },
+  {
+    question: "Can I build and publish my own app on AppExchange?",
+    answer: "Yes, after becoming a Salesforce partner and completing a security review, you can list your app."
+  },
+  {
+    question: "How do I evaluate the right AppExchange App for my business?",
+    answer: "Check reviews, demos, compatibility, support, documentation, and whether a free trial is available."
+  },
+  {
+    question: "What industries benefit the most from AppExchange apps?",
+    answer: "Industries like finance, healthcare, retail, manufacturing, real estate, and non-profits benefit greatly."
+  },
+  {
+    question: "What support options are available for AppExchange apps?",
+    answer: "Support is typically provided by the app vendor. Look for documentation and SLAs in the app listing."
+  }
+];
+
+export const commerceCloudFAQ = [
+  {
+    question: "What is Salesforce Commerce Cloud?",
+    answer: "Salesforce Commerce Cloud is a cloud-based eCommerce platform that helps businesses create and manage seamless shopping experiences across all digital channels."
+  },
+  {
+    question: "Is Commerce Cloud only for B2C companies?",
+    answer: "No, Commerce Cloud supports both B2C (Business-to-Consumer) and B2B (Business-to-Business) commerce solutions."
+  },
+  {
+    question: "What are the key features of Commerce Cloud?",
+    answer: "Key features include product management, AI-powered recommendations, mobile-first design, multi-site management, and order management."
+  },
+  {
+    question: "Does Commerce Cloud support mobile commerce?",
+    answer: "Yes, Commerce Cloud offers mobile-first design and responsive templates to deliver optimized experiences on all devices."
+  },
+  {
+    question: "Can I personalize customer experiences with Commerce Cloud?",
+    answer: "Yes, using Salesforce's Einstein AI, you can personalize product recommendations, search results, and promotions based on customer behavior."
+  },
+  {
+    question: "Is Salesforce Commerce Cloud scalable?",
+    answer: "Absolutely. It's built on a scalable cloud infrastructure to support high traffic, global expansion, and seasonal demand spikes."
+  },
+  {
+    question: "Can I integrate third-party systems with Commerce Cloud?",
+    answer: "Yes, Commerce Cloud offers APIs and integration tools to connect with ERP systems, CRMs, payment gateways, shipping providers, and more."
+  },
+  {
+    question: "How secure is Salesforce Commerce Cloud?",
+    answer: "Commerce Cloud follows strict security protocols, including PCI compliance, data encryption, and continuous monitoring to ensure customer data safety."
+  },
+  {
+    question: "Does Commerce Cloud support multiple currencies and languages?",
+    answer: "Yes, it supports global eCommerce with multiple currencies, languages, tax rules, and localization options."
+  },
+  {
+    question: "What is Einstein in Commerce Cloud?",
+    answer: "Einstein is Salesforce's AI engine, integrated into Commerce Cloud to provide intelligent insights, predictive analytics, and personalized shopping experiences."
+  }
+];
+
+export const fieldServiceLightningFAQ = [
+  {
+    question: "What is Field Service Lightning (FSL)?",
+    answer: "Field Service Lightning is a Salesforce product that helps businesses manage their field operations efficiently, including scheduling, dispatching, and tracking field technicians."
+  },
+  {
+    question: "Who can use Field Service Lightning?",
+    answer: "FSL is ideal for companies that send technicians or service agents to customer locations, such as utilities, manufacturing, telecom, healthcare, and home services."
+  },
+  {
+    question: "What are the main features of Field Service Lightning?",
+    answer: "Key features include intelligent scheduling, mobile workforce management, real-time tracking, inventory management, work order management, and AI-powered optimization."
+  },
+  {
+    question: "Does FSL support mobile devices?",
+    answer: "Yes, FSL offers a dedicated mobile app for technicians, enabling them to access job details, update work status, and capture customer signatures from the field."
+  },
+  {
+    question: "Can Field Service Lightning work offline?",
+    answer: "Yes, the mobile app has offline capabilities, allowing field agents to view and update information even without an internet connection."
+  },
+  {
+    question: "How does FSL improve customer satisfaction?",
+    answer: "FSL enhances customer satisfaction by improving technician punctuality, offering real-time updates, and enabling faster issue resolution."
+  },
+  {
+    question: "Can I integrate FSL with other Salesforce products?",
+    answer: "Yes, FSL seamlessly integrates with Salesforce Sales Cloud, Service Cloud, and other Salesforce platforms for a unified CRM experience."
+  },
+  {
+    question: "Does Field Service Lightning support real-time tracking?",
+    answer: "Yes, it supports GPS tracking for real-time visibility of field technicians' locations and job statuses."
+  },
+  {
+    question: "Is AI used in Field Service Lightning?",
+    answer: "Yes, Einstein AI helps with smart scheduling, resource recommendations, and predictive maintenance."
+  },
+  {
+    question: "Can I customize Field Service Lightning to fit my business needs?",
+    answer: "Absolutely. You can customize workflows, UI, automation rules, and integrate it with third-party tools using Salesforce's flexible platform."
+  }
+];
+
+export const financialServicesCloudFAQ = [
+  {
+    question: "What is Salesforce Financial Services Cloud?",
+    answer: "Financial Services Cloud is a Salesforce platform designed specifically for financial institutions, offering tools for client management, compliance, and personalized financial services."
+  },
+  {
+    question: "Who uses Financial Services Cloud?",
+    answer: "It is used by banks, wealth management firms, insurance providers, and other financial service organizations to streamline customer interactions and operations."
+  },
+  {
+    question: "What are the key features of Financial Services Cloud?",
+    answer: "Key features include client 360 views, household relationship tracking, financial goal planning, compliance management, and pre-built industry data models."
+  },
+  {
+    question: "Does Financial Services Cloud support regulatory compliance?",
+    answer: "Yes, it includes tools and templates to help meet industry compliance standards like KYC, AML, and other regulatory requirements."
+  },
+  {
+    question: "Can I manage client relationships with Financial Services Cloud?",
+    answer: "Absolutely. It provides a complete view of clients and households, allowing personalized engagement and tracking of financial goals."
+  },
+  {
+    question: "Is Financial Services Cloud customizable?",
+    answer: "Yes, it can be tailored with custom fields, workflows, and integrations to match the specific needs of your financial business."
+  },
+  {
+    question: "How does Financial Services Cloud help with financial planning?",
+    answer: "It enables advisors to track client goals, assets, and liabilities while providing tools for building long-term financial plans."
+  },
+  {
+    question: "Can I integrate Financial Services Cloud with other systems?",
+    answer: "Yes, it supports integration with core banking systems, document management tools, e-signature platforms, and more through APIs."
+  },
+  {
+    question: "Is client data secure in Financial Services Cloud?",
+    answer: "Yes, Salesforce offers enterprise-level security including encryption, access controls, and regular audits to keep data safe."
+  },
+  {
+    question: "Does Financial Services Cloud support mobile access?",
+    answer: "Yes, users can access the platform via mobile devices to stay productive on the go, view client profiles, and update records in real-time."
+  }
+];
+ 
+export const nonprofitCloudFAQ = [
+  {
+    question: "What is Salesforce Nonprofit Cloud?",
+    answer: "Salesforce Nonprofit Cloud is a CRM platform tailored for nonprofit organizations to help manage fundraising, donor relationships, programs, and volunteers."
+  },
+  {
+    question: "Who uses Nonprofit Cloud?",
+    answer: "It is used by charities, foundations, NGOs, and other nonprofit organizations to streamline operations and engage more effectively with supporters and stakeholders."
+  },
+  {
+    question: "What are the key features of Nonprofit Cloud?",
+    answer: "Key features include donor management, fundraising tools, program management, impact tracking, grant management, and volunteer coordination."
+  },
+  {
+    question: "Can Nonprofit Cloud help with donor relationship management?",
+    answer: "Yes, it provides a 360-degree view of donors, helping organizations track donations, communications, and engagement history."
+  },
+  {
+    question: "Is Nonprofit Cloud customizable?",
+    answer: "Absolutely. You can customize workflows, fields, and processes to fit your organization’s unique mission and operations."
+  },
+  {
+    question: "Does it support online fundraising?",
+    answer: "Yes, Nonprofit Cloud integrates with fundraising tools and platforms to manage campaigns, online giving, and donor journeys."
+  },
+  {
+    question: "Can I manage volunteers using Nonprofit Cloud?",
+    answer: "Yes, it includes features to track volunteer availability, assign roles, and manage schedules."
+  },
+  {
+    question: "Does Nonprofit Cloud support impact measurement?",
+    answer: "Yes, it offers tools to define, track, and report the outcomes and impact of your programs and initiatives."
+  },
+  {
+    question: "Is Nonprofit Cloud secure?",
+    answer: "Yes, it provides enterprise-grade security including data encryption, access control, and compliance with nonprofit data standards."
+  },
+  {
+    question: "Can I integrate Nonprofit Cloud with other platforms?",
+    answer: "Yes, it supports integration with various tools like email marketing platforms, accounting software, and external donation services using APIs."
+  }
+];
+
+export const revenueCloudFaqs = [
+  {
+    question: "What is Salesforce Revenue Cloud?",
+    answer: "Salesforce Revenue Cloud is a suite of tools that brings together CPQ (Configure, Price, Quote), Billing, Partner Relationship Management, and B2B Commerce to streamline revenue processes and accelerate growth."
+  },
+  {
+    question: "What does CPQ stand for?",
+    answer: "CPQ stands for Configure, Price, Quote. It helps sales teams configure complex products, set accurate pricing, and generate professional quotes quickly."
+  },
+  {
+    question: "Who uses Revenue Cloud?",
+    answer: "Revenue Cloud is used by sales teams, finance departments, partners, and e-commerce managers across industries that require complex sales and recurring billing processes."
+  },
+  {
+    question: "What are the benefits of using CPQ?",
+    answer: "CPQ automates product configuration, enforces pricing rules, generates error-free quotes, and speeds up the sales cycle — reducing manual work and increasing revenue accuracy."
+  },
+  {
+    question: "Can Revenue Cloud handle subscriptions and renewals?",
+    answer: "Yes, it supports recurring revenue models, including subscriptions, renewals, and usage-based billing."
+  },
+  {
+    question: "How does Revenue Cloud integrate with CRM?",
+    answer: "Revenue Cloud is natively built on Salesforce, which means it integrates seamlessly with Sales Cloud, Service Cloud, and other Salesforce tools for a unified experience."
+  },
+  {
+    question: "Does Revenue Cloud support automated billing?",
+    answer: "Yes, with Salesforce Billing, Revenue Cloud automates invoicing, payments, revenue recognition, and tax calculations."
+  },
+  {
+    question: "Is Revenue Cloud customizable?",
+    answer: "Yes, you can customize rules, workflows, quote templates, pricing models, and approval processes to fit your business needs."
+  },
+  {
+    question: "Can CPQ be used by partners and resellers?",
+    answer: "Yes, through Partner Relationship Management (PRM), partners can access CPQ tools and generate quotes within your ecosystem."
+  },
+  {
+    question: "Does Revenue Cloud provide analytics and insights?",
+    answer: "Yes, it includes dashboards and reporting features to monitor pipeline, revenue forecasts, quote performance, and more."
+  }
+];
+
+export const educationCloudFAQ = [
+  {
+    question: "What is Salesforce Education Cloud?",
+    answer: "Education Cloud is a Salesforce solution designed specifically for educational institutions to manage student relationships, recruitment, admissions, alumni engagement, and more."
+  },
+  {
+    question: "Who uses Education Cloud?",
+    answer: "It is used by schools, colleges, universities, and educational nonprofits to streamline student services, improve engagement, and manage their operations more effectively."
+  },
+  {
+    question: "What are the key features of Education Cloud?",
+    answer: "Key features include Student 360 views, recruitment and admissions management, advising and engagement tools, alumni relations, fundraising, and analytics."
+  },
+  {
+    question: "How does Education Cloud support student engagement?",
+    answer: "Education Cloud provides a unified view of each student’s journey, allowing personalized communication, advising, and support based on real-time data."
+  },
+  {
+    question: "Can Education Cloud be used for alumni management?",
+    answer: "Yes, it includes tools for building long-term relationships with alumni, tracking donations, event participation, and engagement history."
+  },
+  {
+    question: "Is Education Cloud customizable?",
+    answer: "Absolutely. Institutions can customize workflows, data models, dashboards, and portals to fit their unique needs and processes."
+  },
+  {
+    question: "Does Education Cloud support mobile access?",
+    answer: "Yes, staff and students can access Education Cloud on mobile devices to manage tasks, communications, and updates on the go."
+  },
+  {
+    question: "Can Education Cloud help with admissions and recruitment?",
+    answer: "Yes, it includes tools for tracking prospective students, managing applications, and automating communication throughout the recruitment lifecycle."
+  },
+  {
+    question: "Is student data secure in Education Cloud?",
+    answer: "Yes, Salesforce provides enterprise-level security including encryption, access controls, and FERPA-compliant practices for education data."
+  },
+  {
+    question: "Can Education Cloud integrate with other campus systems?",
+    answer: "Yes, it supports integration with SIS (Student Information Systems), LMS (Learning Management Systems), and other third-party platforms using APIs."
+  }
+];
+
+
+
 
 
 

@@ -3,6 +3,8 @@ import Feature from './Feature';
 import Architecture from './Architecture';
 import AIPersonalization from './AiPersnalize';
 import Benifits from './Benifits';
+import Faq from '@/components/Faq'; 
+import {commerceCloudFAQ } from '../FAQData'
 
 const Body = () => {
   return (
@@ -11,6 +13,7 @@ const Body = () => {
     <Feature/>
     <AIPersonalization/>
     <Benifits/>
+    <Faq faqs={commerceCloudFAQ} />
 
     </>
   )
