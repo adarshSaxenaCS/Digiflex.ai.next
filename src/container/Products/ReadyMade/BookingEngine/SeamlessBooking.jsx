@@ -27,7 +27,7 @@ const SeamlessBooking = () => {
         <div className="w-full md:w-1/2 relative mt-6 md:mt-0">
           <div className="relative rounded-xl overflow-hidden shadow-lg transform rotate-3">
             <img
-              src="https://img.freepik.com/free-vector/hostel-tourists-marks-flat-illustration_1284-64725.jpg?ga=GA1.1.1704139200.1743657496"
+              src="https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/Seamless-Booking.png"
               alt="Seamless Booking"
               className="w-full h-full object-cover"
             />

@@ -86,28 +86,28 @@ function WhyChooseCRM() {
                 description:
                   "Designed for speed and simplicity, ensuring effortless navigation and fast adoption.",
                 image:
-                  "https://img.freepik.com/free-vector/flat-design-online-ticket-illustration_23-2151089548.jpg?ga=GA1.1.1704139200.1743657496",
+                  "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/Easy-to-Use.png",
               },
               {
                 title: "Customizable CRM",
                 description:
                   "Tailor workflows, branding, and automation rules to fit your business model.",
                 image:
-                  "https://img.freepik.com/free-vector/hotel-booking-concept-illustration_114360-6497.jpg?ga=GA1.1.1704139200.1743657496",
+                  "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/Customizable-CRM.png",
               },
               {
                 title: "24/7 Support",
                 description:
                   "Our expert team ensures round-the-clock assistance, minimizing downtime.",
                 image:
-                  "https://img.freepik.com/free-vector/happy-tourists-choosing-hotel-booking-room-online-flat-illustration_74855-10811.jpg?ga=GA1.1.1704139200.1743657496",
+                  "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/24-7-Support.png",
               },
               {
                 title: "Seamless Integrations",
                 description:
                   "Connect with GDS, payment gateways, and marketing tools effortlessly.",
                 image:
-                  "https://img.freepik.com/free-vector/flight-booking-concept-illustration_114360-1145.jpg?ga=GA1.1.1704139200.1743657496",
+                  "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/Seamless-Integrations.png",
               },
             ].map((feature, index) => (
               <div

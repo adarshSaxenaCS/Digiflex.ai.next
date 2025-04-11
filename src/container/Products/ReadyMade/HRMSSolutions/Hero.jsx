@@ -11,7 +11,7 @@ function Hero() {
         className="absolute inset-0 w-full h-full object-cover"
       >
         <source
-          src="https://video-previews.elements.envatousercontent.com/h264-video-previews/18e20497-1649-4361-9498-aaad11e836c5/51157855.mp4"
+          src="https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/ReadyMade-Hero-Video.mp4"
           type="video/mp4"
         />
       </video>
@@ -28,7 +28,7 @@ function Hero() {
       </div>
       <div className="absolute bottom-6 left-6 flex items-center gap-3 z-10">
               <Image
-                src="https://img.freepik.com/free-vector/house-searching-concept-landing-page_23-2148298372.jpg?ga=GA1.1.1704139200.1743657496&semt=ais_hybrid&w=740" // your logo path here
+                src="https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/TravelCRM-Logo.png" // your logo path here
                 alt="Logo"
                 width={40}
                 height={40}
