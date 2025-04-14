@@ -4,7 +4,7 @@ import Paragraph from '@/Layout/Paragraph';
 import Subheading from '@/Layout/Subheading';
 import * as LucideIcons from 'lucide-react';
 
-const FeatureList = ({ title, description, services }) => {
+const RowChangeFeatureList = ({ title, description, services }) => {
   return (
     <WrapperContainer>
       <div className="font-sans antialiased flex justify-center bg-gradient-to-b from-white via-blue-50 to-blue-100 py-16">
@@ -46,4 +46,4 @@ const FeatureList = ({ title, description, services }) => {
   );
 };
 
-export default FeatureList;
+export default RowChangeFeatureList;

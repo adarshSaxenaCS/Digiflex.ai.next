@@ -3,7 +3,7 @@ import WrapperContainer from "@/Layout/WrapperContainer";
 import Paragraph from "@/Layout/Paragraph";
 import Subheading from "@/Layout/Subheading";
 
-const FeatureList = ({ title, description, services }) => {
+const SelfOpenFeatureList = ({ title, description, services }) => {
   return (
     <WrapperContainer>
       {/* Section Heading */}
@@ -55,4 +55,4 @@ const FeatureList = ({ title, description, services }) => {
   );
 };
 
-export default FeatureList;
+export default SelfOpenFeatureList;

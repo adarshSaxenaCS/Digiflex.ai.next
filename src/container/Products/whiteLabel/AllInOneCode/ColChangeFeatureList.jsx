@@ -5,7 +5,7 @@ import Paragraph from '@/Layout/Paragraph';
 import Subheading from '@/Layout/Subheading';
 import * as LucideIcons from 'lucide-react';
 
-const FeatureList = ({ title, description, services }) => {
+const ColChangeFeatureList = ({ title, description, services }) => {
   return (
     <WrapperContainer>
       <section>
@@ -58,4 +58,4 @@ const FeatureList = ({ title, description, services }) => {
   );
 };
 
-export default FeatureList;
+export default ColChangeFeatureList;

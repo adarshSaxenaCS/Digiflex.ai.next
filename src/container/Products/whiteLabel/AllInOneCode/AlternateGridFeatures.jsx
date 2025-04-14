@@ -6,7 +6,7 @@ import Paragraph from '@/Layout/Paragraph';
 import Subheading from '@/Layout/Subheading';
 import * as LucideIcons from 'lucide-react';
 
-const FeatureList = ({ title, description, services }) => {
+const AlternateGridFeatures = ({ title, description, services }) => {
   const staticServices = services.slice(0, 4); // just first 4, no dynamic index
 
   return (
@@ -84,4 +84,4 @@ const FeatureList = ({ title, description, services }) => {
   );
 };
 
-export default FeatureList;
+export default AlternateGridFeatures;
