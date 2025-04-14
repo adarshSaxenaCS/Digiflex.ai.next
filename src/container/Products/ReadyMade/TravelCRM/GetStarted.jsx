@@ -10,7 +10,7 @@ function GetStarted() {
         {/* Background Image */}
         <div className="absolute inset-0 w-full h-full">
           <Image
-            src="https://img.freepik.com/free-vector/booking-flight-tickets-online-flat-vector-concept_81522-1149.jpg?ga=GA1.1.1704139200.1743657496"
+            src="https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/TravelCRM-Logo.png"
             alt="CRM Image"
             layout="fill"
             objectFit="cover"

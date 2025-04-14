@@ -47,7 +47,7 @@ function CRMFeatures() {
                 style={{ maxHeight: "500px" }}
               >
                 <source
-                  src="https://video-previews.elements.envatousercontent.com/h264-video-previews/81725a8d-a955-4534-ac0f-2be08a848029/21896236.mp4"
+                  src="https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/TravelCRM-Feature_video.mp4"
                   type="video/mp4"
                 />
               </video>

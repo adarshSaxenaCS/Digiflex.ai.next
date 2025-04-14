@@ -61,7 +61,7 @@ function PatientManagementFeature() {
               className="w-full h-full object-cover"
             >
               <source
-                src="https://video-previews.elements.envatousercontent.com/h264-video-previews/169b73f5-7c5a-474f-a05b-64f53047daed/33099258.mp4"
+                src="https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/hospitalCRM-PateientManagement_video.mp4"
                 type="video/mp4"
               />
             </video>

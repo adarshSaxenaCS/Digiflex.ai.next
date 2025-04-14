@@ -20,22 +20,22 @@ const BusinessNetworkOverview = () => {
         {/* Network Map with Responsive Images */}
         <div className="relative mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 w-full bg-gray-800 p-6 rounded-lg">
           <Image
-            src="https://img.freepik.com/free-vector/gradient-b2b-illustration_23-2149322240.jpg?ga=GA1.1.1704139200.1743657496"
-            alt="Business Network"
+            src="https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/Business-Network-one.png"
+            alt="Business Network one"
             width={250}
             height={180}
             className="w-full h-auto mx-auto rounded-md shadow-md"
           />
           <Image
-            src="https://img.freepik.com/free-vector/steal-data-cyber-attack-concept_23-2148535703.jpg"
-            alt="Business Network"
+            src="https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/Business-Network-two.png"
+            alt="Business Network two"
             width={250}
             height={180}
             className="w-full h-auto mx-auto rounded-md shadow-md"
           />
           <Image
-            src="https://img.freepik.com/free-vector/website-setup-concept-landing-page_23-2148309892.jpg?ga=GA1.1.1704139200.1743657496"
-            alt="Business Network"
+            src="https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/Business-Network-three.png"
+            alt="Business Network three"
             width={250}
             height={180}
             className="w-full h-auto mx-auto rounded-md shadow-md"

@@ -11,7 +11,7 @@ const RealTimePricing = () => {
         {/* Left Side - Image */}
         <div className="relative w-full md:w-1/2 h-[300px] md:h-[700px]">
           <Image
-            src="https://img.freepik.com/free-vector/flat-design-online-ticket-illustration_23-2151089548.jpg?t=st=1744093546~exp=1744097146~hmac=8abb2843220ce36cbe8bec8cabfd416d2ab9a16f6d07eb2156daebd3c0157775&w=826"
+            src="https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/Real-Time-Pricing.png"
             alt="Real-Time Pricing"
             fill
             className="object-cover"

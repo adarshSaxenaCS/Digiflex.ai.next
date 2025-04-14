@@ -25,7 +25,7 @@ const B2BTransactionManagement = () => {
       ],
       icon: <FaClock className="text-4xl text-blue-600" />,
       image:
-        "https://img.freepik.com/free-vector/data-extraction-concept-illustration_114360-4906.jpg?ga=GA1.1.1704139200.1743657496&semt=ais_country_boost&w=740", // Image path
+        "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/Automated-Reconciliation.png", // Image path
     },
     {
       title: "Multi-Currency Transactions",
@@ -39,7 +39,7 @@ const B2BTransactionManagement = () => {
       ],
       icon: <FaGlobe className="text-4xl text-green-600" />,
       image:
-        "https://img.freepik.com/free-vector/digital-currency-indian-rupee-white-background-with-circuit-lines_1017-45132.jpg?t=st=1744184184~exp=1744187784~hmac=8aaeb6aea8bd3eda41109e9cc6494bf990c15324b82d721040e5ef48d1f30043&w=826",
+        "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/Multi-Currency-Transactions.png",
     },
     {
       title: "Smart Invoicing",
@@ -53,7 +53,7 @@ const B2BTransactionManagement = () => {
       ],
       icon: <FaCogs className="text-4xl text-purple-600" />,
       image:
-        "https://img.freepik.com/free-vector/paying-bills-concept-illustration_114360-19357.jpg?ga=GA1.1.1704139200.1743657496&semt=ais_country_boost&w=740",
+        "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/Smart-Invoicing.png",
     },
     {
       title: "Fraud Detection System",
@@ -67,7 +67,7 @@ const B2BTransactionManagement = () => {
       ],
       icon: <FaShieldAlt className="text-4xl text-red-600" />,
       image:
-        "https://img.freepik.com/free-vector/hacker-activity-illustrated_23-2148539280.jpg?ga=GA1.1.1704139200.1743657496&semt=ais_country_boost&w=740",
+        "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/Fraud-Detection-System.png",
     },
     {
       title: "Instant Settlements",
@@ -81,7 +81,7 @@ const B2BTransactionManagement = () => {
       ],
       icon: <FaMoneyBillWave className="text-4xl text-yellow-600" />,
       image:
-        "https://img.freepik.com/free-vector/people-using-mobile-bank-remittance-money_74855-6617.jpg?ga=GA1.1.1704139200.1743657496&semt=ais_country_boost&w=740",
+        "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/Instant-Settlements.png",
     },
   ];
 

@@ -78,7 +78,7 @@ function BillingAndInvoicingFeature() {
               className="w-full h-64 md:h-80 object-cover scale-100 hover:scale-105 transition-transform duration-500"
             >
               <source
-                src="https://video-previews.elements.envatousercontent.com/h264-video-previews/378ac1b1-5264-4c41-bf23-1af65004394a/34664772.mp4"
+                src="https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/hospitalCRM-BillingInvoice-Video.mp4"
                 type="video/mp4"
               />
             </video>
