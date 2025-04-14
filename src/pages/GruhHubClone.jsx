@@ -1,15 +1,16 @@
-import Hero from '@/container/products/whiteLabel/Grubhub Clone/Hero'
+import Hero from '@/container/products/whiteLabel/AllInOneCode/Hero'
 import Body from '@/container/products/whiteLabel/Grubhub Clone/Body'
-import TechStack from '@/container/products/whiteLabel/Grubhub Clone/TechStack'
 import React from 'react'
 
 export default function GruhHubClone() {
     return (
         <div>
             <>
-            <Hero/>
+            <Hero 
+        title="Best Fiverr Clone Script & Freelancer Marketplace Solutions" 
+        description="Create your own freelance marketplace with the best Fiverr clone script, website, and app. Explore Fiverr clone WordPress solutions and top freelancer clone platforms." 
+      />
             <Body/>
-            <TechStack/>
             </>
         </div>
     )

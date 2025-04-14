@@ -1,6 +1,12 @@
-'use client';
-
 import WrapperContainer from "@/Layout/WrapperContainer";
+import {
+  FaBitcoin,
+  FaChartLine,
+  FaImage,
+  FaOilCan,
+  FaLandmark,
+  FaExchangeAlt,
+} from "react-icons/fa";
 
 const StaticMarketPrices = () => {
   const cryptoPrices = {
@@ -64,12 +70,17 @@ const StaticMarketPrices = () => {
   };
 
   const renderSection = (title, data) => (
-    <div className="transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:bg-white/20 backdrop-blur-lg bg-white/10 border border-white/20 rounded-2xl shadow-md p-4 space-y-2 cursor-pointer">
-      <h2 className="text-yellow-300 text-lg font-bold mb-2">{title}</h2>
+    <div className="min-w-[390px] max-w-[390px] transition-all duration-300 hover:scale-[1.02] hover:shadow-lg bg-white border border-gray-200 rounded-2xl shadow-md p-4 space-y-2 cursor-pointer">
+      <h2 className="text-blue-600 text-lg font-bold mb-2 flex items-center gap-2">
+        {title}
+      </h2>
       {Object.entries(data).map(([key, value]) => (
-        <div key={key} className="flex justify-between text-sm border-b border-white/10 py-1">
+        <div
+          key={key}
+          className="flex justify-between text-sm border-b border-gray-100 py-1 text-gray-700"
+        >
           <span>{key}</span>
-          <span className="text-green-300">{value}</span>
+          <span className="text-green-600">{value}</span>
         </div>
       ))}
     </div>
@@ -77,14 +88,17 @@ const StaticMarketPrices = () => {
 
   return (
     <WrapperContainer>
-        <div className="min-h-screen bg-gradient-to-br from-gray-700 via-black mb-[20px] to-gray-800 p-6 text-white grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      {renderSection("📈 Cryptocurrencies", cryptoPrices)}
-      {renderSection("🏦 Stock Market", stockPrices)}
-      {renderSection("🖼️ NFT Floor Prices", nftFloorPrices)}
-      {renderSection("🛢️ Commodities", commodityPrices)}
-      {renderSection("📊 Indices", indexPrices)}
-      {renderSection("💱 Forex", forexPrices)}
-    </div>
+      <div className="bg-white text-black">
+        <div className="flex gap-6 overflow-x-auto scrollbar-hide">
+          {/* Show 6 items in scroll, only first 3 will be visible due to overflow */}
+          {renderSection(<><FaBitcoin /> Cryptocurrencies</>, cryptoPrices)}
+          {renderSection(<><FaChartLine /> Stock Market</>, stockPrices)}
+          {renderSection(<><FaImage /> NFT Floor Prices</>, nftFloorPrices)}
+          {renderSection(<><FaOilCan /> Commodities</>, commodityPrices)}
+          {renderSection(<><FaLandmark /> Indices</>, indexPrices)}
+          {renderSection(<><FaExchangeAlt /> Forex</>, forexPrices)}
+        </div>
+      </div>
     </WrapperContainer>
   );
 };

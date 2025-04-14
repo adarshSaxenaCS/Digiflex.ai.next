@@ -1,10 +1,10 @@
 import React from 'react'
-import TechStack from '@/container/products/whiteLabel/Gojek Clone/TechStack';
+import Features from '@/container/products/whiteLabel/Taskrabbit Clone/Features';
 
 export default function Body() {
   return (
     <div>
-      <TechStack/>
+      <Features/>
     </div>
   )
 }

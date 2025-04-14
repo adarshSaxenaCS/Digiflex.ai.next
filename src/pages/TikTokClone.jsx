@@ -1,6 +1,5 @@
-import Hero from '@/container/products/whiteLabel/Tiktok Clone/Hero'
+import Hero from '@/container/products/whiteLabel/AllInOneCode/Hero'
 import Body from '@/container/products/whiteLabel/Tiktok Clone/Body'
-import TechStack from '@/container/products/whiteLabel/Tiktok Clone/TechStack'
 import React from 'react'
 
 export default function TikTokClone() {
@@ -9,7 +8,6 @@ export default function TikTokClone() {
             <>
             <Hero/>
             <Body/>
-            <TechStack/>
             </>
         </div>
     )

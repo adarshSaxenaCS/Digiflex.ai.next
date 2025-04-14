@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "@/container/products/whiteLabel/AllInOneCode/Hero";
 
-function Home() {
+function Hero() {
   return (
     <div>
       <Hero 

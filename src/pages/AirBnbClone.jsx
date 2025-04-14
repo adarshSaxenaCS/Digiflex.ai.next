@@ -1,11 +1,14 @@
 import React from 'react'
-import Hero from '@/container/products/whiteLabel/AIRBNB CLONE/Hero';
+import Hero from '@/container/products/whiteLabel/AllInOneCode/Hero';
 import Body from '@/container/products/whiteLabel/AIRBNB CLONE/Body';
 
 export default function AirBnbClone() {
   return (
     <div>
-        <Hero/>
+        <Hero 
+        title="Best Airbnb Clone Solutions | Build Your Own Rental Platform" 
+        description="Launch your own vacation rental platform with the best Airbnb clone script, app, and website. Explore Airbnb clone software, WordPress solutions, and no-code Webflow options." 
+      />
         <Body/>
     </div>
   )

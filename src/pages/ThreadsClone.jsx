@@ -1,6 +1,5 @@
-import Hero from '@/container/products/whiteLabel/Threads Clone/Hero'
-import Body from '@/container/products/whiteLabel/Threads Clone/Body'
-import TechStack from '@/container/products/whiteLabel/Threads Clone/TechStack'
+import Hero from '@/container/products/whiteLabel/AllInOneCode/Hero';
+import Body from '@/container/products/whiteLabel/Threads Clone/Body';
 import React from 'react'
 
 export default function ThreadsClone() {
@@ -9,7 +8,6 @@ export default function ThreadsClone() {
             <>
             <Hero/>
             <Body/>
-            <TechStack/>
             </>
         </div>
     )

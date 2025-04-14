@@ -36,11 +36,6 @@ function Hero({ title, description, videoSrc}) {
           {description}
         </p>
 
-        {/* Call to Action Button */}
-        <button className="bg-blue-600 hover:bg-blue-700 text-white py-3 px-8 rounded-lg flex items-center mx-auto transition duration-300 group">
-          Get Started
-          <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
-        </button>
       </div>
     </div>
   );

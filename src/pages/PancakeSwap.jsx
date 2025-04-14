@@ -1,15 +1,16 @@
-import Hero from '@/container/products/whiteLabel/PancakeSwap Clone/Hero'
-import Features from '@/container/products/whiteLabel/PancakeSwap Clone/Features'
-import Functionalities from '@/container/products/whiteLabel/PancakeSwap Clone/Functionalities'
+import Hero from '@/container/products/whiteLabel/AllInOneCode/Hero'
+import Body from '@/container/products/whiteLabel/PancakeSwap Clone/Body'
 import React from 'react'
 
 export default function PancakeSwap() {
     return (
         <div>
             <>
-            <Hero/>
-            <Features/>
-            <Functionalities/>
+            <Hero 
+        title="LocalCryptos - Decentralized P2P Crypto Marketplace" 
+        description="Buy and sell Bitcoin, Ethereum, and other cryptocurrencies directly with other users. LocalCryptos connects buyers and sellers worldwide with non-custodial wallets, smart contract-powered escrow, and end-to-end encrypted messaging—no middlemen, no limits." 
+      />
+            <Body/>
             </>
         </div>
     )

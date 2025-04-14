@@ -1,15 +1,16 @@
-import Hero from '@/container/products/whiteLabel/Foodpanda Clone/Hero'
+import Hero from '@/container/products/whiteLabel/AllInOneCode/Hero'
 import Body from '@/container/products/whiteLabel/Foodpanda Clone/Body'
-import TechStack from '@/container/products/whiteLabel/Foodpanda Clone/TechStack'
 import React from 'react'
 
 export default function FoodPanda() {
     return (
         <div>
             <>
-            <Hero/>
+            <Hero 
+                   title="Alibaba Clone & Wholesale Ecommerce Solutions | Start Your Online Marketplace" 
+                   description="Create your own Alibaba-style online marketplace with the best Alibaba clone script. Explore Alibaba dropshipping, wholesale shopping, and ecommerce solutions." 
+                 />
             <Body/>
-            <TechStack/>
             </>
         </div>
     )

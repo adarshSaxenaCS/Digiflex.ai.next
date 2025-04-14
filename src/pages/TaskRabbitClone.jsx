@@ -1,14 +1,14 @@
-import Hero from '@/container/products/whiteLabel/TaskRabbit Clone/Hero'
-import Features from '@/container/products/whiteLabel/TaskRabbit Clone/Features'
-// import TechStack from '@/container/products/whiteLabel/Tiktok Clone/TechStack'
+import Hero from '@/container/products/whiteLabel/AllInOneCode/Hero'
 import React from 'react'
 
 export default function TaskRabbitClone() {
     return (
         <div>
             <>
-            <Hero/>
-            <Features/>
+            <Hero 
+        title="Best Fiverr Clone Script & Freelancer Marketplace Solutions" 
+        description="Create your own freelance marketplace with the best Fiverr clone script, website, and app. Explore Fiverr clone WordPress solutions and top freelancer clone platforms." 
+      />
             </>
         </div>
     )
