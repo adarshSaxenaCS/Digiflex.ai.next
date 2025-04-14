@@ -1,5 +1,6 @@
 import React from 'react'
-import Hero from '@/container/products/whiteLabel/AllInOneCode/Hero'
+import Hero from '@/container/products/whiteLabel/AllInOneCode/Hero';
+import Body from '@/container/products/whiteLabel/Cash App Clone/Body';
 
 export default function CashAppClone() {
   return (
