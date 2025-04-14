@@ -1,4 +1,4 @@
-import Hero from '@/container/products/whiteLabel/AllInOneCode/Hero';
+import Hero from '@/;ontainer/products/whiteLabel/AllInOneCode/Hero';
 import Body from '@/container/products/whiteLabel/UberEats Clone/Body'
 import React from 'react'
 
