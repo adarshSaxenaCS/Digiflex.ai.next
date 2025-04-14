@@ -35,7 +35,7 @@ const Features = [
   },
 ];
 
-const AlibabaCloneFeatures = () => {
+const AmazonCloneFeatures = () => {
   return (
     <FeatureList
       title="Key Features of Our Amazone Clone"
@@ -45,4 +45,4 @@ const AlibabaCloneFeatures = () => {
   );
 };
 
-export default AlibabaCloneFeatures;
+export default AmazonCloneFeatures;
