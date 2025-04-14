@@ -54,7 +54,7 @@ const CryptoUsersByContinent = () => {
               src="https://buybitcoinworldwide.com/pages/info/img/crypto-stats/cryptocurrency-users-worldwide.png"
               alt="Crypto Users Worldwide"
               width={600}
-              // height={500}
+              height={500}
               className="rounded-xl shadow-md w-full h-[500px]"
             />
           </div>

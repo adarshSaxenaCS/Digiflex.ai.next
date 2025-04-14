@@ -7,8 +7,8 @@ export default function OpenseaClone() {
         <div>
             <>
             <Hero 
-        title="Best Fiverr Clone Script & Freelancer Marketplace Solutions" 
-        description="Create your own freelance marketplace with the best Fiverr clone script, website, and app. Explore Fiverr clone WordPress solutions and top freelancer clone platforms." 
+        title="OpenSea: The Largest NFT Marketplace for Buying & Selling Digital Assets" 
+        description="Explore OpenSea, the biggest NFT marketplace for buying, selling, and trading digital collectibles. Discover rare NFTs and start your journey on OpenSea.io today." 
       />
        <Body/>
             </>
