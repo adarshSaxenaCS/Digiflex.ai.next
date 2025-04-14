@@ -46,8 +46,8 @@ export default function GalleryPage() {
                 {images.map((img, index) => (
                     <div key={index} className="rounded-xl overflow-hidden shadow-lg bg-white hover:scale-105 transition-transform duration-300">
                         <Image
-                            src={img.url}
-                            alt={img.alt}
+                            src={images.url}
+                            alt={images.alt}
                             width={500}
                             height={500}
                             className="object-cover w-full h-auto box-border pt-5 pr-2.5 pb-5 pl-2.5"

@@ -10,7 +10,7 @@ const images = [
   "https://cdn.prod.website-files.com/5b0c471ddb589cf22d4477a4/5e92ececc0e4bbadcc89b5ca_5b9fe065aa89c6dc69c0c596_12_pinduoduo_cards_gamification_function_cards-p-1080.png",
 ];
 
-const AutoImageSlider = () => {
+const WhatWeProvide = () => {
   return (
     <WrapperContainer>
       <h1 className="flex justify-center text-[40px] mb-[30px] font-bold text-blue-600">
@@ -36,4 +36,4 @@ const AutoImageSlider = () => {
   );
 };
 
-export default AutoImageSlider;
+export default WhatWeProvide;

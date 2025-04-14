@@ -1,6 +1,6 @@
 import FeatureList from "@/container/products/whiteLabel/AllInOneCode/AlternateGridFeatures";
 
-const amazonServices = [
+const Features = [
   {
     title: "Advanced Search & Filters",
     icon: "Search",
@@ -40,7 +40,7 @@ const AlibabaCloneFeatures = () => {
     <FeatureList
       title="Key Features of Our Amazone Clone"
       description="A comprehensive B2B marketplace solution connecting buyers and sellers globally."
-      services={amazonServices}
+      services={Features}
     />
   );
 };
