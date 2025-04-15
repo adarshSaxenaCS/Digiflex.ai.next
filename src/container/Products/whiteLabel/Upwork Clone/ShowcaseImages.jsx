@@ -1,6 +1,8 @@
-import React from 'react';
+import Image from 'next/image';
 import WrapperContainer from '@/Layout/WrapperContainer';
 import Heading from '@/Layout/Heading';
+import Paragraph from '@/Layout/Paragraph';
+import Subheading from '@/Layout/Subheading';
 
 const ShowcaseImages = () => {
   const imageSections = [
@@ -35,21 +37,23 @@ const ShowcaseImages = () => {
     <WrapperContainer>
       <section className="text-center my-20">
         <Heading>🎨 Visuals & Concepts for Upwork Clone</Heading>
-        <p className="text-gray-600 mt-3 max-w-2xl mx-auto">
+        <Paragraph className="text-gray-600 mt-3 max-w-2xl mx-auto">
           These UI concepts and diagrams illustrate our capability to create a stunning and functional freelancing platform.
-        </p>
+        </Paragraph>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mt-12">
           {imageSections.map((section, index) => (
             <div key={index} className="bg-white shadow-md hover:shadow-xl rounded-xl overflow-hidden transition duration-300">
-              <img
+              <Image
                 src={section.image}
                 alt={section.title}
+                width={500}
+                height={300}
                 className="w-full h-56 object-cover hover:scale-105 transition-transform duration-300"
               />
               <div className="p-5">
-                <h3 className="text-lg font-semibold text-gray-800 mb-2">{section.title}</h3>
-                <p className="text-sm text-gray-600">{section.description}</p>
+                <Subheading className="text-lg font-semibold text-gray-800 mb-2">{section.title}</Subheading>
+                <Paragraph className="text-sm text-gray-600">{section.description}</Paragraph>
               </div>
             </div>
           ))}

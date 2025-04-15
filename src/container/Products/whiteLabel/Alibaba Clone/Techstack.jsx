@@ -1,3 +1,4 @@
+import Paragraph from '@/Layout/Paragraph';
 import WrapperContainer from '@/Layout/WrapperContainer';
 import React from 'react';
 import {
@@ -65,10 +66,10 @@ const TechStack = () => {
   return (
     <WrapperContainer>
       <div className="bg-white mr-[40px]">
-        <h2 className="text-3xl font-bold text-center mb-6 text-blue-700">🚀 Tech Stack Overview</h2>
-        <p className="text-center text-gray-600 max-w-2xl mx-auto mb-12 text-lg">
+        <Heading className="text-3xl font-bold text-center mb-6 text-blue-700">🚀 Tech Stack Overview</Heading>
+        <Paragraph className="text-center text-gray-600 max-w-2xl mx-auto mb-12 text-lg">
           Explore the technologies and tools we use for frontend, backend, databases, hosting, and beyond.
-        </p>
+        </Paragraph>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           {/* Left: Icons in 2 per row */}
@@ -88,7 +89,7 @@ const TechStack = () => {
           <div className="flex flex-col gap-12 ml-[40px]">
             {Object.entries(categories).map(([category, techs]) => (
               <div key={category}>
-                <h3 className="text-xl font-semibold text-blue-600 mb-2">{category}</h3>
+                <Heading className="text-xl font-semibold text-blue-600 mb-2">{category}</Heading>
                 <div className="flex flex-wrap gap-3">
                   {techs.map((tech, idx) => (
                     <span

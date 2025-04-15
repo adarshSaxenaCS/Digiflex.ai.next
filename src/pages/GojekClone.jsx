@@ -1,6 +1,5 @@
 import Hero from '@/container/products/whiteLabel/AllInOneCode/Hero'
 import Body from '@/container/products/whiteLabel/Gojek Clone/Body'
-import React from 'react'
 
 export default function GojekClone() {
     return (

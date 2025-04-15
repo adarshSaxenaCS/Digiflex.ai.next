@@ -1,6 +1,9 @@
 import React from "react";
 import { CheckCircle } from "lucide-react";
 import WrapperContainer from "@/Layout/WrapperContainer";
+import Heading from "@/Layout/Heading";
+import Paragraph from "@/Layout/Paragraph";
+import Subheading from "@/Layout/Subheading";
 
 const functionalities = [
   {
@@ -66,12 +69,12 @@ const PancakeSwapFunctionalities = () => {
   return (
     <WrapperContainer>
       <div>
-        <h2 className="text-3xl font-bold mb-4 text-center text-black">
+        <Heading className="text-3xl font-bold mb-4 text-center text-black">
           More Functionalities of Our PancakeSwap Clone
-        </h2>
-        <p className="text-gray-600 text-center mb-10">
+        </Heading>
+        <Paragraph className="text-gray-600 text-center mb-10">
           Enhance your DeFi platform with these advanced tools and user-friendly features.
-        </p>
+        </Paragraph>
 
         <div className="grid md:grid-cols-2 gap-6">
           {functionalities.map((item, index) => (
@@ -82,8 +85,8 @@ const PancakeSwapFunctionalities = () => {
               <div className="flex items-start gap-4">
                 <CheckCircle className="text-green-500 mt-1" />
                 <div>
-                  <h3 className="text-xl font-semibold mb-1">{item.title}</h3>
-                  <p className="text-gray-600 text-sm">{item.description}</p>
+                  <Subheading className="text-xl font-semibold mb-1">{item.title}</Subheading>
+                  <Paragraph className="text-gray-600 text-sm">{item.description}</Paragraph>
                 </div>
               </div>
             </div>

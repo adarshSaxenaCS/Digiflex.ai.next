@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import WrapperContainer from '@/Layout/WrapperContainer';
+import Heading from '@/Layout/Heading';
 
 const alibabaApps = [
     { name: "Taobao", description: "China’s largest mobile commerce destination." },
@@ -19,7 +20,7 @@ const AlibabaApps = () => {
     return (
         <WrapperContainer>
             <div className="min-h-screen p-6 md:p-10 bg-gradient-to-br from-white to-blue-50 transition-all duration-300">
-                <h1 className="text-4xl font-bold mb-10 text-blue-800 text-center drop-shadow-sm">🚀 Apps & Platforms by Alibaba Group</h1>
+                <Heading className="text-4xl font-bold mb-10 text-blue-800 text-center drop-shadow-sm">🚀 Apps & Platforms by Alibaba Group</Heading>
 
                 <div className="flex flex-col md:flex-row items-start gap-10">
                     {/* Left Images */}

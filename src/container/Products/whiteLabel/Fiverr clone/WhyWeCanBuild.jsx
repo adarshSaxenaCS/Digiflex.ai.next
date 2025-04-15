@@ -3,6 +3,7 @@ import React from 'react';
 import { CheckCircle2 } from 'lucide-react';
 import WrapperContainer from '@/Layout/WrapperContainer';
 import Heading from '@/Layout/Heading';
+import Paragraph from '@/Layout/Paragraph';
 
 const features = [
   "Hands-on experience with MERN stack (MongoDB, Express, React, Node.js)",
@@ -19,9 +20,9 @@ const WhyWeCanBuild = () => {
         <WrapperContainer>
           <section className="text-center my-16">
             <Heading>🛠️ Why We Can Build This</Heading>
-            <p className="text-gray-600 mt-2 max-w-2xl mx-auto">
+            <Paragraph className="text-gray-600 mt-2 max-w-2xl mx-auto">
               We have the right skills, tools, and experience to develop a scalable and secure Fiverr-like platform.
-            </p>
+            </Paragraph>
       
             <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto">
               {features.map((item, index) => (

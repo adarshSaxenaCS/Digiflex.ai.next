@@ -1,7 +1,9 @@
-import React from 'react'
+import TechStack from '@/container/products/whiteLabel/Netflix Clone OTT/TechStack'
 
 export default function Body() {
   return (
-    <div>Body</div>
+    <div>
+        <TechStack/>
+    </div>
   )
 }

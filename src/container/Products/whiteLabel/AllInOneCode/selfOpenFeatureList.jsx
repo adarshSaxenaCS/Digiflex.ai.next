@@ -2,6 +2,7 @@ import * as LucideIcons from "lucide-react";
 import WrapperContainer from "@/Layout/WrapperContainer";
 import Paragraph from "@/Layout/Paragraph";
 import Subheading from "@/Layout/Subheading";
+import Image from "next/image";
 
 const SelfOpenFeatureList = ({ title, description, services }) => {
   return (
@@ -34,22 +35,28 @@ const SelfOpenFeatureList = ({ title, description, services }) => {
                 <LucideIcons.ChevronDown className="w-6 h-6 text-gray-700 group-open:rotate-180 transition-transform duration-300" />
               </summary>
 
-              {/* Description */}
-              <Paragraph className="text-gray-700 text-lg mt-4">{service.description}</Paragraph>
+              <div className="mt-4">
+                <Paragraph className="text-gray-700 text-lg">
+                  {service.description}
+                </Paragraph>
 
-              {/* Image */}
-              {service.image && (
-                <div className="mt-4">
-                  <img
-                    src={service.image}
-                    alt={service.title}
-                    className="w-full md:w-[200px] h-auto rounded-lg shadow-lg object-cover transition-transform duration-300 hover:scale-105"
-                  />
-                </div>
-              )}
+                {service.image ? (
+                  <div className="mt-4">
+                    <Image
+                      src={service.image}
+                      alt={service.title}
+                      width={400} // <-- add width
+                      height={300} // <-- add height
+                      className="w-full md:w-[200px] h-auto rounded-lg shadow-lg object-cover transition-transform duration-300 hover:scale-105"
+                    />
+
+                  </div>
+                ) : null}
+              </div>
             </details>
           );
         })}
+
       </div>
     </WrapperContainer>
   );

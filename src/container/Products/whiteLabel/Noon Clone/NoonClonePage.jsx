@@ -2,6 +2,7 @@ import Image from "next/image";
 import WrapperContainer from "@/Layout/WrapperContainer";
 import Paragraph from "@/Layout/Paragraph";
 import Subheading from "@/Layout/Subheading";
+import Heading from "@/Layout/Heading";
 
 const NoonClonePage = () => {
   const reasons = [
@@ -54,9 +55,9 @@ const NoonClonePage = () => {
     <WrapperContainer>
       {/* Why Build a Noon Clone? */}
       <section className="py-12 bg-amber-100">
-  <h2 className="text-4xl font-bold text-center  text-yellow-600 mb-10">
+  <Heading className="text-4xl font-bold text-center  text-yellow-600 mb-10">
     Why Build a Noon.com Clone?
-  </h2>
+  </Heading>
 
   <div className="flex flex-col md:flex-row gap-6 items-stretch">
     {/* Left: Box 1 (Same Height as Right) */}
@@ -67,7 +68,7 @@ const NoonClonePage = () => {
       backgroundImage: "url('https://i.pinimg.com/736x/c9/0f/4c/c90f4ca1d3cde4f1d29652e4279eca4a.jpg')",
     }}
   >
-    <h3 className="text-2xl text-center mb-2 font-bold text-white">Massive E-commerce Growth</h3>
+    <Subheading className="text-2xl text-center mb-2 font-bold text-white">Massive E-commerce Growth</Subheading>
     <Paragraph className="font-bold">
       Noon is dominating the MENA region. Launching a similar platform taps into a booming online marketplace.
     </Paragraph>
@@ -98,7 +99,7 @@ const NoonClonePage = () => {
           key={i}
           className="bg-white mr-[50px] w-[800px] p-6 rounded-lg border border-gray-200 shadow transition-all duration-300 transform hover:scale-105 hover:border-yellow-400 hover:bg-yellow-50"
         >
-          <h3 className="text-2xl font-semibold mb-2">{title}</h3>
+          <Subheading className="text-2xl font-semibold mb-2">{title}</Subheading>
           <Paragraph>{content}</Paragraph>
         </div>
       ))}

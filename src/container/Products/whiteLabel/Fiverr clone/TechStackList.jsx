@@ -1,5 +1,7 @@
+import Paragraph from "@/Layout/Paragraph";
 import WrapperContainer from "@/Layout/WrapperContainer";
 import { Server, Code, Database, Cloud, Code2 } from "lucide-react";
+import Heading from "@/Layout/Heading";
 
 const techStacks = [
   {
@@ -63,9 +65,9 @@ export default function TechStackList() {
   return (
     <WrapperContainer>
       <div className="mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-8 text-black drop-shadow-lg">
+        <Heading className="text-3xl font-bold text-center mb-8 text-black drop-shadow-lg">
           Tech Stacks You Can Use in a Fiverr Clone
-        </h2>
+        </Heading>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {techStacks.map((stack) => (
             <div
@@ -73,16 +75,16 @@ export default function TechStackList() {
               className="p-6 rounded-xl shadow-lg bg-white/10 backdrop-blur-md border border-white/20 hover:shadow-2xl hover:scale-105 transition-all duration-300 text-center"
             >
               {stack.icon}
-              <h3 className="text-xl font-semibold text-black mb-2">
+              <Heading className="text-xl font-semibold text-black mb-2">
                 {stack.title}
-              </h3>
-              <p className="text-blue-800 mb-4">{stack.description}</p>
+              </Heading>
+              <Paragraph className="text-blue-800 mb-4">{stack.description}</Paragraph>
               <div className="text-left text-sm text-gray-800 space-y-1">
-                <p><strong>Frontend:</strong> {stack.frontend}</p>
-                <p><strong>Backend:</strong> {stack.backend}</p>
-                <p><strong>Database:</strong> {stack.database}</p>
-                <p><strong>Authentication:</strong> {stack.authentication}</p>
-                <p><strong>Payments:</strong> {stack.payments}</p>
+                <Paragraph><strong>Frontend:</strong> {stack.frontend}</Paragraph>
+                <Paragraph><strong>Backend:</strong> {stack.backend}</Paragraph>
+                <Paragraph><strong>Database:</strong> {stack.database}</Paragraph>
+                <Paragraph><strong>Authentication:</strong> {stack.authentication}</Paragraph>
+                <Paragraph><strong>Payments:</strong> {stack.payments}</Paragraph>
               </div>
             </div>
           ))}

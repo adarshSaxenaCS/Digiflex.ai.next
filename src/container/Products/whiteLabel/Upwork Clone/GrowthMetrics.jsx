@@ -1,6 +1,8 @@
 import React from "react";
 import WrapperContainer from "@/Layout/WrapperContainer";
 import Heading from "@/Layout/Heading";
+import Paragraph from "@/Layout/Paragraph";
+import Subheading from "@/Layout/Subheading";
 
 const growthStats = [
   {
@@ -46,10 +48,10 @@ const GrowthMetrics = () => {
     <WrapperContainer>
       <section className="mb-[80px] text-center">
         <Heading>📈 Platform Growth Metrics</Heading>
-        <p className="text-gray-600 mt-3 max-w-xl mx-auto">
+        <Paragraph className="text-gray-600 mt-3 max-w-xl mx-auto">
           These key performance indicators reflect the growth, stability, and
           trustworthiness of our Upwork clone platform.
-        </p>
+        </Paragraph>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
           {growthStats.map((stat, index) => (
@@ -57,9 +59,9 @@ const GrowthMetrics = () => {
               key={index}
               className="bg-white shadow-lg hover:shadow-2xl transition duration-300 p-6 rounded-xl border border-gray-100"
             >
-              <h3 className={`text-4xl font-bold ${stat.color}`}>{stat.value}</h3>
-              <p className="mt-2 text-lg font-semibold text-gray-800">{stat.title}</p>
-              <p className="mt-1 text-sm text-gray-600">{stat.description}</p>
+              <Subheading className={`text-4xl font-bold ${stat.color}`}>{stat.value}</Subheading>
+              <Paragraph className="mt-2 text-lg font-semibold text-gray-800">{stat.title}</Paragraph>
+              <Paragraph className="mt-1 text-sm text-gray-600">{stat.description}</Paragraph>
             </div>
           ))}
         </div>

@@ -1,7 +1,5 @@
-import React from 'react'
 import Hero from '@/container/products/whiteLabel/AllInOneCode/Hero'
 import Body from '@/container/products/whiteLabel/Alibaba Clone/Body'
-import TechStack from '@/container/products/whiteLabel/Alibaba Clone/Techstack'
 import Faq from '@/components/Faq'
 import { alibabaClonefaq } from '@/container/products/whiteLabel/faq'
 

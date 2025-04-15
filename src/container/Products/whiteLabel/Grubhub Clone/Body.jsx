@@ -1,7 +1,9 @@
-import React from 'react'
+import TechStack from "@/container/products/whiteLabel/Grubhub Clone"
 
 export default function Body() {
   return (
-    <div>Body</div>
+    <div>
+      <TechStack/>
+    </div>
   )
 }

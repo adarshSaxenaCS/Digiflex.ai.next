@@ -1,12 +1,12 @@
 import React from 'react'
-import Services from '@/container/products/whiteLabel/Zillo_clone_real_estate/Services';
+import RealEstateServices from '@/container/products/whiteLabel/Zillo_clone_real_estate/RealEstateServices';
 import TechStack from '@/container/products/whiteLabel/Zillo_clone_real_estate/TechStack';
 import Comparison from '@/container/products/whiteLabel/Zillo_clone_real_estate/Comparison';
 
 export default function Body() {
   return (
     <div>
-      <Services/>
+      <RealEstateServices/>
       <TechStack/>
       <Comparison/>
     </div>

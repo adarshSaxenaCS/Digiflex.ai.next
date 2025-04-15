@@ -1,4 +1,5 @@
 import WrapperContainer from '@/Layout/WrapperContainer';
+import Heading from '@/Layout/Heading';
 import Image from 'next/image';
 
 export default function GalleryPage() {
@@ -40,7 +41,7 @@ export default function GalleryPage() {
     return (
         <WrapperContainer>
             <main className="h-[700px] bg-gray-100 mb-[60px] rounded-2xl">
-            <h1 className="pt-10 text-4xl font-bold text-center mb-10 text-gray-800">Inspiration Gallery</h1>
+            <Heading className="pt-10 text-4xl font-bold text-center mb-10 text-gray-800">Inspiration Gallery</Heading>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
                 {images.map((img, index) => (

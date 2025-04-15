@@ -31,7 +31,7 @@ const RowChangeFeatureList = ({ title, description, services }) => {
                   <Paragraph className="text-gray-700 text-center">{service.description}</Paragraph>
 
                   <div className="mt-4 pt-4 border-t border-gray-200 text-sm text-gray-700 w-full text-left backdrop-blur-md bg-white/60 rounded-md p-3 shadow-inner">
-                    <p>{service.detailContent}</p>
+                    <Paragragh>{service.detailContent}</Paragragh>
                     <button className="mt-3 text-blue-700 font-medium flex items-center hover:text-blue-900 transition">
                       <span>Request Consultation</span>
                     </button>

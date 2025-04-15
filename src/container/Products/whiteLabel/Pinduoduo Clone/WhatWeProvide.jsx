@@ -1,5 +1,6 @@
 import WrapperContainer from "@/Layout/WrapperContainer";
 import Image from "next/image";
+import Heading from "@/Layout/Heading";
 
 const images = [
   "https://cdn.prod.website-files.com/5b0c471ddb589cf22d4477a4/5e92ece55f86784b405fbfee_5b9fde6091da1ce30617735f_07_pinduoduo_productscreen_sections-p-1080.png",
@@ -13,9 +14,9 @@ const images = [
 const WhatWeProvide = () => {
   return (
     <WrapperContainer>
-      <h1 className="flex justify-center text-[40px] mb-[30px] font-bold text-blue-600">
+      <Heading className="flex justify-center text-[40px] mb-[30px] font-bold text-blue-600">
         What We Provide
-      </h1>
+      </Heading>
 
       <div className="overflow-x-auto w-full">
         <div className="flex gap-4">

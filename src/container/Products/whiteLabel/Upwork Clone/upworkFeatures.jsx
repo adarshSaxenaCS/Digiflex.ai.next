@@ -10,6 +10,9 @@ import {
   Clock,
 } from "lucide-react";
 import WrapperContainer from "@/Layout/WrapperContainer";
+import Heading from "@/Layout/Heading";
+import Subheading from "@/Layout/Subheading";
+import Paragraph from "@/Layout/Paragraph";
 
 const upworkFeatures = [
   {
@@ -72,9 +75,9 @@ export default function UpworkFeatures() {
   return (
     <WrapperContainer>
       <div>
-        <h2 className="text-3xl font-bold text-center mb-8 text-black drop-shadow-lg">
+        <Heading className="text-3xl font-bold text-center mb-8 text-black drop-shadow-lg">
           Upwork Clone Features
-        </h2>
+        </Heading>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {upworkFeatures.map((feature) => (
             <div
@@ -83,9 +86,9 @@ export default function UpworkFeatures() {
             >
               <div className="flex items-center gap-3">
                 {feature.icon}
-                <h3 className="text-xl font-semibold text-black">{feature.title}</h3>
+                <Subheading className="text-xl font-semibold text-black">{feature.title}</Subheading>
               </div>
-              <p className="text-gray-800 mt-2">{feature.description}</p>
+              <Paragraph className="text-gray-800 mt-2">{feature.description}</Paragraph>
             </div>
           ))}
         </div>

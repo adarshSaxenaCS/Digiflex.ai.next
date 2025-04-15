@@ -1,4 +1,4 @@
-import React from "react";
+import Paragraph from "@/Layout/Paragraph";
 import WrapperContainer from "@/Layout/WrapperContainer";
 import {
   Lock,
@@ -14,6 +14,7 @@ import {
   Repeat,
 } from "lucide-react";
 import Image from "next/image";
+import Heading from "@/Layout/Heading";
 
 export default function Features() {
   const features = [
@@ -75,8 +76,8 @@ export default function Features() {
       className="bg-gray-100 p-6 rounded-xl shadow hover:shadow-md hover:scale-[1.02] transition-all duration-300 text-left"
     >
       <div className="mb-4">{feature.icon}</div>
-      <h3 className="text-lg font-semibold text-gray-800 mb-2">{feature.title}</h3>
-      <p className="text-sm text-gray-600">{feature.description}</p>
+      <Heading className="text-lg font-semibold text-gray-800 mb-2">{feature.title}</Heading>
+      <Paragraph className="text-sm text-gray-600">{feature.description}</Paragraph>
     </div>
   );
 
@@ -84,12 +85,12 @@ export default function Features() {
     <WrapperContainer>
       <section className="bg-white">
         <div className="text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
+          <Heading className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
             Features of Our LocalCryptos Clone
-          </h2>
-          <p className="text-gray-600 mb-10 text-base sm:text-lg">
+          </Heading>
+          <Paragraph className="text-gray-600 mb-10 text-base sm:text-lg">
             A secure, private, and user-friendly peer-to-peer crypto exchange platform.
-          </p>
+          </Paragraph>
 
           {/* First Row */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mb-8">

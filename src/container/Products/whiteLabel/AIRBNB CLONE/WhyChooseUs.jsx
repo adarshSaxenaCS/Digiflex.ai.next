@@ -1,4 +1,4 @@
-import { ShieldCheck, Bolt, Globe, Clock, LifeBuoy } from "lucide-react";
+import { ShieldCheck, Bolt, Globe, Clock, LifeBuoy, Heading } from "lucide-react";
 import Paragraph from "@/Layout/Paragraph";
 import WrapperContainer from "@/Layout/WrapperContainer";
 
@@ -35,9 +35,9 @@ const WhyChooseUs = () => {
     <WrapperContainer>
       <div className="flex flex-col items-center justify-center mb-12">
         {/* Title */}
-        <h2 className="text-4xl font-bold mb-6 text-center text-blue-600 animate-fadeIn">
+        <Heading className="text-4xl font-bold mb-6 text-center text-blue-600 animate-fadeIn">
           Why Choose Us?
-        </h2>
+        </Heading>
 
         {/* Subtitle */}
         <Paragraph className="text-gray-700 text-center text-[20px] mb-[40px] animate-fadeIn delay-150">
@@ -57,9 +57,9 @@ const WhyChooseUs = () => {
               }}
             >
               <feature.icon size={48} className="mx-auto text-blue-500 mb-4" />
-              <h3 className="text-xl font-semibold mb-2 text-gray-800">
+              <Heading className="text-xl font-semibold mb-2 text-gray-800">
                 {feature.title}
-              </h3>
+              </Heading>
               <p className="text-gray-800">{feature.description}</p>
             </div>
           ))}

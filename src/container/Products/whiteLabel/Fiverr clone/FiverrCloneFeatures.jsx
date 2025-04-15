@@ -1,4 +1,4 @@
-import FeatureList from "@/container/products/whiteLabel/AllInOneCode/ColChangeFeatureList";
+import ColChangeFeatureList from "@/container/products/whiteLabel/AllInOneCode/ColChangeFeatureList";
 
 const FiverrServices = [
   {
@@ -61,7 +61,7 @@ const FiverrServices = [
 
 const FiverrCloneFeatures = () => {
   return (
-    <FeatureList
+    <ColChangeFeatureList
       title="Key Features of Our Fiverr Clone"
       description="A marketplace platform designed to replicate the core functionality of Fiverr, enabling freelancers to offer services and clients to hire them. It provides a digital space where users can browse services, communicate, and complete transactions seamlessly."
       services={FiverrServices}

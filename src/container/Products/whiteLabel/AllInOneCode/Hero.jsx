@@ -1,5 +1,5 @@
-import React from "react";
-import { ArrowRight } from "lucide-react";
+import Paragraph from "@/Layout/Paragraph";
+import Heading from "@/Layout/Heading";
 
 function Hero({ title, description, videoSrc}) {
   return (
@@ -27,14 +27,14 @@ function Hero({ title, description, videoSrc}) {
       {/* Centered Content */}
       <div className="relative z-10 text-white px-6 max-w-4xl">
         {/* Title */}
-        <h1 className="text-5xl md:text-5xl font-bold mb-4 leading-tight">
+        <Heading className="text-5xl md:text-5xl font-bold mb-4 leading-tight">
           {title}
-        </h1>
+        </Heading>
 
         {/* Description */}
-        <p className="text-lg md:text-2xl text-gray-300 mb-8">
+        <Paragraph className="text-lg md:text-2xl text-gray-300 mb-8">
           {description}
-        </p>
+        </Paragraph>
 
       </div>
     </div>

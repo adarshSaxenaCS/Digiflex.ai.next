@@ -1,6 +1,5 @@
 import Hero from '@/container/products/whiteLabel/AllInOneCode/Hero'
 import Body from '@/container/products/whiteLabel/Glovo Clone/Body'
-import React from 'react'
 
 export default function GloveClone() {
     return (

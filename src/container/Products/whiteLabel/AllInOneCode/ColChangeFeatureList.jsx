@@ -4,6 +4,7 @@ import Heading from '@/Layout/Heading';
 import Paragraph from '@/Layout/Paragraph';
 import Subheading from '@/Layout/Subheading';
 import * as LucideIcons from 'lucide-react';
+import Image from 'next/image';
 
 const ColChangeFeatureList = ({ title, description, services }) => {
   return (
@@ -23,15 +24,18 @@ const ColChangeFeatureList = ({ title, description, services }) => {
               <div key={service.title} className="flex flex-col items-center w-full relative">
                 {/* Box */}
                 <div className="flex flex-row items-center w-full transition duration-300 transform hover:scale-[1.02] hover:shadow-xl hover:bg-white/40 rounded-2xl">
-                  {/* Image */}
-                  <img
-                    src={service.image}
-                    alt={service.title}
-                    className="w-[200px] h-[200px] object-cover rounded-xl shadow-lg"
-                  />
+                  
+                  {/* Conditional Image */}
+                  {service.image ? (
+                    <Image
+                      src={service.image}
+                      alt={service.title}
+                      className="w-[200px] h-[200px] object-cover rounded-xl shadow-lg"
+                    />
+                  ) : null}
 
                   {/* Content */}
-                  <div className="w-[1000px] bg-white/30 backdrop-blur-lg border border-gray-300 rounded-xl shadow-lg p-6 flex items-center ml-6">
+                  <div className={`bg-white/30 backdrop-blur-lg border border-gray-300 rounded-xl shadow-lg p-6 flex items-center ml-6 ${service.image ? 'w-[1000px]' : 'w-full'}`}>
                     <div className="w-16 h-16 bg-blue-200 rounded-full flex items-center justify-center shadow-md mr-4">
                       {IconComponent && <IconComponent size={25} className="text-blue-600" />}
                     </div>

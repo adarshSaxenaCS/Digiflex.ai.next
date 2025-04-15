@@ -1,6 +1,9 @@
 import React from "react";
 import { CheckCircle, Wallet, Repeat, Settings2, Zap } from "lucide-react";
 import WrapperContainer from "@/Layout/WrapperContainer";
+import Heading from "@/Layout/Heading";
+import Paragraph from "@/Layout/Paragraph";
+import Subheading from "@/Layout/Subheading";
 
 export default function HowItWorks() {
   const steps = [
@@ -44,12 +47,12 @@ export default function HowItWorks() {
     <WrapperContainer>
       <section className="py-16 px-4 sm:px-6 lg:px-12 mb-[50px]">
         <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
+          <Heading className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
             How PancakeSwap Clone Works
-          </h2>
-          <p className="text-gray-600 mb-10 text-base sm:text-lg">
+          </Heading>
+          <Paragraph className="text-gray-600 mb-10 text-base sm:text-lg">
             Follow these simple steps to interact with the DEX.
-          </p>
+          </Paragraph>
 
           <div className="flex flex-wrap justify-center gap-8">
             {steps.map((step, index) => (
@@ -58,8 +61,8 @@ export default function HowItWorks() {
               className={`hexagon-clip w-[240px] h-[220px] bg-white text-gray-800 shadow-lg p-6 flex flex-col items-center justify-center text-center transition-all duration-300 hover:text-gray ${hoverColors[index]}`}
             >
               <div className="mb-3">{step.icon}</div>
-              <h3 className="text-base font-semibold mb-1">{step.title}</h3>
-              <p className="text-sm">{step.description}</p>
+              <Subheading className="text-base font-semibold mb-1">{step.title}</Subheading>
+              <Paragraph className="text-sm">{step.description}</Paragraph>
             </div>
             
             

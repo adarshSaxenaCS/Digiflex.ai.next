@@ -1,4 +1,6 @@
 import WrapperContainer from "@/Layout/WrapperContainer";
+import Heading from "@/Layout/Heading";
+import Paragraph from "@/Layout/Paragraph";
 
 export default function WhatWeProvide() {
   const boxColors = [
@@ -15,19 +17,19 @@ export default function WhatWeProvide() {
   return (
     <WrapperContainer>
       <div className="min-h-[60vh] mb-20 bg-gray-100 p-10">
-        <h1 className="text-4xl font-bold text-center text-blue-600 mb-10">
+        <Heading className="text-4xl font-bold text-center text-blue-600 mb-10">
           What We Provide
-        </h1>
+        </Heading>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {features.map((feature, index) => (
             <div
               key={index}
               className={`bg-white p-6 rounded-lg shadow-lg transition-all duration-300 transform hover:-translate-y-2 ${boxColors[index % boxColors.length]}`}
             >
-              <h2 className="text-xl font-semibold mb-2 text-gray-800">
+              <Heading className="text-xl font-semibold mb-2 text-gray-800">
                 {feature.title}
-              </h2>
-              <p className="text-gray-600">{feature.description}</p>
+              </Heading>
+              <Paragraph className="text-gray-600">{feature.description}</Paragraph>
             </div>
           ))}
         </div>

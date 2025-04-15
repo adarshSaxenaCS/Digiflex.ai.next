@@ -1,12 +1,12 @@
 import React from 'react'
-import Features from '@/container/products/whiteLabel/Uniswap Clone/Features';
-import Roadmap from '@/container/products/whiteLabel/Uniswap Clone/Roadmap';
+import UniswapCloneFeatures from '@/container/products/whiteLabel/Uniswap Clone/UniswapCloneFeatures';
+import TokenPage from '@/container/products/whiteLabel/Uniswap Clone/TokenPage';
 
 export default function Body() {
   return (
     <div>
-      <Features/>
-      <Roadmap/>
+      <UniswapCloneFeatures/>
+      <TokenPage/>
     </div>
   )
 }

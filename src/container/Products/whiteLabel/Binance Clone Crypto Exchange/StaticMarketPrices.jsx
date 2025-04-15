@@ -1,4 +1,5 @@
 import WrapperContainer from "@/Layout/WrapperContainer";
+import Heading from "@/Layout/Heading";
 import {
   FaBitcoin,
   FaChartLine,
@@ -71,9 +72,9 @@ const StaticMarketPrices = () => {
 
   const renderSection = (title, data) => (
     <div className="min-w-[390px] max-w-[390px] transition-all duration-300 hover:scale-[1.02] hover:shadow-lg bg-white border border-gray-200 rounded-2xl shadow-md p-4 space-y-2 cursor-pointer">
-      <h2 className="text-blue-600 text-lg font-bold mb-2 flex items-center gap-2">
+      <Heading className="text-blue-600 text-lg font-bold mb-2 flex items-center gap-2">
         {title}
-      </h2>
+      </Heading>
       {Object.entries(data).map(([key, value]) => (
         <div
           key={key}
