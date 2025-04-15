@@ -1,5 +1,5 @@
 import React from 'react'
-import TechStack from '@/container/products/whiteLabel/Careem Clone/TechStack';
+import TechStack from '@/container/Products/whiteLabel/Careem Clone/TechStack';
 
 export default function Body() {
   return (

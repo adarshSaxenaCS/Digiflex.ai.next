@@ -1,4 +1,4 @@
-import ColChangeFeatureList from "@/container/products/whiteLabel/AllInOneCode/ColChangeFeatureList";
+import ColChangeFeatureList from "@/container/Products/whiteLabel/AllInOneCode/ColChangeFeatureList";
 
 const FiverrServices = [
   {

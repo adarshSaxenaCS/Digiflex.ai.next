@@ -1,4 +1,4 @@
-import SelfOpenFeatureList from "@/container/products/whiteLabel/AllInOneCode/SelfOpenFeatureList";
+import SelfOpenFeatureList from "@/container/Products/whiteLabel/AllInOneCode/SelfOpenFeatureList";
 import WrapperContainer from "@/Layout/WrapperContainer";
 
 const PinduoduoFeatures = [

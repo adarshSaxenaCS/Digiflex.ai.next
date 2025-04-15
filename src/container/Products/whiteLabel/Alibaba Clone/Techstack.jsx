@@ -1,5 +1,6 @@
 import Paragraph from '@/Layout/Paragraph';
 import WrapperContainer from '@/Layout/WrapperContainer';
+import Heading from '@/Layout/Heading';
 import React from 'react';
 import {
   FaReact, FaVuejs, FaAngular, FaSass, FaNodeJs, FaPython, FaLaravel,

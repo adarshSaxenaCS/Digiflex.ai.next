@@ -1,4 +1,4 @@
-import AlternateGridFeatures from "@/container/products/whiteLabel/AllInOneCode/AlternateGridFeatures";
+import AlternateGridFeatures from "@/container/Products/whiteLabel/AllInOneCode/AlternateGridFeatures";
 
 const Features = [
   {

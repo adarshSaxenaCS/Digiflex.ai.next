@@ -28,6 +28,8 @@ const ColChangeFeatureList = ({ title, description, services }) => {
                   {/* Conditional Image */}
                   {service.image ? (
                     <Image
+                      width={300}
+                      height={500}
                       src={service.image}
                       alt={service.title}
                       className="w-[200px] h-[200px] object-cover rounded-xl shadow-lg"

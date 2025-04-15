@@ -1,5 +1,5 @@
-import Hero from '@/container/products/whiteLabel/AllInOneCode/Hero'
-import Body from '@/container/products/whiteLabel/Binance Clone Crypto Exchange/Body'
+import Hero from '@/container/Products/whiteLabel/AllInOneCode/Hero'
+import Body from '@/container/Products/whiteLabel/Binance Clone Crypto Exchange/Body'
 
 export default function BinanceCloneCryptoExchange() {
   return (

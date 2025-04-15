@@ -1,5 +1,5 @@
 import React from 'react'
-import TechStack from '@/container/products/whiteLabel/Indriver Clone Bid Rides/TechStack';
+import TechStack from '@/container/Products/whiteLabel/Indriver Clone Bid Rides/TechStack';
 
 export default function Body() {
   return (

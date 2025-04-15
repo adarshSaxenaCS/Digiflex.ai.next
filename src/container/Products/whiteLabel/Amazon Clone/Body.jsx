@@ -1,6 +1,6 @@
-import AmazonCloneFeatures from '@/container/products/whiteLabel/Amazon CLONE/AmazonCloneFeatures';
-import WhatWeProvide from '@/container/products/whiteLabel/Amazon Clone/WhatWeProvide';
-import TechStackSection from '@/container/products/whiteLabel/Amazon Clone/TechStackSection';
+import AmazonCloneFeatures from '@/container/Products/whiteLabel/Amazon CLONE/AmazonCloneFeatures';
+import WhatWeProvide from '@/container/Products/whiteLabel/Amazon Clone/WhatWeProvide';
+import TechStackSection from '@/container/Products/whiteLabel/Amazon Clone/TechStackSection';
 
 export default function Body() {
   return (

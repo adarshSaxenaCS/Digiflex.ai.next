@@ -1,5 +1,5 @@
-import Hero from '@/container/products/whiteLabel/AllInOneCode/Hero'
-import Body from '@/container/products/whiteLabel/Fiverr clone/Body'
+import Hero from '@/container/Products/whiteLabel/AllInOneCode/Hero'
+import Body from '@/container/Products/whiteLabel/Fiverr clone/Body'
 
 export default function FiverrClone() {
   return (

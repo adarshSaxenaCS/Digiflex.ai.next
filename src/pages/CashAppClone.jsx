@@ -1,5 +1,5 @@
-import Hero from '@/container/products/whiteLabel/AllInOneCode/Hero';
-import Body from '@/container/products/whiteLabel/Cash App Clone/Body';
+import Hero from '@/container/Products/whiteLabel/AllInOneCode/Hero';
+import Body from '@/container/Products/whiteLabel/Cash App Clone/Body';
 
 export default function CashAppClone() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
-import Hero from '@/container/products/whiteLabel/AllInOneCode/Hero';
-import Body from '@/container/products/whiteLabel/Upwork Clone/Body';
+import Hero from '@/container/Products/whiteLabel/AllInOneCode/Hero';
+import Body from '@/container/Products/whiteLabel/Upwork Clone/Body';
 
 export default function UpworkClone() {
   return (

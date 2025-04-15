@@ -1,5 +1,5 @@
-import Hero from '@/container/Products/ReadyMade/SchoolManagementCRM/Hero'
-import Body from '@/container/Products/ReadyMade/SchoolManagementCRM/Body'
+import Hero from '@/container/Products/readyMade/SchoolManagementCRM/Hero'
+import Body from '@/container/Products/readyMade/SchoolManagementCRM/Body'
 import React from 'react'
 
 function SchoolManagementCRM() {

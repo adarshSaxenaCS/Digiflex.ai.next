@@ -1,5 +1,5 @@
-import Hero from '@/container/Products/ReadyMade/BookingEngine/Hero'
-import Body from '@/container/Products/ReadyMade/BookingEngine/Body'
+import Hero from '@/container/Products/readyMade/BookingEngine/Hero'
+import Body from '@/container/Products/readyMade/BookingEngine/Body'
 import React from 'react'
 
 function BookingEngine() {

@@ -1,6 +1,6 @@
-import Hero from '@/container/products/whiteLabel/AllInOneCode/Hero'
-import Body from '@/container/products/whiteLabel/Facebook Clone/Body'
-import TechStack from '@/container/products/whiteLabel/Facebook Clone/TechStack'
+import Hero from '@/container/Products/whiteLabel/AllInOneCode/Hero'
+import Body from '@/container/Products/whiteLabel/Facebook Clone/Body'
+import TechStack from '@/container/Products/whiteLabel/Facebook Clone/TechStack'
 
 export default function FacebookClone() {
     return (

@@ -1,5 +1,5 @@
-import Hero from '@/container/products/whiteLabel/AllInOneCode/Hero';
-import Body from '@/container/products/whiteLabel/Paypal Clone/Body';
+import Hero from '@/container/Products/whiteLabel/AllInOneCode/Hero';
+import Body from '@/container/Products/whiteLabel/Paypal Clone/Body';
 import React from 'react'
 
 export default function PaypalClone() {

@@ -1,6 +1,6 @@
-import AlibabaCloneFeatures from '@/container/products/whiteLabel/Alibaba Clone/AlibabaCloneFeatures';
-import TechStack from '@/container/products/whiteLabel/Alibaba Clone/Techstack'
-import AliBabaApps from '@/container/products/whiteLabel/Alibaba Clone/AlibabaApps'
+import AlibabaCloneFeatures from '@/container/Products/whiteLabel/Alibaba Clone/AlibabaCloneFeatures';
+import TechStack from '@/container/Products/whiteLabel/Alibaba Clone/Techstack'
+import AliBabaApps from '@/container/Products/whiteLabel/Alibaba Clone/AliBabaApps'
 
 export default function Body() {
   return (

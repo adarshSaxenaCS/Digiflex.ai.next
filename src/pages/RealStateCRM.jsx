@@ -1,5 +1,5 @@
-import Hero from '@/container/Products/ReadyMade/RealStateCRM/Hero'
-import Body from '@/container/Products/ReadyMade/RealStateCRM/Body'
+import Hero from '@/container/Products/readyMade/RealStateCRM/Hero'
+import Body from '@/container/Products/readyMade/RealStateCRM/Body'
 import React from 'react'
 
 function RealStateCRM() {
