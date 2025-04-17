@@ -1,7 +1,7 @@
-import Hero from '@/container/Products/whiteLabel/AllInOneCode/Hero'
-import Body from '@/container/Products/whiteLabel/Alibaba Clone/Body'
+import Hero from '@/container/Products/WhiteLabel/AllInOneCode/Hero'
+import Body from '@/container/Products/WhiteLabel/Alibaba Clone/Body'
 import Faq from '@/components/Faq'
-import { alibabaClonefaq } from '@/container/Products/whiteLabel/faq'
+import { alibabaClonefaq } from '@/container/Products/WhiteLabel/faq'
 
 export default function AlibabaClone() {
   return (

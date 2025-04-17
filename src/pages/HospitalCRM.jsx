@@ -1,5 +1,5 @@
-import Body from '@/container/Products/readyMade/HospitalCRM/Body'
-import Hero from '@/container/Products/readyMade/HospitalCRM/Hero'
+import Body from '@/container/Products/ReadyMade/HospitalCRM/Body'
+import Hero from '@/container/Products/ReadyMade/HospitalCRM/Hero'
 import React from 'react'
 
 function HospitalCRM() {

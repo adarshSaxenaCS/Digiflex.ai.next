@@ -1,5 +1,5 @@
-import Hero from '@/container/Products/whiteLabel/AllInOneCode/Hero'
-import Body from '@/container/Products/whiteLabel/Uniswap Clone/Body'
+import Hero from '@/container/Products/WhiteLabel/AllInOneCode/Hero'
+import Body from '@/container/Products/WhiteLabel/Uniswap Clone/Body'
 import React from 'react'
 
 export default function UniswapClone() {

@@ -1,5 +1,5 @@
-import Hero from '@/container/Products/whiteLabel/AllInOneCode/Hero'
-import Body from '@/container/Products/whiteLabel/Indriver Clone Bid Rides/Body'
+import Hero from '@/container/Products/WhiteLabel/AllInOneCode/Hero'
+import Body from '@/container/Products/WhiteLabel/Indriver Clone Bid Rides/Body'
 import React from 'react'
 
 export default function IndriverClone() {

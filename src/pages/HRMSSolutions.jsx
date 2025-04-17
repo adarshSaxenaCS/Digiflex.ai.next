@@ -1,5 +1,5 @@
-import Hero from '@/container/Products/readyMade/HRMSSolutions/Hero'
-import Body from '@/container/Products/readyMade/HRMSSolutions/Body'
+import Hero from '@/container/Products/ReadyMade/HRMSSolutions/Hero'
+import Body from '@/container/Products/ReadyMade/HRMSSolutions/Body'
 import React from 'react'
 
 function HRMSSolutions() {

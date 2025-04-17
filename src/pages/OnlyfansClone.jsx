@@ -1,5 +1,5 @@
-import Hero from '@/container/Products/whiteLabel/AllInOneCode/Hero'
-import Body from '@/container/Products/whiteLabel/Onlyfans Clone/Body'
+import Hero from '@/container/Products/WhiteLabel/AllInOneCode/Hero'
+import Body from '@/container/Products/WhiteLabel/Onlyfans Clone/Body'
 import React from 'react'
 
 export default function OnlyfansClone() {

@@ -1,5 +1,5 @@
-import Hero from '@/container/Products/whiteLabel/AllInOneCode/Hero';
-import Body from '@/container/Products/whiteLabel/AIRBNB CLONE/Body';
+import Hero from '@/container/Products/WhiteLabel/AllInOneCode/Hero';
+import Body from '@/container/Products/WhiteLabel/AIRBNB CLONE/Body';
 
 export default function AirBnbClone() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
-import Hero from '@/container/Products/whiteLabel/AllInOneCode/Hero'
-import Body from '@/container/Products/whiteLabel/Pinduoduo Clone/Body'
+import Hero from '@/container/Products/WhiteLabel/AllInOneCode/Hero'
+import Body from '@/container/Products/WhiteLabel/Pinduoduo Clone/Body'
 
 
 export default function PinduoClone() {

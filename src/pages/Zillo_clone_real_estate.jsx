@@ -1,5 +1,5 @@
-import Hero from '@/container/Products/whiteLabel/AllInOneCode/Hero';
-import Body from '@/container/Products/whiteLabel/Zillo_clone_real_estate/Body';
+import Hero from '@/container/Products/WhiteLabel/AllInOneCode/Hero';
+import Body from '@/container/Products/WhiteLabel/Zillo_clone_real_estate/Body';
 import React from 'react'
 
 export default function Zillo_clone_real_estate() {

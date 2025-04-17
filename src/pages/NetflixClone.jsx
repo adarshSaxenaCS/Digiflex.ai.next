@@ -1,5 +1,5 @@
-import Hero from '@/container/Products/whiteLabel/AllInOneCode/Hero';
-import Body from '@/container/Products/whiteLabel/Netflix Clone OTT/Body';
+import Hero from '@/container/Products/WhiteLabel/AllInOneCode/Hero';
+import Body from '@/container/Products/WhiteLabel/Netflix Clone OTT/Body';
 import React from 'react'
 
 export default function NetflixClone() {

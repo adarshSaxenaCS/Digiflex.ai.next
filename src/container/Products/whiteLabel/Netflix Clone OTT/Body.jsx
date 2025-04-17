@@ -1,4 +1,4 @@
-import TechStack from '@/container/Products/whiteLabel/Netflix Clone OTT/TechStack'
+import TechStack from '@/container/Products/WhiteLabel/Netflix Clone OTT/TechStack'
 
 export default function Body() {
   return (

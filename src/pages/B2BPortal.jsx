@@ -1,5 +1,5 @@
-import Hero from '@/container/Products/readyMade/B2BPortal/Hero'
-import Body from '@/container/Products/readyMade/B2BPortal/Body'
+import Hero from '@/container/Products/ReadyMade/B2BPortal/Hero'
+import Body from '@/container/Products/ReadyMade/B2BPortal/Body'
 import React from 'react'
 
 function B2BPortal() {

@@ -1,5 +1,5 @@
-import Hero from '@/container/Products/whiteLabel/AllInOneCode/Hero';
-import Body from '@/container/Products/whiteLabel/Amazon Clone/Body';
+import Hero from '@/container/Products/WhiteLabel/AllInOneCode/Hero';
+import Body from '@/container/Products/WhiteLabel/Amazon Clone/Body';
 
 export default function AmazonClone() {
   return (
