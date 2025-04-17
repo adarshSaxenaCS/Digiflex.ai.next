@@ -76,7 +76,7 @@ function Ai_software_hero() {
                   style={{
                     background: `radial-gradient(circle, ${
                       [
-                        "rgba(59,130,246,0.3)",
+                        "rgba(59,130,246,0.3)", 
                         "rgba(147,51,234,0.3)",
                         "rgba(59,130,246,0.3)",
                       ][i % 3]

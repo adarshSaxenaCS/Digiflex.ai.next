@@ -78,8 +78,6 @@ const FooterContent = () => (
         </div>
         <div className="w-full h-px bg-blue-800 mb-4"></div>
 
-
-
         <div className="flex flex-col lg:flex-row justify-between gap-8 mb-4 max-w-[1275px] mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-[1275px] pt-10">
             {locations.map((loc, index) => (
@@ -110,8 +108,7 @@ const FooterContent = () => (
                         {loc.phone}
                       </a>
                     </div>
-                  </div>
-
+                  </div>                    
 
                 )}
               </div>
@@ -144,12 +141,6 @@ const FooterContent = () => (
             </div>
           </div>
         </div>
-
-
-
-
-
-
 
         <div className="w-full h-px bg-blue-800 mb-3"></div>
 

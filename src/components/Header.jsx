@@ -28,13 +28,6 @@ const TopBar = () => (
                     </a>
 
           </span>
-
-
-       
-
-
-
-
         </div>
 
         <div className="flex items-center space-x-2 group hover:bg-blue-900 px-3 py-1 rounded transition-colors duration-200">
