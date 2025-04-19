@@ -1,7 +1,9 @@
 import React from 'react'
-import BinanceCloneFeatures from '@/container/products/whiteLabel/Binance Clone Crypto Exchange/BinanceCloneFeatures';
-import StartTrading from '@/container/products/whiteLabel/Binance Clone Crypto Exchange/StartTrading';
-import StaticMarketPrices from '@/container/products/whiteLabel/Binance Clone Crypto Exchange/StaticMarketPrices';
+import BinanceCloneFeatures from '@/container/products/WhiteLabel/Binance Clone Crypto Exchange/BinanceCloneFeatures';
+import StartTrading from '@/container/products/WhiteLabel/Binance Clone Crypto Exchange/StartTrading';
+import StaticMarketPrices from '@/container/products/WhiteLabel/Binance Clone Crypto Exchange/StaticMarketPrices';
+import Faq from "@/components/Faq";
+import { BinanceFaqs } from '../FaqData';
 
 export default function Body() {
   return (
@@ -9,6 +11,7 @@ export default function Body() {
       <BinanceCloneFeatures/>
       <StartTrading/>
       <StaticMarketPrices/>
+      <Faq faqs={BinanceFaqs} />
     </>
   )
 }

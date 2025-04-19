@@ -1,10 +1,10 @@
 import Hero from '@/;ontainer/products/whiteLabel/AllInOneCode/Hero';
-import Body from '@/container/products/whiteLabel/UberEats Clone/Body'
+import Body from '@/container/products/WhiteLabel/UberEats Clone/Body'
 import React from 'react'
 
 export default function UserEatsClone() {
     return (
-        <div>
+        
             <>
             <Hero 
         title="Best Fiverr Clone Script & Freelancer Marketplace Solutions" 
@@ -12,6 +12,6 @@ export default function UserEatsClone() {
       />
             <Body/>
             </>
-        </div>
+        
     )
 }

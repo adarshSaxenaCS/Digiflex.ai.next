@@ -27,14 +27,14 @@ function Hero({ title, description, videoSrc}) {
       {/* Centered Content */}
       <div className="relative z-10 text-white px-6 max-w-4xl">
         {/* Title */}
-        <Heading className="text-5xl md:text-5xl font-bold mb-4 leading-tight">
+        <h1 className="text-[40px] font-bold mb-[30px]">
           {title}
-        </Heading>
+        </h1>
 
         {/* Description */}
-        <Paragraph className="text-lg md:text-2xl text-gray-300 mb-8">
+        <h3 className="text-white text-[25px]">
           {description}
-        </Paragraph>
+        </h3>
 
       </div>
     </div>

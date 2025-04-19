@@ -4,52 +4,43 @@ import Heading from '@/Layout/Heading';
 import Paragraph from '@/Layout/Paragraph';
 import Subheading from '@/Layout/Subheading';
 import * as LucideIcons from 'lucide-react';
-import Image from 'next/image';
 
 const ColChangeFeatureList = ({ title, description, services }) => {
   return (
     <WrapperContainer>
       <section>
-        <div className="text-center mb-6">
+        <div className="text-center mb-4">
           <Heading>{title}</Heading>
           <Paragraph className="text-center">{description}</Paragraph>
         </div>
 
-        <div className="flex flex-col items-center mx-auto">
+        {/* SCROLLABLE BOX CONTAINER */}
+        <div className="flex flex-col items-center max-h-[700px] overflow-y-scroll scrollbar-thin scrollbar-thumb-blue-400 scrollbar-track-blue-100">
           {services.map((service, index) => {
             const IconComponent = LucideIcons[service.icon];
             const isLast = index === services.length - 1;
 
             return (
-              <div key={service.title} className="flex flex-col items-center w-full relative">
+              <div key={service.title} className="flex flex-col items-center">
                 {/* Box */}
-                <div className="flex flex-row items-center w-full transition duration-300 transform hover:scale-[1.02] hover:shadow-xl hover:bg-white/40 rounded-2xl">
-                  
-                  {/* Conditional Image */}
-                  {service.image ? (
-                    <Image
-                      src={service.image}
-                      alt={service.title}
-                      className="w-[200px] h-[200px] object-cover rounded-xl shadow-lg"
-                    />
-                  ) : null}
+                <div className="flex flex-col sm:flex-row items-center transition duration-300 transform hover:scale-[1.02] hover:shadow-xl hover:bg-white/40 rounded-2xl">
 
                   {/* Content */}
-                  <div className={`bg-white/30 backdrop-blur-lg border border-gray-300 rounded-xl shadow-lg p-6 flex items-center ml-6 ${service.image ? 'w-[1000px]' : 'w-full'}`}>
-                    <div className="w-16 h-16 bg-blue-200 rounded-full flex items-center justify-center shadow-md mr-4">
-                      {IconComponent && <IconComponent size={25} className="text-blue-600" />}
+                  <div className="bg-white/30 backdrop-blur-lg border border-gray-300 rounded-xl shadow-lg pt-3 pb-4 px-4 flex flex-col sm:flex-row">
+                    <div className="w-14 h-14 sm:w-16 sm:h-16 bg-blue-200 rounded-full flex items-center justify-center shadow-md mb-3 sm:mb-0 sm:mr-4">
+                      {IconComponent && <IconComponent size={22} className="text-blue-600" />}
                     </div>
                     <div className="flex flex-col flex-1">
-                      <Subheading className="mb-2 justify-center text-center">{service.title}</Subheading>
-                      <Paragraph className="mb-3">{service.description}</Paragraph>
-                      <div className="pt-3 border-t border-gray-100 text-[15px] text-gray-700 max-h-24 pr-2">
+                      <Subheading className="mt-0 mb-1 text-center sm:text-left">{service.title}</Subheading>
+                      <Paragraph className="mb-2 text-center sm:text-left">{service.description}</Paragraph>
+                      <div className="border-gray-100 text-[15px] text-gray-700 max-h-32 overflow-auto text-center sm:text-left">
                         <p>{service.detailContent}</p>
                       </div>
                     </div>
                   </div>
                 </div>
 
-                {/* Line directly touching the box */}
+                {/* Line between boxes */}
                 {!isLast && (
                   <div className="h-6 w-1 bg-blue-400"></div>
                 )}

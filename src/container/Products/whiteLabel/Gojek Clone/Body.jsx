@@ -1,5 +1,5 @@
 import React from 'react'
-import TechStack from '@/container/products/whiteLabel/Gojek Clone/TechStack';
+import TechStack from '@/container/products/WhiteLabel/Gojek Clone/TechStack';
 
 export default function Body() {
   return (

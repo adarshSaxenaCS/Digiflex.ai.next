@@ -17,7 +17,9 @@ const WhyPinduoduoClone = () => {
           </Heading>
 
           <div className="space-y-8 text-lg text-gray-700 leading-relaxed">
-            <div className="group bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300 border-l-4 border-blue-600 hover:border-blue-800">
+            {/* Section 1 */}
+            <div className="relative group bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300 overflow-hidden">
+              <span className="absolute left-0 top-0 h-full w-1 bg-blue-600 transform -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out" />
               <Heading className="text-2xl font-semibold text-blue-800 group-hover:text-blue-900 transition">
                 1. The Rise of Social Commerce
               </Heading>
@@ -26,7 +28,9 @@ const WhyPinduoduoClone = () => {
               </Paragraph>
             </div>
 
-            <div className="group bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300 border-l-4 border-green-600 hover:border-green-800">
+            {/* Section 2 */}
+            <div className="relative group bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300 overflow-hidden">
+              <span className="absolute left-0 top-0 h-full w-1 bg-green-600 transform -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out" />
               <Heading className="text-2xl font-semibold text-green-800 group-hover:text-green-900 transition">
                 2. Market Opportunity & Demand
               </Heading>
@@ -35,7 +39,9 @@ const WhyPinduoduoClone = () => {
               </Paragraph>
             </div>
 
-            <div className="group bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300 border-l-4 border-purple-600 hover:border-purple-800">
+            {/* Section 3 */}
+            <div className="relative group bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300 overflow-hidden">
+              <span className="absolute left-0 top-0 h-full w-1 bg-purple-600 transform -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out" />
               <Heading className="text-2xl font-semibold text-purple-800 group-hover:text-purple-900 transition">
                 3. Skill Showcase & Career Leverage
               </Heading>
@@ -44,7 +50,9 @@ const WhyPinduoduoClone = () => {
               </Paragraph>
             </div>
 
-            <div className="group bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300 border-l-4 border-red-600 hover:border-red-800">
+            {/* Section 4 */}
+            <div className="relative group bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300 overflow-hidden">
+              <span className="absolute left-0 top-0 h-full w-1 bg-red-600 transform -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out" />
               <Heading className="text-2xl font-semibold text-red-800 group-hover:text-red-900 transition">
                 4. Real-World Tech Stack Application
               </Heading>
@@ -53,7 +61,9 @@ const WhyPinduoduoClone = () => {
               </Paragraph>
             </div>
 
-            <div className="group bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300 border-l-4 border-yellow-600 hover:border-yellow-800">
+            {/* Section 5 */}
+            <div className="relative group bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300 overflow-hidden">
+              <span className="absolute left-0 top-0 h-full w-1 bg-yellow-600 transform -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out" />
               <Heading className="text-2xl font-semibold text-yellow-800 group-hover:text-yellow-900 transition">
                 5. Future Monetization Possibilities
               </Heading>

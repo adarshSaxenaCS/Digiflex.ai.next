@@ -1,10 +1,10 @@
-import Hero from '@/container/products/whiteLabel/AllInOneCode/Hero';
-import Body from '@/container/products/whiteLabel/Threads Clone/Body';
+import Hero from '@/container/products/WhiteLabel/AllInOneCode/Hero';
+import Body from '@/container/products/WhiteLabel/Threads Clone/Body';
 import React from 'react'
 
 export default function ThreadsClone() {
     return (
-        <div>
+        
             <>
             <Hero 
         title="Best Fiverr Clone Script & Freelancer Marketplace Solutions" 
@@ -12,6 +12,6 @@ export default function ThreadsClone() {
       />
             <Body/>
             </>
-        </div>
+        
     )
 }

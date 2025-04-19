@@ -1,50 +1,74 @@
-import ColChangeFeatureList from "@/container/products/whiteLabel/AllInOneCode/ColChangeFeatureList";
+import WrapperContainer from "@/Layout/WrapperContainer";
+import { RefreshCw, Layers, TrendingUp, Droplet, Image } from "lucide-react";
 
 const pancakeSwapServices = [
   {
     title: "Token Swapping",
-    icon: "RefreshCw",
+    icon: <RefreshCw className="h-8 w-8 text-blue-600" />,
     description: "Swap BEP-20 tokens instantly.",
-    detailContent: "Supports fast token exchanges with slippage control and real-time price updates.",
-    image: "https://img.freepik.com/free-vector/people-exchanging-bitcoin-dollars_53876-43042.jpg?t=st=1744108889~exp=1744112489~hmac=d7e56ed61816b2b0c87057200d1f270db59763fb29432d9f02a70ffd82b6df9b&w=826",
+    detailContent:
+      "Experience lightning-fast token swaps between BEP-20 assets with built-in slippage tolerance control. Our system ensures real-time pricing using smart contract integration, while maintaining maximum efficiency and security through automated market maker (AMM) mechanisms.",
   },
   {
     title: "Liquidity Pools",
-    icon: "Layers",
+    icon: <Layers className="h-8 w-8 text-green-600" />,
     description: "Provide liquidity and earn fees.",
-    detailContent: "Add or remove liquidity and earn a share of trading fees with LP tokens.",
-    image: "https://img.freepik.com/free-vector/save-rescue-from-finance-dept-disaster-flat-isometric-concept-young-man-saving-drowning-sinking-friend-from-seething-financial-problems-ocean-dollar-raft-float_126523-2084.jpg?t=st=1744108956~exp=1744112556~hmac=e91a662bda6ca22b4e60aadd453b0428cd688f5dbdd26a26c50f845088ad46af&w=740",
+    detailContent:
+      "Join liquidity pools by depositing token pairs and receive LP tokens in return. These tokens entitle you to a share of trading fees proportional to your contribution, with real-time stats and one-click add/remove functionality.",
   },
   {
     title: "Yield Farming",
-    icon: "TrendingUp",
+    icon: <TrendingUp className="h-8 w-8 text-purple-600" />,
     description: "Stake LP tokens for rewards.",
-    detailContent: "Stake your LP tokens to earn CAKE and other tokens, with high APR/APY.",
-    image: "https://img.freepik.com/free-vector/crowdfunding-illustration_1284-25888.jpg?t=st=1744109065~exp=1744112665~hmac=7ce2d272a814ddcb6cee4abb5fcb3afebdfbd6ffe39ddb172a82c010bb32aa02&w=740",
+    detailContent:
+      "Maximize your earnings by staking LP tokens in high-yield farming pools. Track your rewards in real-time and enjoy flexible staking options, attractive APRs, and boosted incentives through exclusive partner programs.",
   },
   {
     title: "Syrup Pools",
-    icon: "Droplet",
+    icon: <Droplet className="h-8 w-8 text-pink-600" />,
     description: "Stake CAKE to earn more tokens.",
-    detailContent: "Single-asset staking where users earn rewards by locking CAKE.",
-    image: "https://th.bing.com/th/id/OIP.aMok6BZp3ekUMRCnW0h43wAAAA?rs=1&pid=ImgDetMain",
+    detailContent:
+      "Unlock effortless passive income with Syrup Pools. Stake your CAKE tokens to earn various partner tokens or more CAKE without providing liquidity. Great for users who prefer low-risk, single-token staking.",
   },
   {
     title: "NFT Marketplace",
-    icon: "Image",
+    icon: <Image className="h-8 w-8 text-yellow-600" />,
     description: "Buy, sell, and collect NFTs.",
-    detailContent: "Explore and trade unique NFTs directly on PancakeSwap.",
-    image: "https://i.pinimg.com/736x/12/70/1a/12701a55aa606851722ff23e9cd7dda8.jpg",
+    detailContent:
+      "Dive into our built-in NFT marketplace to explore, mint, trade, and collect unique digital assets. From art and collectibles to gamified NFTs, users can enjoy secure on-chain transactions, royalties, and creator-friendly tools.",
   },
 ];
 
 const PancakeSwapCloneFeatures = () => {
   return (
-    <ColChangeFeatureList
-      title="Key Features of Our PancakeSwap Clone"
-      description="Decentralized trading, farming, staking, and NFTs all in one DeFi platform."
-      services={pancakeSwapServices}
-    />
+    <WrapperContainer>
+      <div className="py-10 px-4 md:px-12 bg-gray-50">
+      <h2 className="text-3xl md:text-4xl font-bold text-center text-blue-700 mb-4">
+        Key Features of Our PancakeSwap Clone
+      </h2>
+      <p className="text-center text-lg text-gray-600 mb-10 max-w-2xl mx-auto">
+        Decentralized trading, farming, staking, and NFTs all in one DeFi platform.
+      </p>
+
+      <div className="space-y-6 max-h-[75vh] overflow-y-auto pr-2">
+        {pancakeSwapServices.map((service, idx) => (
+          <div
+            key={idx}
+            className="flex gap-4 bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border-l-4 border-blue-500"
+          >
+            <div className="mt-1">{service.icon}</div>
+            <div>
+              <h3 className="text-xl font-semibold text-gray-800">
+                {service.title}
+              </h3>
+              <p className="text-sm text-gray-500 mb-2">{service.description}</p>
+              <p className="text-gray-700">{service.detailContent}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+    </WrapperContainer>
   );
 };
 

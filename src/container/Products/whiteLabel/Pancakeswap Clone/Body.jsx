@@ -1,7 +1,9 @@
 import React from 'react'
-import PancakeSwapCloneFeatures from '@/container/products/whiteLabel/Pancakeswap Clone/PancakeSwapCloneFeatures';
-import PancakeSwapFunctionalities from '@/container/products/whiteLabel/Pancakeswap Clone/PancakeSwapFunctionalities';
-import HowItWorks from '@/container/products/whiteLabel/Pancakeswap Clone/HowItWorks';
+import PancakeSwapCloneFeatures from '@/container/products/WhiteLabel/Pancakeswap Clone/PancakeSwapCloneFeatures';
+import PancakeSwapFunctionalities from '@/container/products/WhiteLabel/Pancakeswap Clone/PancakeSwapFunctionalities';
+import HowItWorks from '@/container/products/WhiteLabel/Pancakeswap Clone/HowItWorks';
+import Faq from '@/components/Faq';
+import { PancakeSwapFaqs } from '../FaqData';
 
 export default function Body() {
   return (
@@ -9,6 +11,7 @@ export default function Body() {
       <PancakeSwapCloneFeatures/>
       <PancakeSwapFunctionalities/>
       <HowItWorks/>
+      <Faq faqs={PancakeSwapFaqs}/>
     </div>
   )
 }

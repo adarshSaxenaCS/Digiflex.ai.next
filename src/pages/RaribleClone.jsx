@@ -1,17 +1,15 @@
-import Hero from '@/container/products/whiteLabel/AllInOneCode/Hero'
-import Body from '@/container/products/whiteLabel/Paypal Clone/Body'
-import React from 'react'
+import Hero from '@/container/products/WhiteLabel/AllInOneCode/Hero';
+import Body from '@/container/products/WhiteLabel/Rarible Clone/Body';
 
 export default function RaribleClone() {
     return (
-        <div>
             <>
             <Hero 
-        title="Best Fiverr Clone Script & Freelancer Marketplace Solutions" 
-        description="Create your own freelance marketplace with the best Fiverr clone script, website, and app. Explore Fiverr clone WordPress solutions and top freelancer clone platforms." 
+        title="Build Your Own Rarible Clone | NFT Marketplace Development" 
+        description="Create a decentralized NFT marketplace with a Rarible clone script. Explore Rarible, its NFT marketplace, and how to launch your own platform for buying and selling NFTs." 
       />
    <Body/>
             </>
-        </div>
+        
     )
 }

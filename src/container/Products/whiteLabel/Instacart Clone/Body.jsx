@@ -1,9 +1,9 @@
-import TechStack from "@/container/products/whiteLabel/Indriver Clone Bid Rides"
+import InstaCartFeatures from "./InstaCartFeatures"
 
 export default function Body() {
   return (
-    <div>
-      <TechStack/>
-    </div>
+    <>
+    <InstaCartFeatures/>
+    </>
   )
 }

@@ -1,4 +1,4 @@
-import AlternateGridFeatures from "@/container/products/whiteLabel/AllInOneCode/AlternateGridFeatures";
+import AlternateGridFeatures from "@/container/products/WhiteLabel/AllInOneCode/AlternateGridFeatures";
 
 const binanceFeatures = [
   {

@@ -1,16 +1,15 @@
-import Hero from '@/container/products/whiteLabel/AllInOneCode/Hero'
-import Body from '@/container/products/whiteLabel/Glovo Clone/Body'
+import Hero from '@/container/products/WhiteLabel/AllInOneCode/Hero'
+import Body from '@/container/products/WhiteLabel/Glovo Clone/Body'
 
 export default function GloveClone() {
     return (
-        <div>
             <>
             <Hero 
-        title="Best Fiverr Clone Script & Freelancer Marketplace Solutions" 
-        description="Create your own freelance marketplace with the best Fiverr clone script, website, and app. Explore Fiverr clone WordPress solutions and top freelancer clone platforms." 
+        title="Build a Glovo Clone | On-Demand Delivery App Development" 
+        description="Create your own on-demand delivery platform with a Glovo clone. Explore Glovo app features, delivery solutions, and how to launch a successful Glovo-style business." 
       />
             <Body/>
             </>
-        </div>
+        
     )
 }

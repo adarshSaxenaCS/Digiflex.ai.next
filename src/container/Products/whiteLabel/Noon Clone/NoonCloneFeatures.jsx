@@ -93,6 +93,8 @@ const NoonCloneFeatures = () => {
               <Image
                 src={service.image}
                 alt={service.title}
+                width={500}
+                height={300}
                 className="hidden sm:block w-full h-48 object-cover"
               />
               <div className="p-4 flex flex-col justify-between flex-grow">

@@ -1,10 +1,10 @@
-import Hero from '@/container/products/whiteLabel/AllInOneCode/Hero';
-import Body from '@/container/products/whiteLabel/Taskrabbit Clone/Body';
+import Hero from '@/container/products/WhiteLabel/AllInOneCode/Hero';
+import Body from '@/container/products/WhiteLabel/Taskrabbit Clone/Body';
 import React from 'react'
 
 export default function TaskRabbitClone() {
     return (
-        <div>
+        
             <>
             <Hero 
         title="Best Fiverr Clone Script & Freelancer Marketplace Solutions" 
@@ -12,6 +12,6 @@ export default function TaskRabbitClone() {
       />
       <Body/>
             </>
-        </div>
+        
     )
 }

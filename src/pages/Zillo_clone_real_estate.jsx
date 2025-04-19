@@ -1,10 +1,10 @@
-import Hero from '@/container/products/whiteLabel/AllInOneCode/Hero';
-import Body from '@/container/products/whiteLabel/Zillo_clone_real_estate/Body';
+import Hero from '@/container/products/WhiteLabel/AllInOneCode/Hero';
+import Body from '@/container/products/WhiteLabel/Zillo_clone_real_estate/Body';
 import React from 'react'
 
 export default function Zillo_clone_real_estate() {
     return (
-        <div>
+        
             <>
                 <Hero
                     title="Zillow Homes for Sale & Real Estate Listings | Buy, Sell & Rent"
@@ -13,6 +13,6 @@ export default function Zillo_clone_real_estate() {
                 <Body />
                 
             </>
-        </div>
+        
     )
 }

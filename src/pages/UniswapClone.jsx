@@ -1,10 +1,10 @@
-import Hero from '@/container/products/whiteLabel/AllInOneCode/Hero'
-import Body from '@/container/products/whiteLabel/Uniswap Clone/Body'
+import Hero from '@/container/products/WhiteLabel/AllInOneCode/Hero'
+import Body from '@/container/products/WhiteLabel/Uniswap Clone/Body'
 import React from 'react'
 
 export default function UniswapClone() {
     return (
-        <div>
+        
             <>
             <Hero 
         title="Swap, Earn, and Trade — All Without Limits" 
@@ -12,6 +12,6 @@ export default function UniswapClone() {
       />
       <Body/>
             </>
-        </div>
+        
     )
 }

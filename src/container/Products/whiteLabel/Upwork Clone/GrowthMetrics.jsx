@@ -56,13 +56,23 @@ const GrowthMetrics = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
           {growthStats.map((stat, index) => (
             <div
-              key={index}
-              className="bg-white shadow-lg hover:shadow-2xl transition duration-300 p-6 rounded-xl border border-gray-100"
-            >
-              <Subheading className={`text-4xl font-bold ${stat.color}`}>{stat.value}</Subheading>
-              <Paragraph className="mt-2 text-lg font-semibold text-gray-800">{stat.title}</Paragraph>
-              <Paragraph className="mt-1 text-sm text-gray-600">{stat.description}</Paragraph>
-            </div>
+            key={index}
+            className="relative bg-white shadow-lg hover:shadow-2xl transition duration-300 p-6 rounded-xl border border-gray-100 overflow-hidden group"
+          >
+            {/* Animated top border */}
+            <span className="absolute top-0 left-0 w-0 h-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 transition-all duration-500 group-hover:w-full"></span>
+          
+            <Subheading className={`text-4xl font-bold ${stat.color}`}>
+              {stat.value}
+            </Subheading>
+            <Paragraph className="mt-2 text-lg font-semibold text-gray-800">
+              {stat.title}
+            </Paragraph>
+            <Paragraph className="mt-1 text-sm text-gray-600">
+              {stat.description}
+            </Paragraph>
+          </div>
+          
           ))}
         </div>
       </section>

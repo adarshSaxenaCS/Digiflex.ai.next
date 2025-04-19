@@ -10,6 +10,7 @@ import {
   SiExpress, SiSpringboot, SiNestjs, SiRubyonrails, SiFlask,
   SiMongodb, SiPostgresql, SiRedis, SiMysql, SiVercel, SiNetlify, SiFirebase
 } from 'react-icons/si';
+import Heading from '@/Layout/Heading';
 
 const TechStack = () => {
   const categories = {

@@ -1,9 +1,9 @@
-import Hero from '@/container/products/whiteLabel/AllInOneCode/Hero'
-import Body from '@/container/products/whiteLabel/Gojek Clone/Body'
+import Hero from '@/container/products/WhiteLabel/AllInOneCode/Hero'
+import Body from '@/container/products/WhiteLabel/Gojek Clone/Body'
 
 export default function GojekClone() {
     return (
-        <div>
+        
             <>
             <Hero 
         title="Best Fiverr Clone Script & Freelancer Marketplace Solutions" 
@@ -11,6 +11,6 @@ export default function GojekClone() {
       />
             <Body/>
             </>
-        </div>
+        
     )
 }

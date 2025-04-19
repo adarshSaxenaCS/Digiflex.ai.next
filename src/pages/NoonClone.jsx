@@ -1,10 +1,10 @@
-import Hero from '@/container/products/whiteLabel/AllInOneCode/Hero'
-import Body from '@/container/products/whiteLabel/Noon Clone/Body'
+import Hero from '@/container/products/WhiteLabel/AllInOneCode/Hero'
+import Body from '@/container/products/WhiteLabel/Noon Clone/Body'
 import React from 'react'
 
 export default function NoonClone() {
     return (
-        <div>
+        
             <>
             <Hero 
         title="Noon Online Shopping | Shop the Best Deals on Fashion, Electronics & More" 
@@ -12,6 +12,6 @@ export default function NoonClone() {
       />
             <Body/>
             </>
-        </div>
+     
     )
 }

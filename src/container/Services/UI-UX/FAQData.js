@@ -1,4 +1,3 @@
-// Brand Strategy FAQ //
 const BrandStrategyFAQData = [
   {
     question: "What is a brand strategy in UI/UX design?",

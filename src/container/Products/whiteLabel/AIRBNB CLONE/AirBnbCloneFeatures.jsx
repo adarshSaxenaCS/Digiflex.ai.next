@@ -1,4 +1,4 @@
-import SelfOpenFeatureList from "@/container/products/whiteLabel/AllInOneCode/SelfOpenFeatureList";
+import SelfOpenFeatureList from "@/container/products/WhiteLabel/AllInOneCode/SelfOpenFeatureList";
 import { LayoutDashboard, Search, UserCheck, CreditCard, Star, MapPin, CalendarCheck, MessageSquare, Globe, ShieldCheck, TrendingUp } from "lucide-react";
 
 const AirBnbFeatures = [

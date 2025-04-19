@@ -1,9 +1,9 @@
-import Hero from '@/container/products/whiteLabel/AllInOneCode/Hero'
-import Body from '@/container/products/whiteLabel/Foodpanda Clone/Body'
+import Hero from '@/container/products/WhiteLabel/AllInOneCode/Hero'
+import Body from '@/container/products/WhiteLabel/Foodpanda Clone/Body'
 
 export default function FoodPanda() {
     return (
-        <div>
+        
             <>
             <Hero 
                    title="Alibaba Clone & Wholesale Ecommerce Solutions | Start Your Online Marketplace" 
@@ -11,6 +11,6 @@ export default function FoodPanda() {
                  />
             <Body/>
             </>
-        </div>
+        
     )
 }

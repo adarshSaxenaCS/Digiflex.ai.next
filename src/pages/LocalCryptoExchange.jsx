@@ -1,5 +1,5 @@
-import Hero from '@/container/products/whiteLabel/AllInOneCode/Hero';
-import Body from '@/container/products/whiteLabel/LocalCryptos Clone P2P Exchange/Body';
+import Hero from '@/container/products/WhiteLabel/AllInOneCode/Hero';
+import Body from '@/container/products/WhiteLabel/Localcryptos Clone P2P Exchange/Body';
 import React from 'react'
 
 export default function PancakeSwap() {

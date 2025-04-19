@@ -1,63 +1,64 @@
-import ColChangeFeatureList from "@/container/products/whiteLabel/AllInOneCode/ColChangeFeatureList";
+import ColChangeFeatureList from "@/container/products/WhiteLabel/AllInOneCode/ColChangeFeatureList";
 
 const FiverrServices = [
   {
     title: "Service Listings",
     icon: "List",
     description: "Create and manage services.",
-    detailContent: "Freelancers can offer service packages with pricing, descriptions, and delivery timelines.",
-    image: "https://i.pinimg.com/236x/43/99/4f/43994f53d8feec27770ce7dca2d63d39.jpg",
+    detailContent:
+      "Freelancers can create detailed service listings including package tiers, pricing structures, descriptions, FAQs, and delivery timelines. This allows buyers to understand exactly what they're getting and choose the best fit for their needs.",
   },
   {
     title: "User Authentication & Profiles",
     icon: "UserCheck",
     description: "Secure user management.",
-    detailContent: "Buyers and sellers can create detailed profiles with secure sign-up/login.",
-    image: "https://i.pinimg.com/736x/22/09/79/220979c254f575f755997ab812fc535e.jpg",
+    detailContent:
+      "Users can register securely and maintain professional profiles that include skills, portfolio samples, work experience, and client testimonials. The authentication process ensures account safety for both buyers and sellers.",
   },
   {
     title: "Advanced Search & Filters",
     icon: "Search",
     description: "Find services easily.",
-    detailContent: "Powerful search tools and filters to locate relevant services quickly.",
-    image: "https://i.pinimg.com/736x/a0/72/01/a0720158ee319cd8ab25c8cbe3720c4d.jpg",
+    detailContent:
+      "An intuitive search system helps users discover relevant services quickly using filters like price, delivery time, category, rating, and seller level, providing a streamlined browsing experience.",
   },
   {
     title: "Secure Payments",
     icon: "CreditCard",
     description: "Multiple payment options.",
-    detailContent: "Integrated payment gateways ensure safe transactions with escrow services.",
-    image: "https://i.pinimg.com/736x/e3/47/65/e34765f06dd62a5b348f41c0b8f3f66e.jpg",
+    detailContent:
+      "Integrated payment gateways support multiple payment methods such as credit/debit cards, PayPal, and wallet systems. Escrow functionality ensures that payments are only released when the buyer is satisfied with the delivery.",
   },
   {
     title: "Order Management",
     icon: "ClipboardCheck",
     description: "Manage and track orders.",
-    detailContent: "Buyers can place, track, and manage their service orders efficiently.",
-    image: "https://i.pinimg.com/736x/ea/39/ae/ea39aeab05dcc5a2e0f63bd3b7071e85.jpg",
+    detailContent:
+      "Both buyers and sellers can manage order timelines, status updates, delivery deadlines, and revisions. Automated notifications and tracking help ensure transparency and timely delivery of services.",
   },
   {
     title: "Messaging System",
     icon: "MessageSquare",
     description: "Chat with sellers.",
-    detailContent: "Secure messaging for seamless communication between buyers and sellers.",
-    image: "https://i.pinimg.com/736x/cd/5d/40/cd5d400c39e3891914066593b96d610c.jpg",
+    detailContent:
+      "A real-time messaging system enables smooth communication between buyers and freelancers. It supports file attachments, custom offers, and negotiation to ensure all project details are discussed and agreed upon clearly.",
   },
   {
     title: "Ratings & Reviews",
     icon: "Star",
     description: "User feedback system.",
-    detailContent: "Users can rate and review services to ensure quality and trust.",
-    image: "https://i.pinimg.com/736x/98/2b/fb/982bfb2c3894f29c9bed4d13d7b0488d.jpg",
+    detailContent:
+      "After order completion, buyers can leave ratings and detailed reviews based on their experience. This feedback helps future buyers make informed decisions and motivates sellers to maintain high-quality standards.",
   },
   {
     title: "Admin Dashboard",
     icon: "Monitor",
     description: "Manage platform activities.",
-    detailContent: "Admins can monitor transactions, user activity, and handle disputes.",
-    image: "https://i.pinimg.com/736x/05/6e/8f/056e8f6d11d6f6fb3bd90dd0aef35541.jpg",
+    detailContent:
+      "Admins have access to a powerful dashboard where they can monitor service listings, user registrations, transactions, disputes, and platform metrics. Tools for moderation and user management ensure a safe and trustworthy environment.",
   },
 ];
+
 
 const FiverrCloneFeatures = () => {
   return (

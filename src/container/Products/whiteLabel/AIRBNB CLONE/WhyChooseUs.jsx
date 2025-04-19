@@ -1,6 +1,7 @@
-import { ShieldCheck, Bolt, Globe, Clock, LifeBuoy, Heading } from "lucide-react";
+import { ShieldCheck, Bolt, Globe, Clock, LifeBuoy} from "lucide-react";
 import Paragraph from "@/Layout/Paragraph";
 import WrapperContainer from "@/Layout/WrapperContainer";
+import Heading from "@/Layout/Heading";
 
 const features = [
   {

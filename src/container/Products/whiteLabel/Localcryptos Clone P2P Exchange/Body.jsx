@@ -1,7 +1,9 @@
 import React from 'react'
-import Features from '@/container/products/whiteLabel/LocalCryptos Clone P2P Exchange/Features';
-import CryptoUsersByContinent from '@/container/products/whiteLabel/LocalCryptos Clone P2P Exchange/CryptoUsersByContinent';
-import Security from '@/container/products/whiteLabel/LocalCryptos Clone P2P Exchange/Security';
+import Features from '@/container/products/WhiteLabel/LocalCryptos Clone P2P Exchange/Features';
+import CryptoUsersByContinent from '@/container/products/WhiteLabel/LocalCryptos Clone P2P Exchange/CryptoUsersByContinent';
+import Security from '@/container/products/WhiteLabel/LocalCryptos Clone P2P Exchange/Security';
+import Faq from '@/components/Faq';
+import { LocalCryptosFaqs } from '../FaqData';
 
 export default function Body() {
   return (
@@ -9,6 +11,7 @@ export default function Body() {
       <Features/>
       <CryptoUsersByContinent/>
       <Security/>
+      <Faq faqs={LocalCryptosFaqs} />
     </div>
   )
 }

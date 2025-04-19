@@ -86,7 +86,7 @@ const PancakeSwapFunctionalities = () => {
                 <CheckCircle className="text-green-500 mt-1" />
                 <div>
                   <Subheading className="text-xl font-semibold mb-1">{item.title}</Subheading>
-                  <Paragraph className="text-gray-600 text-sm">{item.description}</Paragraph>
+                  <Paragraph className="text-gray-600 text-[15px]">{item.description}</Paragraph>
                 </div>
               </div>
             </div>

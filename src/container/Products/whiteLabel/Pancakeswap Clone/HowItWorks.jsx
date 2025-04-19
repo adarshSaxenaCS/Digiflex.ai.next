@@ -58,7 +58,7 @@ export default function HowItWorks() {
             {steps.map((step, index) => (
               <div
               key={index}
-              className={`hexagon-clip w-[240px] h-[220px] bg-white text-gray-800 shadow-lg p-6 flex flex-col items-center justify-center text-center transition-all duration-300 hover:text-gray ${hoverColors[index]}`}
+              className={`hexagon-clip w-[260px] h-[240px] bg-white text-gray-800 shadow-lg p-6 flex flex-col items-center justify-center text-center transition-all duration-300 hover:text-gray ${hoverColors[index]}`}
             >
               <div className="mb-3">{step.icon}</div>
               <Subheading className="text-base font-semibold mb-1">{step.title}</Subheading>

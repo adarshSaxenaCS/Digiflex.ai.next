@@ -1,11 +1,11 @@
 import React from 'react'
-import Hero from '@/container/products/whiteLabel/AllInOneCode/Hero'
-import Body from '@/container/products/whiteLabel/Pinduoduo Clone/Body'
+import Hero from '@/container/products/WhiteLabel/AllInOneCode/Hero'
+import Body from '@/container/products/WhiteLabel/Pinduoduo Clone/Body'
 
 
 export default function PinduoClone() {
     return (
-        <div>
+        
             <>
             <Hero 
         title="Build a Pinduoduo-Style Shopping Platform | Best Pinduoduo Clone Solutions" 
@@ -13,6 +13,6 @@ export default function PinduoClone() {
       />
       <Body/>
             </>
-        </div>
+        
     )
 }
