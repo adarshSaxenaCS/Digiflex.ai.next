@@ -1,4 +1,3 @@
-import React from 'react'
 import RealEstateServices from '@/container/products/WhiteLabel/Zillo_clone_real_estate/RealEstateServices';
 import TechStack from '@/container/products/WhiteLabel/Zillo_clone_real_estate/TechStack';
 import Comparison from '@/container/products/WhiteLabel/Zillo_clone_real_estate/Comparison';

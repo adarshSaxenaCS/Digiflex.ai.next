@@ -62,20 +62,20 @@ export const mainNavItems = [
         dropdownType: "products",
     },
       
-
-    //     label: "Industry",
-    //     href: "#",
-    //     hasDropdown: false,
-    //     dropdownType: "industries",
-    // },
-    // {
-    //     label: "Marketing",
-    //     href: "/marketing"
-    // },
-    // {
-    //     label: "Portfolio",
-    //     href: "/portfolio",
-    // },
+{
+        label: "Industry",
+        href: "#",
+        hasDropdown: false,
+        dropdownType: "industries",
+    },
+    {
+        label: "Marketing",
+        href: "/marketing"
+    },
+    {
+        label: "Portfolio",
+        href: "/portfolio",
+    },
     // {
     //     label: "Blog",
     //     href: "/blog"
@@ -460,6 +460,47 @@ export const serviceCategories = [
         image: 'https://i.pinimg.com/736x/81/12/a7/8112a764174b72479ac2afdd0a9fb458.jpg'
     },
     {
+        id: "E-Commerce3",
+        title: "E-Commerce Development3",
+        icon: ShoppingCart, // Added missing icon
+        color: "text-blue-600",
+        description: "Cutting-edge solutions using blockchain technologies.",
+        features: [
+            {
+                title: "Shopify Development",
+                icon: ShoppingCart, // Added missing icon
+                path: "/shopify-development-services",
+            },
+            {
+                title: "WooCommerce Development",
+                icon: ShoppingCart, // Added missing icon
+                path: "/woocommerce-development-services",
+            },
+            {
+                title: "OpenCart Development",
+                icon: ShoppingCart, // Added missing icon
+                path: "/opencart-development-services",
+            },
+            {
+                title: "Magento Development",
+                icon: ShoppingCart, // Added missing icon
+                path: "/magento-development-services",
+            },
+            {
+                title: "PrestaShop Development",
+                icon: ShoppingCart, // Added missing icon
+                path: "/prestashop-development-services",
+            },
+            {
+                title: "Odoo Development",
+                icon: ShoppingCart, // Added missing icon
+                path: "/odoo-development-services",
+            },
+
+        ],
+        image: 'https://i.pinimg.com/736x/81/12/a7/8112a764174b72479ac2afdd0a9fb458.jpg'
+    },
+    {
         id: "salesforce",
         icon: Database,
         title: "Salesforce",
@@ -612,25 +653,65 @@ export const technologyCategories = [
                 title: "Python",
                 path: "/python-development-services"
             },
-            {
-                icon: Globe,
-                title: ".NET",
-                path: "/dotnet-development-services"
-            },
-            {
-                icon: Globe,
-                title: "Ruby on Rails (ROR)",
-                path: "/ruby-on-rails-development",
-            },
-            { icon: Globe, title: "Golang", path: "/golang-development-services" },
-            {
-                icon: Globe,
-                title: "PHP: Laravel",
-                path: "/php-laravel-codeigniter-development",
-            },
-           
+            // {
+            //     icon: Globe,
+            //     title: ".NET",
+            //     path: "/dotnet-development-services"
+            // },
+            // {
+            //     icon: Globe,
+            //     title: "Ruby on Rails (ROR)",
+            //     path: "/ruby-on-rails-development",
+            // },
+            // { icon: Globe, title: "Golang", path: "/golang-development-services" },
+            // {
+            //     icon: Globe,
+            //     title: "PHP: Laravel",
+            //     path: "/php-laravel-codeigniter-development",
+            // },
+            // {
+            //     icon: Globe,
+            //     title: "PHP: CodeIgniter",
+            //     path: "/tech/web/codeigniter",
+            // },
         ],
         image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=600&q=80",
+    },
+
+    {
+        id: "Devops",
+        icon: Code,
+        title: "Devops",
+        color: "text-orange-500",
+        description: "DevOps is a culture that unifies development and operations through automation, CI/CD, and monitoring for faster, reliable software delivery.",
+        features: [
+            {
+                icon: Cloud, // Cloud-related icon for AWS
+                title: "Amazon Web Services",
+                path: "/amazon-web-services-consulting"
+            },
+            {
+                icon: Server, // Server-related icon for Google App Engine
+                title: "Google App Engine Services",
+                path: "/google-app-engine-consulting"
+            },
+            {
+                icon: Database, // Database-related icon for Azure
+                title: "Windows Azure",
+                path: "/windows-azure-consulting"
+            },
+            {
+                icon: Rocket, // Rocket icon for CI/CD Automation
+                title: "CI/CD Automation",
+                path: "/ci-cd-automation-consulting"
+            },
+            {
+                icon: Cloud, // Cloud icon for Serverless architecture
+                title: "Serverless",
+                path: "/serverless-architecture-consulting"
+            }
+        ],
+        image: "https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=600&q=80",
     },
     {
         id: "salesforce-ideas-cloudified",

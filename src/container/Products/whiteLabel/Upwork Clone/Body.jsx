@@ -1,4 +1,3 @@
-import React from 'react'
 import UpworkFeatures from '@/container/products/WhiteLabel/Upwork Clone/UpworkFeatures';
 import ShowcaseImages from '@/container/products/WhiteLabel/Upwork Clone/ShowcaseImages';
 import GrowthMetric from '@/container/products/WhiteLabel/Upwork Clone/GrowthMetrics';

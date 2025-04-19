@@ -1,4 +1,3 @@
-import React from 'react'
 import FiverrCloneFeatures from '@/container/products/WhiteLabel/Fiverr clone/FiverrCloneFeatures';
 import TechStackList from '@/container/products/WhiteLabel/Fiverr clone/TechStackList';
 import WhyWeCanBuild from '@/container/products/WhiteLabel/Fiverr clone/WhyWeCanBuild';

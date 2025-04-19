@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import Hero from '@/container/products/WhiteLabel/AllInOneCode/Hero'
+=======
+import Hero from '@/container/Products/WhiteLabel/AllInOneCode/Hero'
+>>>>>>> 886e26feb3489e64e350ec7dcb695bd063deac7e
 import React from 'react'
 
 export default function TwitterClone() {

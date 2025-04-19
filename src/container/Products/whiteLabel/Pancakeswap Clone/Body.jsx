@@ -1,4 +1,3 @@
-import React from 'react'
 import PancakeSwapCloneFeatures from '@/container/products/WhiteLabel/Pancakeswap Clone/PancakeSwapCloneFeatures';
 import PancakeSwapFunctionalities from '@/container/products/WhiteLabel/Pancakeswap Clone/PancakeSwapFunctionalities';
 import HowItWorks from '@/container/products/WhiteLabel/Pancakeswap Clone/HowItWorks';

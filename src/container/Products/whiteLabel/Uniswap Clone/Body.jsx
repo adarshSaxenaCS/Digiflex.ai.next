@@ -1,4 +1,3 @@
-import React from 'react'
 import UniswapCloneFeatures from '@/container/products/WhiteLabel/Uniswap Clone/UniswapCloneFeatures';
 import TokenPage from '@/container/products/WhiteLabel/Uniswap Clone/TokenPage';
 import Faq from '@/components/Faq';

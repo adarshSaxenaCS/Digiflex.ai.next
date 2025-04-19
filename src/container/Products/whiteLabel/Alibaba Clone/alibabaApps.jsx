@@ -16,7 +16,7 @@ const alibabaApps = [
     { name: "Ant Group", description: "Financial services including Alipay, digital banking, etc." },
 ];
 
-const AlibabaApps = () => {
+const AliBabaApps = () => {
     return (
         <WrapperContainer>
             <div className="min-h-screen p-6 md:p-10 bg-gradient-to-br from-white to-blue-50 transition-all duration-300">
@@ -62,4 +62,4 @@ const AlibabaApps = () => {
     );
 };
 
-export default AlibabaApps;
+export default AliBabaApps;

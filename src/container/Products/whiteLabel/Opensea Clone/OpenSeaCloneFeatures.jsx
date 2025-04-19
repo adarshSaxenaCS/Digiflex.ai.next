@@ -1,5 +1,4 @@
 import SelfOpenFeatureList from "@/container/products/WhiteLabel/AllInOneCode/SelfOpenFeatureList";
-import WrapperContainer from "@/Layout/WrapperContainer";
 
 const OpenSeaFeatures = [
   {

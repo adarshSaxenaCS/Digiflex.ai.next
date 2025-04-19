@@ -1,4 +1,3 @@
-import React from 'react'
 import OpenSeaCloneFeatures from '@/container/products/WhiteLabel/Opensea Clone/OpenSeaCloneFeatures';
 import GlobalReach from '@/container/products/WhiteLabel/Opensea Clone/GlobalReach';
 import OpenSeaRealWorld from '@/container/products/WhiteLabel/Opensea Clone/OpenSeaRealWorld';

@@ -1,4 +1,3 @@
-import React from 'react'
 import BinanceCloneFeatures from '@/container/products/WhiteLabel/Binance Clone Crypto Exchange/BinanceCloneFeatures';
 import StartTrading from '@/container/products/WhiteLabel/Binance Clone Crypto Exchange/StartTrading';
 import StaticMarketPrices from '@/container/products/WhiteLabel/Binance Clone Crypto Exchange/StaticMarketPrices';

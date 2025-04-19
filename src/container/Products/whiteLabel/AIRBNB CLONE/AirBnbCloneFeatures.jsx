@@ -1,4 +1,4 @@
-import SelfOpenFeatureList from "@/container/products/WhiteLabel/AllInOneCode/SelfOpenFeatureList";
+import SelfOpenFeatureList from "@/container/Products/WhiteLabel/AllInOneCode/SelfOpenFeatureList"
 import { LayoutDashboard, Search, UserCheck, CreditCard, Star, MapPin, CalendarCheck, MessageSquare, Globe, ShieldCheck, TrendingUp } from "lucide-react";
 
 const AirBnbFeatures = [
@@ -73,7 +73,7 @@ const AirBnbFeatures = [
 const AirBnbCloneFeatures = () => {
   return (
     <SelfOpenFeatureList
-      title="Key Features of Our AirBNB Clone"
+      title="Key Features of Our AirBNB Clone "
       description="A powerful and customizable vacation rental platform designed to connect hosts and travelers seamlessly."
       services={AirBnbFeatures.map((feature) => ({
         ...feature,

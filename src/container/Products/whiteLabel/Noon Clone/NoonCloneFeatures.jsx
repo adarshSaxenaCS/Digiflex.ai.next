@@ -95,7 +95,7 @@ const NoonCloneFeatures = () => {
                 alt={service.title}
                 width={500}
                 height={300}
-                className="hidden sm:block w-full h-48 object-cover"
+            className="hidden sm:block w-full h-48 object-cover"
               />
               <div className="p-4 flex flex-col justify-between flex-grow">
                 <div>
@@ -109,14 +109,7 @@ const NoonCloneFeatures = () => {
                     {service.detailContent}
                   </Paragraph>
                 </div>
-                <a
-                  href={service.link}
-                  className="mt-4 inline-block text-indigo-600 text-sm font-medium hover:underline"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Learn More →
-                </a>
+               
               </div>
             </div>
           ))}

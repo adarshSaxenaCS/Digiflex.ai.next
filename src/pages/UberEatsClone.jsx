@@ -1,5 +1,9 @@
 import Hero from '@/;ontainer/products/whiteLabel/AllInOneCode/Hero';
+<<<<<<< HEAD
 import Body from '@/container/products/WhiteLabel/UberEats Clone/Body'
+=======
+import Body from '@/container/Products/WhiteLabel/UberEats Clone/Body'
+>>>>>>> 886e26feb3489e64e350ec7dcb695bd063deac7e
 import React from 'react'
 
 export default function UserEatsClone() {

@@ -1,4 +1,3 @@
-import React from 'react'
 import PinduoduoCloneFeatures from '@/container/products/WhiteLabel/Pinduoduo clone/PinduoduoCloneFeatures';
 import WhatWeProvide from '@/container/products/WhiteLabel/Pinduoduo clone/WhatWeProvide';
 import WhyPinduoduoClone from '@/container/products/WhiteLabel/Pinduoduo Clone/WhyPinduoduoClone';
