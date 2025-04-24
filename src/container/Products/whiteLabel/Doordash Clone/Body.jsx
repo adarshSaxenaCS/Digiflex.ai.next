@@ -11,7 +11,7 @@ export default function Body() {
       <TopRatedRestaurants />
       <MidnightCravings />
       <QuickEatsNearYou />
-      <Faq faq={DoordashFaqs} />
+      <Faq faqs={DoordashFaqs} />
     </div>
   );
 }
