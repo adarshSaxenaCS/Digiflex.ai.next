@@ -1,10 +1,18 @@
-import TechStack from '@/container/products/WhiteLabel/Gojek Clone/TechStack';
+import React from 'react'
+import XjekHome from './XjekHome'
+import XJekServices from './XJekServices'
+import XJekPricing from './XJekPricing'
+import { GojekFaqs } from '../FaqData'
+import Faq from '@/components/Faq'
 
 export default function Body() {
   return (
-    <div>
-      <TechStack/>
-    </div>
+    <>
+      <XjekHome/>
+      <XJekServices/>
+      <XJekPricing/>
+      <Faq faqs={GojekFaqs} />
+    </>
   )
 }
 

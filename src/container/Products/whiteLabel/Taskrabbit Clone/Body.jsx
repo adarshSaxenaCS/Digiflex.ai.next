@@ -7,10 +7,10 @@ import { TaskRabbitFaqs } from "../FaqData";
 export default function Body() {
   return (
     <>
-    <TaskRabbitFeatures/>
-    <ServicesPage/>
-    <ProjectsPage/>
-    <Faq faqs={TaskRabbitFaqs}/>
+      <TaskRabbitFeatures />
+      <ServicesPage />
+      <ProjectsPage />
+      <Faq faqs={TaskRabbitFaqs} />
     </>
-  )
+  );
 }

@@ -7,10 +7,10 @@ import { TinderFaqs } from "../FaqData";
 export default function Body() {
   return (
     <>
-    <TinderFeatures/>
-    <TinderUsage/>
-    <SafetyPage/>
-    <Faq faqs={TinderFaqs}/>
+      <TinderFeatures />
+      <TinderUsage />
+      <SafetyPage />
+      <Faq faqs={TinderFaqs} />
     </>
-  )
+  );
 }

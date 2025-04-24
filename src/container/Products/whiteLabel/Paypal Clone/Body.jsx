@@ -7,10 +7,10 @@ import { PaypalFaqs } from "../FaqData";
 export default function Body() {
   return (
     <>
-     <PaypalCloneFeatures/>
-     <PaypalWorkflow/>
-     <WhyChooseUs/>
-     <Faq faqs={PaypalFaqs} />      
+      <PaypalCloneFeatures />
+      <PaypalWorkflow />
+      <WhyChooseUs />
+      <Faq faqs={PaypalFaqs} />
     </>
-  )
+  );
 }

@@ -7,10 +7,10 @@ import { ThreadsFaqs } from "../FaqData";
 export default function Body() {
   return (
     <>
-    <ThreadFeatures/>
-    <HowItWorks/>
-    <ThreadTechStack/>
-    <Faq faqs={ThreadsFaqs}/>
+      <ThreadFeatures />
+      <HowItWorks />
+      <ThreadTechStack />
+      <Faq faqs={ThreadsFaqs} />
     </>
-  )
+  );
 }

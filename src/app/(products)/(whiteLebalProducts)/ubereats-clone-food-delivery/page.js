@@ -1,9 +1,9 @@
-
+import UserEatsClone from "@/pages/UberEatsClone";
 
 export default function AngularDevelopmentPage() {
   return (
     <main>
-      <LocalCryptoExchange/>
+      <UserEatsClone/>
     </main>
   );
 }

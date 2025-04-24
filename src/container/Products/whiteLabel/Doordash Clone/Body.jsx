@@ -1,12 +1,17 @@
-import React from 'react'
-import TechStack from '@/container/products/whiteLabel/Careem App Clone/TechStack';
+import React from "react";
+import TopRatedRestaurants from "./TopRatedRestaurants";
+import MidnightCravings from "./MidnightCravings";
+import QuickEatsNearYou from "./QuickEatsNearYou";
+import { DoordashFaqs } from "../FaqData";
+import Faq from "@/components/Faq";
 
 export default function Body() {
   return (
     <div>
-      <TechStack/>
+      <TopRatedRestaurants />
+      <MidnightCravings />
+      <QuickEatsNearYou />
+      <Faq faq={DoordashFaqs} />
     </div>
-  )
+  );
 }
-
-

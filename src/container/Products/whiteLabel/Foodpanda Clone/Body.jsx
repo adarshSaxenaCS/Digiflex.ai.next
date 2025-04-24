@@ -1,10 +1,20 @@
-import TechStack from '@/container/products/WhiteLabel/FoodPanda Clone/TechStack';
+import React from 'react'
+import TodayDeals from './TodayDeals'
+import NearbyRestaurants from './NearbyRestaurants'
+import TestimonialSection from './TestimonialSection'
+import TopRatedChefs from './TopRatedChefs'
+import { FoodPandaFaqs } from '../FaqData'
+import Faq from '@/components/Faq'
 
 export default function Body() {
   return (
-    <div>
-      <TechStack/>
-    </div>
+    <>
+      <NearbyRestaurants/>
+      <TodayDeals/>
+      <TestimonialSection/>
+      <TopRatedChefs/>
+      <Faq faqs={FoodPandaFaqs} />
+    </>
   )
 }
 

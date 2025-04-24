@@ -7,10 +7,10 @@ import { TikTokFaqs } from "../FaqData";
 export default function Body() {
   return (
     <>
-    <TiktokFeatures/>
-    {/* <ProjectDetails/> */}
-    <TikTokCountryStats/>
-    <Faq faqs={TikTokFaqs}/>
+      <TiktokFeatures />
+      {/* <ProjectDetails/> */}
+      <TikTokCountryStats />
+      <Faq faqs={TikTokFaqs} />
     </>
-  )
+  );
 }

@@ -415,3 +415,152 @@ export const TinderFaqs = [
 ];
 
 
+export const OnlyFansFaqs = [
+  {
+    question: "What is OnlyFans?",
+    answer: "OnlyFans is a subscription-based platform where creators can share exclusive content with their fans for a fee. It's commonly used by influencers, artists, and adult content creators."
+  },
+  {
+    question: "How does OnlyFans work?",
+    answer: "Creators set subscription prices and post exclusive content. Fans subscribe to access it. Creators can also earn through tips and pay-per-view messages."
+  },
+  {
+    question: "Is OnlyFans safe?",
+    answer: "OnlyFans uses secure payment systems and provides privacy settings. However, creators should be cautious while sharing personal information."
+  }
+];
+
+export const IndriverFaqs = [
+  {
+    question: "What is InDriver?",
+    answer: "InDriver is a ride-hailing app where passengers can propose their own fare for a trip, and nearby drivers can accept or negotiate the offer."
+  },
+  {
+    question: "How is InDriver different from Uber?",
+    answer: "Unlike Uber, InDriver allows riders to set their own price for a ride, giving more control and transparency to both drivers and passengers."
+  },
+  {
+    question: "Can I bid on rides with InDriver?",
+    answer: "Yes, passengers can place a bid with a proposed fare and wait for nearby drivers to accept, reject, or negotiate the offer."
+  }
+];
+
+export const GojekFaqs = [
+  {
+    question: "What is Gojek?",
+    answer: "Gojek is a multi-service app offering ride-hailing, food delivery, courier, digital payments, and many other services in one platform."
+  },
+  {
+    question: "What services are available on Gojek?",
+    answer: "Gojek offers rides, GoFood (food delivery), GoSend (courier), GoPay (digital wallet), and many more services through a single app."
+  },
+  {
+    question: "Is Gojek available globally?",
+    answer: "Gojek primarily operates in Southeast Asia, including Indonesia, Singapore, Vietnam, and Thailand."
+  }
+];
+
+export const UberFaqs = [
+  {
+    question: "What is Uber?",
+    answer: "Uber is a global ride-sharing app that connects passengers with drivers for transportation services."
+  },
+  {
+    question: "How do I book a ride with Uber?",
+    answer: "Open the Uber app, enter your destination, choose a ride type, and confirm the booking. A nearby driver will pick you up."
+  },
+  {
+    question: "Can I schedule rides on Uber?",
+    answer: "Yes, Uber allows scheduled rides where you can set pickup time in advance."
+  }
+];
+
+export const CareemFaqs = [
+  {
+    question: "What is Careem?",
+    answer: "Careem is a popular ride-hailing and delivery platform in the Middle East and South Asia, now owned by Uber."
+  },
+  {
+    question: "What services does Careem offer?",
+    answer: "Careem offers ride-hailing, food delivery, grocery delivery, bike rides, and digital payments."
+  },
+  {
+    question: "Is Careem safe?",
+    answer: "Yes, Careem uses verified drivers, GPS tracking, and in-app support to ensure rider safety."
+  }
+];
+
+export const UberEatsFaqs = [
+  {
+    question: "What is Uber Eats?",
+    answer: "Uber Eats is a food delivery service by Uber that allows users to order meals from local restaurants via app or website."
+  },
+  {
+    question: "How do I place an order on Uber Eats?",
+    answer: "Browse restaurants, select dishes, add to cart, and place your order. You can track delivery in real-time through the app."
+  },
+  {
+    question: "Can I schedule food deliveries?",
+    answer: "Yes, Uber Eats allows you to schedule deliveries at a specific time."
+  }
+];
+
+export const DoordashFaqs = [
+  {
+    question: "What is DoorDash?",
+    answer: "DoorDash is a food delivery service that connects users with nearby restaurants and dashers (delivery partners)."
+  },
+  {
+    question: "How do I become a Dasher?",
+    answer: "Sign up on the DoorDash website, complete your profile, and start accepting delivery requests."
+  },
+  {
+    question: "Can I track my DoorDash order?",
+    answer: "Yes, DoorDash provides live order tracking from pickup to delivery."
+  }
+];
+
+export const JustEatFaqs = [
+  {
+    question: "What is Just Eat?",
+    answer: "Just Eat is a food delivery platform where users can browse menus, place orders, and get meals delivered from local restaurants."
+  },
+  {
+    question: "Does Just Eat offer contactless delivery?",
+    answer: "Yes, Just Eat offers contactless delivery to ensure safety and hygiene."
+  },
+  {
+    question: "Is Just Eat available in my area?",
+    answer: "Just Eat operates in various countries and cities. Check the app or website to see availability in your location."
+  }
+];
+
+export const FoodPandaFaqs = [
+  {
+    question: "What is Foodpanda?",
+    answer: "Foodpanda is an online food and grocery delivery platform available in Asia, Eastern Europe, and Canada."
+  },
+  {
+    question: "Can I order groceries with Foodpanda?",
+    answer: "Yes, Foodpanda offers grocery delivery in addition to restaurant food delivery."
+  },
+  {
+    question: "Does Foodpanda offer discounts?",
+    answer: "Yes, Foodpanda regularly offers discounts, promos, and cashback through the app."
+  }
+];
+
+export const GrubhubFaqs = [
+  {
+    question: "What is Grubhub?",
+    answer: "Grubhub is a US-based food delivery service that connects diners with local restaurants for fast and easy ordering."
+  },
+  {
+    question: "How do I place an order with Grubhub?",
+    answer: "Browse menus in the app or website, place your order, and choose pickup or delivery."
+  },
+  {
+    question: "Is there a subscription option?",
+    answer: "Yes, Grubhub+ offers perks like free delivery and exclusive deals for a monthly fee."
+  }
+];

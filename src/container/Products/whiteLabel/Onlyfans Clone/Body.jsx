@@ -1,9 +1,16 @@
-import TechStack from "@/container/products/whiteLabel/Onlyfans Clone"
-
+import React from 'react'
+import OnlyFansHero from './OnlyFansHero'
+import UserProfile from './UserProfile'
+import OnlyFansContent from './OnlyFansContent'
+import { OnlyFansFaqs } from '../FaqData'
+import Faq from '@/components/Faq'
 export default function Body() {
   return (
-    <div>
-        <TechStack/>
-    </div>
+    <>
+        <OnlyFansHero/>
+        <UserProfile/>
+        <OnlyFansContent/>
+        <Faq faqs={OnlyFansFaqs} />
+    </>
   )
 }

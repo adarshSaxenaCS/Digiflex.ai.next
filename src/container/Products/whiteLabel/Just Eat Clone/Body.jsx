@@ -1,9 +1,20 @@
-import TechStack from '@/container/products/WhiteLabel/Just Eat Clone/TechStack'
+import React from 'react'
+import TopIndianMeals from './TopIndianMeals'
+import PopularDeliverySpots from './PopularDeliverySpots'
+import LateNightEats from './LateNightEats'
+import { JustEatFaqs } from '../FaqData'
+import Faq from '@/components/Faq'
 
-export default function Body() {
+function Body() {
   return (
     <div>
-      <TechStack/>
+      <PopularDeliverySpots/>
+      <LateNightEats/>
+      <TopIndianMeals/> 
+            <Faq faqs={JustEatFaqs} />
+      
     </div>
   )
 }
+
+export default Body

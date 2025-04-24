@@ -7,12 +7,10 @@ import { GlovoFaqs } from "../FaqData";
 export default function Body() {
   return (
     <>
-     <GloveCloneFeatures/> 
-     <AdvancedFeaturesPage/> 
-     <HowItWorks/>
-     <Faq faqs={GlovoFaqs} />
+      <GloveCloneFeatures />
+      <AdvancedFeaturesPage />
+      <HowItWorks />
+      <Faq faqs={GlovoFaqs} />
     </>
-  )
+  );
 }
-
-

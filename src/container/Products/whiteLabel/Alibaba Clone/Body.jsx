@@ -1,13 +1,13 @@
-import AlibabaCloneFeatures from '@/container/products/WhiteLabel/Alibaba Clone/AlibabaCloneFeatures';
-import TechStack from '@/container/products/WhiteLabel/Alibaba Clone/Techstack';
-import AliBabaApps from '@/container/products/WhiteLabel/Alibaba Clone/AlibabaApps';
+import AlibabaCloneFeatures from "@/container/products/WhiteLabel/Alibaba Clone/AlibabaCloneFeatures";
+import TechStack from "@/container/products/WhiteLabel/Alibaba Clone/Techstack";
+import AliBabaApps from "@/container/products/WhiteLabel/Alibaba Clone/AlibabaApps";
 import Faq from "@/components/Faq";
-import { AlibabaFaqs } from '@/container/products/WhiteLabel/FaqData';
+import { AlibabaFaqs } from "@/container/Products/whiteLabel/FaqData";
 
 export default function Body() {
   return (
     <>
-      <AlibabaCloneFeatures/>
+      <AlibabaCloneFeatures />
       <TechStack />
       <AliBabaApps />
       <Faq faqs={AlibabaFaqs} />
