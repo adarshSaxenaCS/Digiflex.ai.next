@@ -5,8 +5,8 @@ export default function CarremClone() {
   return (
     <>
         <Hero 
-        title="Alibaba Clone & Wholesale Ecommerce Solutions | Start Your Online Marketplace" 
-        description="Create your own Alibaba-style online marketplace with the best Alibaba clone script. Explore Alibaba dropshipping, wholesale shopping, and ecommerce solutions." 
+        title="Build Your Own Careem Clone App | Best Ride-Hailing & Taxi Solution" 
+        description="Launch a feature-rich Careem clone app for taxi booking and ride-hailing. Get the best Careem clone script to start your own cab service with advanced features."
       />
         <Body/>
     </>

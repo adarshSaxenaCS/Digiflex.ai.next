@@ -6,8 +6,8 @@ export default function UberClone() {
         
             <>
             <Hero 
-        title="Best Fiverr Clone Script & Freelancer Marketplace Solutions" 
-        description="Create your own freelance marketplace with the best Fiverr clone script, website, and app. Explore Fiverr clone WordPress solutions and top freelancer clone platforms." 
+        title="Build Your Own Uber Clone | Best Taxi & Food Delivery App Solution"
+        description="Create a feature-rich Uber clone app for ride-hailing and food delivery. Get the best Uber clone script, source code, and UberEats clone app for your business." 
       />
             <Body/>
             </>

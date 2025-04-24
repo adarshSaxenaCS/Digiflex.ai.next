@@ -6,8 +6,8 @@ export default function OnlyfansClone() {
         
             <>
                 <Hero
-                    title="Best Fiverr Clone Script & Freelancer Marketplace Solutions"
-                    description="Create your own freelance marketplace with the best Fiverr clone script, website, and app. Explore Fiverr clone WordPress solutions and top freelancer clone platforms."
+                    title="How to Make Money on OnlyFans | Create & Monetize Your Content"
+                    description="Learn how to make money on OnlyFans as a creator. Explore OnlyFans content strategies, links, and how to create your own OnlyFans-style platform with a clone script."
                 />
                 <Body />
             </>

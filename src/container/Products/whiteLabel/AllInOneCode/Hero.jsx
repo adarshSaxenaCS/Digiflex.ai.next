@@ -14,7 +14,7 @@ function Hero({ title, description, videoSrc }) {
           style={{ position: "absolute", top: "0", left: "0" }}
         >
           <source
-            src={videoSrc || "https://cdn.pixabay.com/video/2024/06/21/217643_large.mp4"}
+            src={videoSrc || "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/ProductWhiteLAbelHero.mp4"}
             type="video/mp4"
           />
           Your browser does not support the video tag.

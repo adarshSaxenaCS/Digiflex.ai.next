@@ -6,8 +6,8 @@ export default function DoordashClone() {
   return (
     <>
         <Hero 
-        title="Alibaba Clone & Wholesale Ecommerce Solutions | Start Your Online Marketplace" 
-        description="Create your own Alibaba-style online marketplace with the best Alibaba clone script. Explore Alibaba dropshipping, wholesale shopping, and ecommerce solutions." 
+        title="Build Your Own DoorDash Clone | Best On-Demand Food Delivery App"
+        description="Create a successful food delivery platform with a DoorDash clone app. Get the best script to launch your own on-demand delivery service like DoorDash."
       />
         <Body/>
     </>

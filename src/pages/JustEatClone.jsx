@@ -6,8 +6,8 @@ export default function JustEatClone() {
         
             <>
             <Hero 
-        title="Best Fiverr Clone Script & Freelancer Marketplace Solutions" 
-        description="Create your own freelance marketplace with the best Fiverr clone script, website, and app. Explore Fiverr clone WordPress solutions and top freelancer clone platforms." 
+        title="Build Your Own Just Eat Clone | Best Food Delivery App Script" 
+        description="Create a powerful online food ordering platform with a Just Eat clone script. Launch your own Just Eat-like app with advanced features and seamless delivery services."
       />
             <Body/>
             </>

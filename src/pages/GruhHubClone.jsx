@@ -5,8 +5,8 @@ export default function GruhHubClone() {
   return (
     <>
       <Hero
-        title="Best Fiverr Clone Script & Freelancer Marketplace Solutions"
-        description="Create your own freelance marketplace with the best Fiverr clone script, website, and app. Explore Fiverr clone WordPress solutions and top freelancer clone platforms."
+        title="Build Your Own Grubhub Clone | Best Food Delivery App Solution"
+        description="Create a feature-rich Grubhub clone app for food delivery. Get the best script to launch your own on-demand restaurant ordering and delivery platform today!"
       />
       <Body />
     </>

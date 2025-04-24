@@ -6,8 +6,8 @@ export default function IndriverClone() {
   return (
     <>
       <Hero
-        title="Best Fiverr Clone Script & Freelancer Marketplace Solutions"
-        description="Create your own freelance marketplace with the best Fiverr clone script, website, and app. Explore Fiverr clone WordPress solutions and top freelancer clone platforms."
+        title="Build Your Own InDriver Clone | On-Demand Ride-Hailing App Development"
+        description="Create a dynamic ride-hailing platform with an InDriver clone. Explore InDriver app features, driver registration, and how to develop a custom cab booking solution."
       />
       <Body />
     </>

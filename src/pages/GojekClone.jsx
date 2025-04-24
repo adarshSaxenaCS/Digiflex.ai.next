@@ -6,8 +6,8 @@ export default function GojekClone() {
         
             <>
             <Hero 
-        title="Best Fiverr Clone Script & Freelancer Marketplace Solutions" 
-        description="Create your own freelance marketplace with the best Fiverr clone script, website, and app. Explore Fiverr clone WordPress solutions and top freelancer clone platforms." 
+        title="Build Your Own Gojek Clone App | All-in-One On-Demand Service Platform"
+        description="Create a multi-service on-demand platform with a Gojek clone app. Get the best Gojek clone script for taxi booking, food delivery, and other services in one app." 
       />
             <Body/>
             </>
