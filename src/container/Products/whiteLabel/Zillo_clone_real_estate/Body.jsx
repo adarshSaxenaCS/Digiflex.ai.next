@@ -6,11 +6,11 @@ import { ZillowFaqs } from '../FaqData';
 
 export default function Body() {
   return (
-    <div>
+    <>
       <RealEstateServices/>
       <TechStack/>
       <Comparison/>
       <Faq faqs={ZillowFaqs}/>
-    </div>
+    </>
   )
 }

@@ -33,22 +33,22 @@ const steps = [
 
 function StepCard({ step, height = "h-auto", transparent = false }) {
   return (
-    <div
-      className={`p-6 rounded-xl ${transparent ? "bg-transparent" : `bg-gradient-to-br ${step.color}`
-        } ${height} shadow-xl transform transition duration-500 hover:scale-105 hover:shadow-2xl group cursor-pointer flex flex-col gap-4`}
-    >
-      <div className="bg-white text-black w-14 h-14 flex items-center justify-center rounded-full transition duration-300">
-        {step.icon}
-      </div>
-      <div>
-        <Heading className="text-xl font-bold mb-2 group-hover:underline">{step.title}</Heading>
-        <Paragraph className="text-sm opacity-90 group-hover:opacity-100">{step.desc}</Paragraph>
+    <div className="w-full">
+      <div
+        className={`p-6 rounded-xl ${transparent ? "bg-transparent" : `bg-gradient-to-br ${step.color}`
+          } ${height} shadow-xl transform transition duration-500 hover:scale-105 hover:shadow-2xl group cursor-pointer flex flex-col gap-4`}
+      >
+        <div className="bg-white text-black w-14 h-14 flex items-center justify-center rounded-full transition duration-300">
+          {step.icon}
+        </div>
+        <div>
+          <Heading className="text-xl font-bold mb-2 group-hover:underline">{step.title}</Heading>
+          <Paragraph className="text-sm opacity-90 group-hover:opacity-100">{step.desc}</Paragraph>
+        </div>
       </div>
     </div>
   );
 }
-
-
 
 export default function StartTrading() {
   return (
@@ -58,44 +58,36 @@ export default function StartTrading() {
           <title>How to Start Trading | Binance Clone</title>
         </Head>
 
-        <main className=" text-white px-6 py-12">
-          <Heading className="text-5xl font-extrabold text-center mb-10 text-yellow-400 drop-shadow-lg">
+        <main className="text-white">
+          <Heading className="text-4xl md:text-5xl font-extrabold text-center mb-10 text-yellow-400 drop-shadow-lg">
             How to Start Trading
           </Heading>
 
-          {/* Custom Grid Layout: 2x2 */}
-          <div className="grid grid-cols-3 grid-rows-2 gap-6 max-w-7xl mx-auto">
-            {/* Box 1 - Left column full height (doubled height) */}
+          {/* Responsive Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
+            {/* Box 1 */}
             <div
-              className="row-span-2 bg-cover bg-center text-black rounded-xl border-2 overflow-hidden"
+              className="sm:col-span-2 lg:col-span-1 row-span-2 bg-cover bg-center rounded-xl border-2 overflow-hidden text-black"
               style={{
-                backgroundImage:
-                  "url('https://img.freepik.com/free-vector/sign-up-concept-illustration_114360-7965.jpg?t=st=1744352287~exp=1744355887~hmac=baa9435b5782a8bec6afc56e9bb9dbac6be45104b6886df32678bb858f6512fc&w=740')",
-                backgroundPosition: "top 50%",
+                backgroundImage: "url('https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/BinanceCreateWallet-gif.gif')",
+                backgroundPosition: "top 60%",
               }}
             >
-              <StepCard step={steps[0]} height="h-[480px]" transparent />
+              <StepCard step={steps[0]} height="h-full" transparent />
             </div>
-
 
 
             {/* Box 2 */}
-            <div className="col-span-1">
-              <StepCard step={steps[1]} height="h-[230px]" />
-            </div>
+            <StepCard step={steps[1]} />
 
             {/* Box 3 */}
-            <div className="col-span-1">
-              <StepCard step={steps[2]} height="h-[230px]" />
-            </div>
+            <StepCard step={steps[2]} />
 
-            {/* Box 4 - Spans full bottom of right side */}
-            <div className="col-span-2">
-              <StepCard step={steps[3]} height="h-[230px]" />
+            {/* Box 4 */}
+            <div className="sm:col-span-2">
+              <StepCard step={steps[3]} />
             </div>
           </div>
-
-
         </main>
       </>
     </WrapperContainer>

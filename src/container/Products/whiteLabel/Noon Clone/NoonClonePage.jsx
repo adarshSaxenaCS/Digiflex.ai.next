@@ -8,25 +8,25 @@ const NoonClonePage = () => {
   return (
     <WrapperContainer>
       {/* Why Build a Noon Clone? */}
-      <section className="py-12 bg-amber-100">
+      <section className="py-12 bg-amber-100 px-4">
         <Heading className="text-4xl font-bold text-center text-yellow-600 mb-10">
           Why Build a Noon.com Clone?
         </Heading>
 
         <div className="flex flex-col md:flex-row gap-6 items-stretch">
           {/* Left Box */}
-          <div className="flex-1">
+          <div className="w-full md:w-1/3">
             <div
-              className="h-full w-[300px] ml-[50px] bg-white p-6 rounded-lg border border-gray-200 shadow transition-all duration-300 transform hover:scale-105 hover:border-yellow-400 hover:bg-yellow-50 flex flex-col justify-center bg-cover bg-center"
+              className="h-full bg-white p-6 rounded-lg border border-gray-200 shadow transition-all duration-300 transform hover:scale-105 hover:border-yellow-400 hover:bg-yellow-50 flex flex-col justify-center bg-cover bg-center"
               style={{
                 backgroundImage:
-                  "url('https://i.pinimg.com/736x/c9/0f/4c/c90f4ca1d3cde4f1d29652e4279eca4a.jpg')",
+                  "url('https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/NoonMassiveEcommerce-gif.gif')",
               }}
             >
-              <Subheading className="text-2xl text-center mb-2 font-bold text-white">
+              <Subheading className="text-2xl text-center mb-2 font-bold text-black">
                 Massive E-commerce Growth
               </Subheading>
-              <Paragraph className="font-bold">
+              <Paragraph className="font-bold text-black">
                 Noon is dominating the MENA region. Launching a similar platform
                 taps into a booming online marketplace.
               </Paragraph>
@@ -34,7 +34,7 @@ const NoonClonePage = () => {
           </div>
 
           {/* Right Boxes */}
-          <div className="flex-1 flex flex-col gap-6">
+          <div className="w-full md:w-2/3 flex flex-col gap-6">
             {[
               {
                 title: "Diverse Revenue Streams",
@@ -54,7 +54,7 @@ const NoonClonePage = () => {
             ].map(({ title, content }, i) => (
               <div
                 key={i}
-                className="bg-white mr-[50px] w-[800px] p-6 rounded-lg border border-gray-200 shadow transition-all duration-300 transform hover:scale-105 hover:border-yellow-400 hover:bg-yellow-50"
+                className="bg-white p-6 rounded-lg border border-gray-200 shadow transition-all duration-300 transform hover:scale-105 hover:border-yellow-400 hover:bg-yellow-50"
               >
                 <Subheading className="text-2xl font-semibold mb-2">{title}</Subheading>
                 <Paragraph>{content}</Paragraph>
@@ -65,14 +65,14 @@ const NoonClonePage = () => {
       </section>
 
       {/* Real World Use Cases */}
-      <section className="py-12 mt-[100px] bg-gray-50">
+      <section className="py-12 mt-20 bg-gray-50 px-4">
         <h2 className="text-4xl font-bold text-center text-yellow-600 mb-10">
           Real-World Use Cases
         </h2>
 
         <div className="flex flex-col md:flex-row gap-6 items-stretch">
           {/* Left 3 Boxes */}
-          <div className="flex-1 flex flex-col gap-6">
+          <div className="w-full md:w-2/3 flex flex-col gap-6">
             {[
               {
                 heading: "📦 Vendor Onboarding & Product Upload",
@@ -92,7 +92,7 @@ const NoonClonePage = () => {
             ].map(({ heading, content }, i) => (
               <div
                 key={i}
-                className="h-full w-[800px] ml-[50px] bg-white p-6 rounded-lg border border-gray-200 shadow transition-all duration-300 transform hover:scale-105 hover:border-yellow-400 hover:bg-yellow-50 flex flex-col justify-center"
+                className="bg-white p-6 rounded-lg border border-gray-200 shadow transition-all duration-300 transform hover:scale-105 hover:border-yellow-400 hover:bg-yellow-50"
               >
                 <Subheading>{heading}</Subheading>
                 <Paragraph>{content}</Paragraph>
@@ -101,58 +101,23 @@ const NoonClonePage = () => {
           </div>
 
           {/* Right Last Box */}
-          <div className="flex-1">
+          <div className="w-full md:w-1/3">
             <div
-              className="h-full mr-[50px] w-[300px] bg-white p-6 rounded-lg border border-gray-200 shadow transition-all duration-300 transform hover:scale-105 hover:border-yellow-400 hover:bg-yellow-50 flex flex-col justify-center"
+              className="h-full bg-white p-6 rounded-lg border border-gray-200 shadow transition-all duration-300 transform hover:scale-105 hover:border-yellow-400 hover:bg-yellow-50 flex flex-col justify-center bg-cover bg-center"
               style={{
                 backgroundImage:
-                  "url('https://i.pinimg.com/736x/1c/27/97/1c27978b1672fa20c87c2ba401b1e8ae.jpg')",
+                  "url('https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/NoonTaxInvoice-gif.gif')",
               }}
             >
-              <Subheading>🧾 Invoice & Tax Reports</Subheading>
-              <Paragraph>
-                Vendors and admins can download tax-ready reports, simplifying
-                accounting.
+              <Subheading className="text-black font-bold text-lg">🧾 Invoice & Tax Reports</Subheading>
+              <Paragraph className="text-black">
+                Vendors and admins can download tax-ready reports, simplifying accounting.
               </Paragraph>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Concept Designs */}
-      <section className="py-12">
-        <h2 className="text-4xl font-bold text-center text-yellow-600 mb-8">
-          Concept Designs
-        </h2>
-        <div className="flex flex-wrap justify-center gap-6">
-          {[
-            {
-              src: "https://via.placeholder.com/500x300?text=Home+Page+Concept",
-              alt: "Noon Clone Home Page Design",
-              label: "Home Page Concept",
-            },
-            {
-              src: "https://via.placeholder.com/500x300?text=Product+Detail+Page",
-              alt: "Product Page Design",
-              label: "Product Detail Page",
-            },
-          ].map(({ src, alt, label }, index) => (
-            <div
-              key={index}
-              className="w-full md:w-1/3 transform transition-transform duration-300 hover:scale-105"
-            >
-              <Image
-                src={src}
-                alt={alt}
-                width={500}
-                height={300}
-                className="rounded-lg shadow-md"
-              />
-              <p className="mt-2 text-center text-gray-700">{label}</p>
-            </div>
-          ))}
-        </div>
-      </section>
     </WrapperContainer>
   );
 };

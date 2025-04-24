@@ -45,7 +45,7 @@ export default function HowItWorks() {
 
   return (
     <WrapperContainer>
-      <section className="py-16 px-4 sm:px-6 lg:px-12 mb-[50px]">
+      <section className="bg-blue-50 p-4 mb-[50px]">
         <div className="max-w-6xl mx-auto text-center">
           <Heading className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
             How PancakeSwap Clone Works

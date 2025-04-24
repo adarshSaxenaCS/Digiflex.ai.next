@@ -1,63 +1,57 @@
 import SelfOpenFeatureList from "@/container/products/WhiteLabel/AllInOneCode/SelfOpenFeatureList";
+import WrapperContainer from '@/Layout/WrapperContainer'
 
 const PinduoduoFeatures = [
   {
     title: "Group Buying Discounts",
     icon: "Users",
-    description: "Pinduoduo's social commerce model allows users to invite friends and family to purchase together, reducing the cost per unit.",
-    detailContent: "Pinduoduo's social commerce model allows users to invite friends and family to purchase together, reducing the cost per unit.",
-    image: "https://i.pinimg.com/736x/c0/79/af/c079af8520b9638bbded167d884d2b05.jpg",
+    description: "Pinduoduo revolutionizes online shopping by enabling users to form buying teams with friends, family, or even strangers. When more people join a group purchase, the price per unit drops significantly, offering greater savings. This social commerce model not only saves money but also makes shopping a shared, engaging experience.",
+    image: "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/PinduoGroupBuyingDiscount-jpg.jpg",
   },
   {
     title: "AI-Powered Product Recommendations",
     icon: "Activity",
-    description: "Pinduoduo leverages AI and big data to analyze user behavior and provide customized product recommendations.",
-    detailContent: "Pinduoduo leverages AI and big data to analyze user behavior and provide customized product recommendations.",
-    image: "https://i.pinimg.com/736x/e7/7e/eb/e77eebe84978fe1fe651941f0052fb38.jpg",
+    description: "Utilizing advanced artificial intelligence and big data analytics, Pinduoduo studies user preferences, browsing behavior, and past purchases to deliver personalized shopping suggestions. This intelligent recommendation engine ensures users discover products that truly match their interests and needs, enhancing overall satisfaction.",
+    image: "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/PinduoAiPowered-jpg.jpg",
   },
   {
     title: "Flash Sales & Limited-Time Deals",
     icon: "Clock",
-    description: "Users can participate in limited-time sales events that offer significant discounts on popular products.",
-    detailContent: "Users can participate in limited-time sales events that offer significant discounts on popular products.",
-    image: "https://i.pinimg.com/736x/ea/9e/12/ea9e12a3f3cd82dd42569b9acd787eda.jpg",
+    description: "Pinduoduo hosts daily flash sales and time-sensitive promotional events where customers can access massive discounts on a variety of popular and trending items. These events create urgency and excitement, encouraging quick decision-making and active engagement with the platform.",
+    image: "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/PinduoFlashSales-jpg.jpg",
   },
   {
     title: "Interactive Shopping Experience",
     icon: "MessageCircle",
-    description: "Pinduoduo integrates live-streaming features where merchants showcase products and answer customer questions in real time.",
-    detailContent: "Pinduoduo integrates live-streaming features where merchants showcase products and answer customer questions in real time.",
-    image: "https://i.pinimg.com/736x/00/95/cf/0095cfd4c657406ec994239036b8a824.jpg",
+    description: "The platform blends entertainment and shopping by incorporating live-streaming e-commerce. Merchants present their products in real time, interact with viewers, answer questions, and provide demos, making the shopping experience dynamic, transparent, and more trustworthy.",
+    image: "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/PinduoInteractiveShopping-jpg.jpg",
   },
   {
     title: "Gamified Discounts & Coupons",
     icon: "Gift",
-    description: "Earn rewards through interactive games.Users can participate in in-app games to win discounts, vouchers, and exclusive deals",
-    detailContent: "Users can participate in in-app games to win discounts, vouchers, and exclusive deals.",
-    image: "https://i.pinimg.com/736x/12/ef/90/12ef90ce7b561aa9b330a34d9bc9bf37.jpg",
+    description: "Pinduoduo incorporates gamification into its shopping app, offering users engaging games and challenges that reward them with discounts, vouchers, and special deals. These mini-games create a fun, interactive experience and encourage users to return to the app frequently.",
+    image: "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/PinduoGamified-jpg.jpg",
   },
   {
     title: "Seamless Logistics & Fast Delivery",
     icon: "Truck",
-    description: "Efficient supply chain management.Pinduoduo partners with local and international logistics providers to ensure quick and reliable deliveries.",
-    detailContent: "Pinduoduo partners with local and international logistics providers to ensure quick and reliable deliveries.",
-    image: "https://i.pinimg.com/736x/11/b3/e6/11b3e659eb3a5127670cd63ca5957d40.jpg",
+    description: "With strong partnerships across a wide logistics network, Pinduoduo ensures prompt and reliable deliveries. Its efficient supply chain management allows orders to be processed quickly, reducing waiting times and improving the customer experience, especially in rural and less urbanized areas.",
+    image: "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/PinduoLogistic-jpg.jpg",
   },
   {
     title: "Supplier & Manufacturer Direct Sales",
     icon: "Factory",
-    description: "Lower costs by cutting out the middleman.Pinduoduo connects buyers directly with manufacturers to provide cost-effective deals.",
-    detailContent: "Pinduoduo connects buyers directly with manufacturers to provide cost-effective deals.",
-    image: "https://i.pinimg.com/736x/de/06/80/de0680d1890df73455a69c756459ccc1.jpg",
+    description: "By bypassing traditional retail middlemen, Pinduoduo connects consumers directly with manufacturers and suppliers. This model significantly reduces product costs while maintaining quality, enabling consumers to purchase goods at factory-direct prices.",
+    image: "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/PinduoSupplier-jpg.jpg",
   },
   {
     title: "Secure Payments & Buyer Protection",
     icon: "ShieldCheck",
-    description: "Ensuring safe transactions.Pinduoduo offers secure payment methods and a buyer protection policy to safeguard customer purchases.",
-    detailContent: "Pinduoduo offers secure payment methods and a buyer protection policy to safeguard customer purchases.",
-    image: "https://i.pinimg.com/736x/4f/bd/7d/4fbd7d210302612c311d640e51ba9d3c.jpg",
+    description: "Pinduoduo offers a safe and reliable checkout process, supporting various secure payment options. Its buyer protection policy ensures customer satisfaction by covering issues like delayed deliveries, product discrepancies, or damaged items, with efficient dispute resolution support.",
+    image: "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/PinduoSecurePayment-jpg.jpg",
   },
 ];
+
 
 const PinduoduoCloneFeatures = () => {
   return (

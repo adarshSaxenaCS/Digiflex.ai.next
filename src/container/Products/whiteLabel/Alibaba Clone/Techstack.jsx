@@ -11,7 +11,6 @@ import {
   SiExpress, SiSpringboot, SiNestjs, SiRubyonrails, SiFlask,
   SiMongodb, SiPostgresql, SiRedis, SiMysql, SiVercel, SiNetlify, SiFirebase
 } from 'react-icons/si';
-import Heading from '@/Layout/Heading';
 
 const TechStack = () => {
   const categories = {
@@ -67,8 +66,8 @@ const TechStack = () => {
 
   return (
     <WrapperContainer>
-      <div className="bg-white mr-[40px]">
-        <Heading className="text-3xl font-bold text-center mb-6 text-blue-700">🚀 Tech Stack Overview</Heading>
+      <div className="bg-gray-100">
+        <Heading className="text-3xl font-bold text-center mt-4 mb-6 text-blue-700">Tech Stack Overview</Heading>
         <Paragraph className="text-center text-gray-600 max-w-2xl mx-auto mb-12 text-lg">
           Explore the technologies and tools we use for frontend, backend, databases, hosting, and beyond.
         </Paragraph>
@@ -88,7 +87,7 @@ const TechStack = () => {
 
 
           {/* Right: Text Categories */}
-          <div className="flex flex-col gap-12 ml-[40px]">
+          <div className="flex flex-col gap-12 ml-[40px] mb-8">
             {Object.entries(categories).map(([category, techs]) => (
               <div key={category}>
                 <Heading className="text-xl font-semibold text-blue-600 mb-2">{category}</Heading>

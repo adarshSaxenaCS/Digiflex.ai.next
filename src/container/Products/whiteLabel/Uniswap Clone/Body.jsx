@@ -5,11 +5,11 @@ import { UniswapFaqs } from '../FaqData';
 
 export default function Body() {
   return (
-    <div>
+    <>
       <UniswapCloneFeatures/>
       <TokenPage/>
       <Faq faqs={UniswapFaqs}/>
-    </div>
+    </>
   )
 }
 

@@ -90,6 +90,7 @@ const StaticMarketPrices = () => {
   return (
     <WrapperContainer>
       <div className="bg-white text-black">
+        <Heading>Market Prices</Heading>
         <div className="flex gap-6 overflow-x-auto scrollbar-hide">
           {/* Show 6 items in scroll, only first 3 will be visible due to overflow */}
           {renderSection(<><FaBitcoin /> Cryptocurrencies</>, cryptoPrices)}

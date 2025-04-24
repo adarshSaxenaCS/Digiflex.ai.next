@@ -22,7 +22,7 @@ const WhyWeCanBuild = () => {
   return (
     <WrapperContainer>
       <section className="my-16">
-        <Heading className="text-center">🛠️ Why We Can Build This</Heading>
+        <Heading className="text-center">Why We Can Build This</Heading>
         <Paragraph className="text-center text-gray-600 mt-2 max-w-2xl mx-auto">
           We have the right skills, tools, and experience to develop a scalable and secure Fiverr-like platform.
         </Paragraph>
@@ -31,8 +31,8 @@ const WhyWeCanBuild = () => {
           {/* Left side images */}
           <div className="space-y-6">
             <img
-              src="https://i.pinimg.com/736x/5a/1b/ce/5a1bcec7738ab131af8d1396d39a3c8a.jpg"
-              alt="Team working"
+              src="https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/FiverrTeamWorking1-gif.jpg"
+              alt="FiverrTeamWorking1-jpg"
               className="rounded-xl shadow-lg w-full object-cover h-65"
             />
             {/* <img
@@ -41,8 +41,8 @@ const WhyWeCanBuild = () => {
               className="rounded-xl shadow-lg w-full object-cover h-65"
             /> */}
             <img
-              src="https://i.pinimg.com/originals/ad/3a/a1/ad3aa168b76a1846c56edad68c218242.gif"
-              alt="Development tools"
+              src="https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/FiverrTeamWorking1-jpg.jpg"
+              alt="FiverrTeamWorking1-gif"
               className="rounded-xl shadow-lg w-full object-cover h-65"
             />
           </div>

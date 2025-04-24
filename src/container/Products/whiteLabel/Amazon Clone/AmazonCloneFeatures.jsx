@@ -53,7 +53,7 @@ const AmazonCloneFeatures = () => {
   return (
     <WrapperContainer>
       <section className="">
-        <Heading className="text-center">🚀 Key Features of Our Amazon Clone Platform</Heading>
+        <Heading className="text-center">Key Features of Our Amazon Clone Platform</Heading>
         <Paragraph className="text-center text-gray-600 max-w-2xl mx-auto mt-3">
           A powerful B2B marketplace solution with tools tailored to global-scale commerce, secure payments, and real-time business communication.
         </Paragraph>

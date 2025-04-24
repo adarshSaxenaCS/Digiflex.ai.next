@@ -1,7 +1,16 @@
-import React from 'react'
+import ThreadFeatures from "./ThreadFeatures";
+import HowItWorks from "./HowItWorks";
+import ThreadTechStack from "./ThreadTechStack";
+import Faq from "@/components/Faq";
+import { ThreadsFaqs } from "../FaqData";
 
 export default function Body() {
   return (
-    <div>Body</div>
+    <>
+    <ThreadFeatures/>
+    <HowItWorks/>
+    <ThreadTechStack/>
+    <Faq faqs={ThreadsFaqs}/>
+    </>
   )
 }

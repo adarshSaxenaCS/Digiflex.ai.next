@@ -18,7 +18,8 @@ const alibabaServices = [
     description: "Find products easily.",
     detailContent:
       "Use advanced filtering options such as category, price range, supplier type, and location to narrow down results. The intelligent search algorithm helps buyers quickly find the most relevant products.",
-    image: "https://i.pinimg.com/736x/8f/8e/29/8f8e290b00fae2eb29b181411cf92b4a.jpg",
+    image: "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/AlibabaFeaturesImg1-jpg.jpg",
+    alt:"AlibabaFeaturesImg1-jpg"
   },
   {
     title: "Secure Payment System",
@@ -26,7 +27,8 @@ const alibabaServices = [
     description: "Multiple payment options.",
     detailContent:
       "Offers secure escrow payment system, credit card support, and multiple payment gateways like PayPal and Stripe. Ensures both buyer and seller transactions are safe and trusted.",
-    image: "https://i.pinimg.com/736x/00/24/16/0024169553fe4753a71ea990e66eb858.jpg",
+    image: "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/AlibabaFeaturesImg2-jpg.jpg",
+    alt:"AlibabaFeaturesImg2-jpg"
   },
   {
     title: "Bulk Ordering",
@@ -34,7 +36,8 @@ const alibabaServices = [
     description: "Special pricing for wholesale.",
     detailContent:
       "Buy in large quantities at discounted prices directly from manufacturers and verified suppliers. Perfect for resellers and B2B buyers looking for inventory at scale.",
-    image: "https://i.pinimg.com/736x/84/14/be/8414be6f3386164b247b5af90bf3dc48.jpg",
+    image: "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/AlibabaFeaturesImg3-jpg.jpg",
+    alt:"AlibabaFeaturesImg3-jpg"
   },
   {
     title: "Messaging System",
@@ -42,7 +45,8 @@ const alibabaServices = [
     description: "Chat with sellers.",
     detailContent:
       "Built-in chat system allows real-time messaging with suppliers, request for quotes, send attachments, and negotiate terms before placing orders.",
-    image: "https://i.pinimg.com/736x/cd/5d/40/cd5d400c39e3891914066593b96d610c.jpg",
+    image: "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/AlibabaFeaturesImg4-jpg.jpg",
+    alt:"AlibabaFeaturesImg4-jpg"
   },
   {
     title: "Verified Suppliers",
@@ -50,7 +54,8 @@ const alibabaServices = [
     description: "Trusted seller base.",
     detailContent:
       "Only suppliers who have passed a strict verification process can list products. Buyers can view company details, certifications, and reviews to ensure trust and transparency.",
-    image: "https://i.pinimg.com/736x/51/e6/88/51e6886bc430a322751635f17d3a1880.jpg",
+    image: "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/AlibabaFeaturesImg5-jpg.jpg",
+    alt:"AlibabaFeaturesImg5-jpg"
   },
   {
     title: "Global Shipping",
@@ -58,7 +63,8 @@ const alibabaServices = [
     description: "Deliver anywhere.",
     detailContent:
       "Integration with global logistics partners to deliver orders in over 200 countries. Track your shipment live and get updates until your order reaches the doorstep.",
-    image: "https://i.pinimg.com/736x/ba/84/8d/ba848dafe8bb880af6010553de7df766.jpg",
+    image: "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/AlibabaFeaturesImg6-jpg.jpg",
+    alt:"AlibabaFeaturesImg6-jpg"
   },
   {
     title: "Customer Management",
@@ -66,7 +72,8 @@ const alibabaServices = [
     description: "Handle inquiries better.",
     detailContent:
       "Manage customer relationships through an intuitive dashboard. Respond to inquiries, handle reviews, and maintain strong communication with clients.",
-    image: "https://i.pinimg.com/736x/d0/cb/94/d0cb94f91650faca295b139e54590661.jpg",
+    image: "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/AlibabaFeaturesImg7-jpg.jpg",
+    alt:"AlibabaFeaturesImg7-jpg"
   },
   {
     title: "International Marketplace",
@@ -74,7 +81,8 @@ const alibabaServices = [
     description: "Sell globally.",
     detailContent:
       "List your products in multiple languages and currencies. Expand your reach to a global audience with built-in SEO, translation support, and country-specific promotions.",
-    image: "https://i.pinimg.com/736x/11/39/66/113966a9b2049ede6ce8ab84facdbbe5.jpg",
+    image: "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/AlibabaFeaturesImg8-jpg.jpg",
+    alt:"AlibabaFeaturesImg8-jpg"
   },
 ];
 

@@ -51,9 +51,9 @@ const CryptoUsersByContinent = () => {
           {/* Left image */}
           <div className="md:w-1/2 w-full">
             <Image
-              src="https://buybitcoinworldwide.com/pages/info/img/crypto-stats/cryptocurrency-users-worldwide.png"
-              alt="Crypto Users Worldwide"
-              width={600}
+              src="https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/LocalCryptoUsersWorldwide-gif.gif"
+              alt="LocalCryptoUsersWorldwide-gif"
+              width={500}
               height={500}
               className="rounded-xl shadow-md w-full h-[500px]"
             />

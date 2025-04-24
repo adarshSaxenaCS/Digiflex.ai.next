@@ -19,16 +19,16 @@ const alibabaApps = [
 const AliBabaApps = () => {
     return (
         <WrapperContainer>
-            <div className="min-h-screen p-6 md:p-10 bg-gradient-to-br from-white to-blue-50 transition-all duration-300">
-                <Heading className="text-4xl font-bold mb-10 text-blue-800 text-center drop-shadow-sm">🚀 Apps & Platforms by Alibaba Group</Heading>
+            <div className="min-h-screen p-6 md:p-10 bg-gradient-to-br from-orange-50 to-orange-100 transition-all duration-300">
+                <Heading className="text-4xl font-bold mb-10 text-blue-800 text-center drop-shadow-sm">Apps & Platforms by Alibaba Group</Heading>
 
                 <div className="flex flex-col md:flex-row items-start gap-10">
                     {/* Left Images */}
                     <div className="md:w-1/2 w-full space-y-6">
                         {[
-                            "https://th.bing.com/th/id/R.41519705e2b396d1ca68541d0b7c4d32?rik=EZkBfOUXF%2fxqBw&riu=http%3a%2f%2fwww.nadhir.me%2fwp-content%2fuploads%2f2018%2f04%2fAlibabaEcosystem.jpg&ehk=7QEXGOYYqfzggsw6WH3SYlArfgyKcv3fnn%2bwG4b1VFo%3d&risl=&pid=ImgRaw&r=0",
-                            "https://s.alicdn.com/@img/tfs/TB1F90RM8r0gK0jSZFnXXbRRXXa-1302-685.jpg",
-                            "https://examinechina.com/wp-content/uploads/alibaba-group-hol-companies.jpg"
+                            "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/AlibabPin-jpg.jpg",
+                            "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/AlibabaMap-jpg.jpg",
+                            "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/alibaba-group-hol-companies-jpg.jpg"
                         ].map((src, index) => (
                             <div key={index} className="overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105">
                                 <Image

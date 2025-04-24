@@ -1,7 +1,7 @@
 import Paragraph from "@/Layout/Paragraph";
 import Heading from "@/Layout/Heading";
 
-function Hero({ title, description, videoSrc}) {
+function Hero({ title, description, videoSrc }) {
   return (
     <div className="relative w-full min-h-screen overflow-hidden bg-black flex items-center justify-center text-center">
       {/* Video Background */}
@@ -25,17 +25,16 @@ function Hero({ title, description, videoSrc}) {
       <div className="absolute inset-0 bg-black opacity-40 z-[1]"></div>
 
       {/* Centered Content */}
-      <div className="relative z-10 text-white px-6 max-w-4xl">
+      <div className="relative z-10 text-white px-6 max-w-4xl group">
         {/* Title */}
-        <h1 className="text-[40px] font-bold mb-[30px]">
+        <h1 className="text-[40px] font-bold mb-[30px] group-hover:italic group-hover:text-blue-200 transition-all duration-300">
           {title}
         </h1>
 
         {/* Description */}
-        <h3 className="text-white text-[25px]">
+        <h3 className="text-white text-[25px] group-hover:italic group-hover:text-blue-200 transition-all duration-300">
           {description}
         </h3>
-
       </div>
     </div>
   );

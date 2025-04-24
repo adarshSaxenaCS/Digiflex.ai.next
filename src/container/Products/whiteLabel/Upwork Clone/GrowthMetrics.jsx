@@ -46,8 +46,8 @@ const growthStats = [
 const GrowthMetrics = () => {
   return (
     <WrapperContainer>
-      <section className="mb-[80px] text-center">
-        <Heading>📈 Platform Growth Metrics</Heading>
+      <section className="mb-[30px] text-center">
+        <Heading>Platform Growth Metrics</Heading>
         <Paragraph className="text-gray-600 mt-3 max-w-xl mx-auto">
           These key performance indicators reflect the growth, stability, and
           trustworthiness of our Upwork clone platform.

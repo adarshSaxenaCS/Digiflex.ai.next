@@ -1,19 +1,13 @@
-<<<<<<< HEAD
 import Hero from '@/container/products/WhiteLabel/AllInOneCode/Hero'
 import Body from '@/container/products/WhiteLabel/Tinder Clone/Body'
-=======
-import Hero from '@/container/Products/WhiteLabel/AllInOneCode/Hero'
-import Body from '@/container/Products/WhiteLabel/Tinder Clone/Body'
->>>>>>> 886e26feb3489e64e350ec7dcb695bd063deac7e
-import React from 'react'
 
 export default function TinderClone() {
     return (
         
             <>
             <Hero 
-        title="Best Fiverr Clone Script & Freelancer Marketplace Solutions" 
-        description="Create your own freelance marketplace with the best Fiverr clone script, website, and app. Explore Fiverr clone WordPress solutions and top freelancer clone platforms." 
+        title="Find Love & Connections on Tinder | The Best Dating App" 
+        description="Explore Tinder, the world’s most popular dating app. Meet new people, find matches, and start chatting. Join the best Tinder dating site and app today!" 
       />
             <Body/>
             </>

@@ -103,8 +103,8 @@ export default function Features() {
 
             <div className="hidden sm:block">
               <Image
-                src="https://img.freepik.com/free-photo/beautiful-cryptocurrwncy-concept_23-2149250224.jpg?t=st=1744371765~exp=1744375365~hmac=ebed9e90d958d8e08f30724a84e46b665a634ed46a78f2c24d18cf4439773494&w=996" // ✅ replace with your actual image
-                alt="How It Works"
+                src="https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/LocalCryptoFeatures1-jpg.jpg"
+                alt="LocalCryptoFeatures1-jpg"
                 width={300}
                 height={300}
                 className="mx-auto rounded-lg"
@@ -120,8 +120,8 @@ export default function Features() {
 
             <div className="hidden sm:block">
               <Image
-                src="https://img.freepik.com/free-photo/beautiful-cryptocurrency-hologram-design_23-2149250217.jpg?t=st=1744371782~exp=1744375382~hmac=10a38ea44aae99437fe2eea1f83e3c367ddf34b858c09e4c2b2bfcbbc54de17e&w=996" // ✅ replace with another image
-                alt="Secure Features"
+                src="https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/LocalCryptoFeatures2-jpg.jpg"
+                alt="LocalCryptoFeatures2-jpg"
                 width={300}
                 height={300}
                 className="mx-auto rounded-lg"

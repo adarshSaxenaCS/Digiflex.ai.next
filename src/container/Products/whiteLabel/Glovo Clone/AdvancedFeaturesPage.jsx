@@ -80,8 +80,8 @@ export default function AdvancedFeaturesPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
           <div className="flex flex-col items-center md:items-start">
             <Image
-              src="https://i.pinimg.com/736x/80/87/83/808783d2bcb86d9b459d492bf45e8bcf.jpg"
-              alt="Advanced Features"
+              src="https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/GlovoAdvancedFeatures1-jpg (1).jpg"
+              alt="AdvancedFeatures1-jpg"
               width={500}
               height={300}
               className="rounded-lg shadow-lg mb-6 h-[900px] w-[110%]"
@@ -121,16 +121,16 @@ export default function AdvancedFeaturesPage() {
           </div>
           <div className="flex flex-col items-center md:items-start">
             <Image
-              src="https://i.pinimg.com/736x/d1/11/f9/d111f9a77fde1fb2a0322686564467e5.jpg"
-              alt="Advanced Features"
+              src="https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/GlovoAdvancedFeatures2-jpg (2).jpg"
+              alt="AdvancedFeatures2-jpg"
               width={500}
               height={100}
               className="rounded-lg shadow-lg mb-6 w-[110%] h-[500px]"
             />
             {/* Additional Image Below */}
             <Image
-              src="https://i.pinimg.com/736x/43/af/aa/43afaab9cbac75721499cb0d510e245e.jpg" // Example URL
-              alt="Additional Advanced Features"
+              src="https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/GlovoAdvancedFeatures3-jpg (3).jpg" 
+              alt="AdvancedFeatures3-jpg"
               width={500}
               height={100}
               className="rounded-lg shadow-lg w-[110%] h-[500px]"

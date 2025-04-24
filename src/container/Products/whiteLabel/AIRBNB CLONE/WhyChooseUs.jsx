@@ -1,4 +1,4 @@
-import { ShieldCheck, Bolt, Globe, Clock, LifeBuoy} from "lucide-react";
+import { ShieldCheck, Bolt, Globe, Clock, LifeBuoy } from "lucide-react";
 import Paragraph from "@/Layout/Paragraph";
 import WrapperContainer from "@/Layout/WrapperContainer";
 import Heading from "@/Layout/Heading";
@@ -6,27 +6,27 @@ import Heading from "@/Layout/Heading";
 const features = [
   {
     title: "Custom Development",
-    description: "Tailor-made solutions, not just pre-built templates.",
+    description: "We offer fully customized web solutions built from scratch, tailored to your business needs. No cookie-cutter templates—just powerful, purpose-driven code that fits like a glove.",
     icon: ShieldCheck,
   },
   {
     title: "Scalable Architecture",
-    description: "Suitable for startups and enterprises.",
+    description: "Our platforms are built to grow with you. Whether you're a startup or an enterprise, we ensure the infrastructure supports growth, traffic surges, and new feature additions with ease.",
     icon: Globe,
   },
   {
     title: "Secure & Reliable",
-    description: "SSL encryption, secure payments, and data protection.",
+    description: "With advanced encryption, secure payment integrations, and regular audits, we prioritize the safety of your data and ensure consistent uptime and trustworthiness.",
     icon: Bolt,
   },
   {
     title: "Fast Deployment",
-    description: "Get your platform live in weeks, not months.",
+    description: "We cut through delays with agile development practices. Your platform goes live faster, helping you reach the market quickly without compromising quality.",
     icon: Clock,
   },
   {
     title: "Ongoing Support",
-    description: "Continuous updates and customer support.",
+    description: "Our relationship doesn’t end at deployment. We provide continuous support, updates, and optimizations to keep your platform secure, relevant, and high-performing.",
     icon: LifeBuoy,
   },
 ];
@@ -51,7 +51,7 @@ const WhyChooseUs = () => {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="bg-white bg-opacity-10 backdrop-blur-lg border border-white/20 rounded-xl p-6 text-center shadow-md transition-all duration-300 hover:scale-105 hover:border-blue-500 hover:shadow-lg animate-fadeIn"
+              className="bg-white bg-opacity-10 backdrop-blur-lg border border-white/20 rounded-xl p-6 text-center shadow-md transition-all duration-300 hover:scale-105 hover:border-blue-500 hover:shadow-lg hover:bg-gradient-to-r hover:from-red-100 hover:to-red-300 animate-fadeIn"
               style={{
                 animationDelay: `${index * 100}ms`,
                 animationFillMode: "both",

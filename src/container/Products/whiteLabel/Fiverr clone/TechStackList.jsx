@@ -15,7 +15,7 @@ const techStacks = [
     authentication: "JWT, OAuth (Google, Facebook)",
     payments: "Stripe, Razorpay, PayPal",
     description: "Fast development, scalable, and widely supported.",
-    image: "https://i.pinimg.com/736x/a9/93/ea/a993ea7eb618687a31506f3d48588579.jpg",
+    image: "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/FiverrMernStack.jpg",
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const techStacks = [
     authentication: "JWT, OAuth",
     payments: "Stripe, PayPal",
     description: "Simpler than React, faster UI performance.",
-    image: "https://i.pinimg.com/736x/11/b3/ed/11b3ed74041de5683ebec0b2d9df9879.jpg",
+    image: "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/FiverrMeanStack.jpg",
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ const techStacks = [
     authentication: "Sessions, JWT",
     payments: "PayPal, Stripe",
     description: "Cost-effective, widely used, and good for shared hosting.",
-    image: "https://i.pinimg.com/736x/09/f8/5b/09f85b5c6bb86b2d1c6625d3a177d880.jpg",
+    image: "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/FiverrLampStack.jpg",
   },
   {
     id: 4,
@@ -51,7 +51,7 @@ const techStacks = [
     authentication: "Firebase Auth, Auth0",
     payments: "Stripe",
     description: "Fast, secure, and scalable with minimal backend maintenance.",
-    image: "https://i.pinimg.com/736x/30/a1/34/30a1344f94ec2918e0de4c560d27c998.jpg",
+    image: "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/FiverrJamStack.jpg",
   },
   {
     id: 5,
@@ -63,7 +63,7 @@ const techStacks = [
     authentication: "Django Auth, JWT",
     payments: "Stripe, Razorpay",
     description: "Secure, robust, and great for AI/ML-based analytics.",
-    image: "https://i.pinimg.com/736x/f0/6a/f6/f06af6a4c0dd85055ff3d0fa4cbb956a.jpg",
+    image: "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/FiverrDjango.jpg",
   },
 ];
 

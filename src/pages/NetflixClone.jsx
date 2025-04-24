@@ -1,19 +1,13 @@
-<<<<<<< HEAD
 import Hero from '@/container/products/WhiteLabel/AllInOneCode/Hero';
 import Body from '@/container/products/WhiteLabel/Netflix Clone OTT/Body';
-=======
-import Hero from '@/container/Products/WhiteLabel/AllInOneCode/Hero';
-import Body from '@/container/Products/WhiteLabel/Netflix Clone OTT/Body';
->>>>>>> 886e26feb3489e64e350ec7dcb695bd063deac7e
-import React from 'react'
 
 export default function NetflixClone() {
     return (
         
             <>
             <Hero 
-        title="Best Fiverr Clone Script & Freelancer Marketplace Solutions" 
-        description="Create your own freelance marketplace with the best Fiverr clone script, website, and app. Explore Fiverr clone WordPress solutions and top freelancer clone platforms." 
+        title="Build a Netflix Clone | Best On-Demand Streaming App Solutions" 
+        description="Create your own video streaming platform with a Netflix clone app. Explore the best Netflix clone scripts, apps, and website solutions for on-demand entertainment." 
       />
             <Body/>
             </>

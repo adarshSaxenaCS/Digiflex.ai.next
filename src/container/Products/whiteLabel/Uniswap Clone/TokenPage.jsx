@@ -53,8 +53,8 @@ const TokenPage = () => {
             </ul>
 
             <Image
-              src="https://i.pinimg.com/736x/32/91/11/329111c122a1273ae7f7401000396f1c.jpg"
-              alt="token image"
+              src="https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/UniswapTokenomics-jpg.jpg"
+              alt="UniswapTokenomics-jpg"
               width={400}
               height={200}
               className="rounded h-[210px]"
@@ -98,15 +98,15 @@ const TokenPage = () => {
             </ul>
 
             <Image
-              src="https://i.pinimg.com/736x/2d/f9/f4/2df9f422ab82f933295251d48f2e9ce0.jpg"
-              alt="roadmap image"
+              src="https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/UniswapRoadmap1-gif.gif"
+              alt="UniswapRoadmap1-jpg"
               width={400}
               height={200}
               className="rounded h-[220px]"
             />
             <Image
-              src="https://i.pinimg.com/originals/19/c1/ee/19c1ee66f3ea32e06c77a324cda5d650.gif"
-              alt="roadmap image"
+              src="https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/UniswapRoadmap1-jpg.jpg"
+              alt="UniswapRoadmap2-gif"
               width={400}
               height={200}
               className="rounded h-[225px]"
@@ -147,8 +147,8 @@ const TokenPage = () => {
             </ul>
 
             <Image
-              src="https://i.pinimg.com/originals/2e/e6/99/2ee6998e34c3e2eff7b894c66cfc5267.jpg"
-              alt="roadmap image"
+              src="https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/UniswapStats-gif.jpg"
+              alt="UniswapStats-gif"
               width={400}
               height={200}
               className="rounded h-[210px]"

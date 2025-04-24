@@ -17,8 +17,8 @@ const GlobalReach = () => {
 
         <div className="relative h-[400px] mb-12 rounded-2xl flex items-center justify-center" style={{ backgroundColor: "#00212F" }}>
           <Image
-            src="https://i.pinimg.com/originals/b8/fc/d5/b8fcd5dc21fc41be47ae5ae99c7690f8.gif"
-            alt="Global Network"
+            src="https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/OpenseaGlobalNetwork-gif.gif"
+            alt="OpenseaGlobalNetwork-gif"
             width={500}
             height={200}
             objectFit="contain"

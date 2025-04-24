@@ -6,12 +6,12 @@ import { UpworkFaqs } from '../FaqData';
 
 export default function Body() {
   return (
-    <div>
+    <>
       <UpworkFeatures/>
       <ShowcaseImages/>
       <GrowthMetric/>
       <Faq faqs={UpworkFaqs}/>
-    </div>
+    </>
   )
 }
 

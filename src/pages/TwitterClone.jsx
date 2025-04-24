@@ -1,18 +1,15 @@
-<<<<<<< HEAD
-import Hero from '@/container/products/WhiteLabel/AllInOneCode/Hero'
-=======
-import Hero from '@/container/Products/WhiteLabel/AllInOneCode/Hero'
->>>>>>> 886e26feb3489e64e350ec7dcb695bd063deac7e
-import React from 'react'
+import Hero from '@/container/products/WhiteLabel/AllInOneCode/Hero';
+import Body from '@/container/products/WhiteLabel/Twitter Clone MicroBlogging/Body';
 
 export default function TwitterClone() {
     return (
         
             <>
             <Hero 
-        title="Best Fiverr Clone Script & Freelancer Marketplace Solutions" 
-        description="Create your own freelance marketplace with the best Fiverr clone script, website, and app. Explore Fiverr clone WordPress solutions and top freelancer clone platforms." 
+        title="Best Microblogging Platforms & Twitter Clone Solutions | Build Your Own Site" 
+        description="Discover the best microblogging platforms or create your own Twitter clone with a powerful script or app. Explore top microblogging sites for real-time content sharing." 
       />
+      <Body/>
             </>
         
     )

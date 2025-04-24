@@ -1,11 +1,5 @@
-<<<<<<< HEAD
 import Hero from '@/container/products/WhiteLabel/AllInOneCode/Hero';
 import Body from '@/container/products/WhiteLabel/Rarible Clone/Body';
-=======
-import Hero from '@/container/Products/WhiteLabel/AllInOneCode/Hero'
-import Body from '@/container/Products/WhiteLabel/Paypal Clone/Body'
-import React from 'react'
->>>>>>> 886e26feb3489e64e350ec7dcb695bd063deac7e
 
 export default function RaribleClone() {
     return (

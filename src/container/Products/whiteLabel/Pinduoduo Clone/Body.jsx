@@ -6,12 +6,12 @@ import { PinduoduoFaqs } from '../FaqData';
 
 export default function Body() {
   return (
-    <div>
+    <>
       <PinduoduoCloneFeatures/>
       <WhatWeProvide/>
       <WhyPinduoduoClone/>
       <Faq faqs={PinduoduoFaqs} />
-    </div>
+    </>
   )
 }
 

@@ -6,12 +6,12 @@ import { PancakeSwapFaqs } from '../FaqData';
 
 export default function Body() {
   return (
-    <div>
+    <>
       <PancakeSwapCloneFeatures/>
       <PancakeSwapFunctionalities/>
       <HowItWorks/>
       <Faq faqs={PancakeSwapFaqs}/>
-    </div>
+    </>
   )
 }
 

@@ -1,7 +1,16 @@
-import React from 'react'
+import TinderFeatures from "./TinderFeatures";
+import SafetyPage from "./SafetyPage";
+import TinderUsage from "./TinderUsage";
+import Faq from "@/components/Faq";
+import { TinderFaqs } from "../FaqData";
 
 export default function Body() {
   return (
-    <div>Body</div>
+    <>
+    <TinderFeatures/>
+    <TinderUsage/>
+    <SafetyPage/>
+    <Faq faqs={TinderFaqs}/>
+    </>
   )
 }

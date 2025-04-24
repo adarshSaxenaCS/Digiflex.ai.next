@@ -265,6 +265,7 @@ import {
   serviceCategories,
   productCategories,
   technologyCategories,
+  IndustryCategories
 } from "./HeaderData";
 import MegaMenu from "./MegaMenu";
 import { Phone, Mail } from "lucide-react";
@@ -342,6 +343,8 @@ const Navbar = () => {
 
       case "products":
         return productCategories;
+
+       
 
       default:
         return [];

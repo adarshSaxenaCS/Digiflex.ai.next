@@ -62,10 +62,10 @@ export const mainNavItems = [
         dropdownType: "products",
     },
       
-{
+    {
         label: "Industry",
         href: "#",
-        hasDropdown: false,
+        hasDropdown: true,
         dropdownType: "industries",
     },
     {
@@ -76,10 +76,10 @@ export const mainNavItems = [
         label: "Portfolio",
         href: "/portfolio",
     },
-    // {
-    //     label: "Blog",
-    //     href: "/blog"
-    // },
+    {
+        label: "Blog",
+        href: "/blog"
+    },
     {
         label: "About us",
         href: "/about-us"
@@ -835,3 +835,7 @@ export const productCategories = [
       "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=600&q=80",
     },
   ];
+
+  
+
+

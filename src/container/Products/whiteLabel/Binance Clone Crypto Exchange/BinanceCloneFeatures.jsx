@@ -1,71 +1,114 @@
-import AlternateGridFeatures from "@/container/products/WhiteLabel/AllInOneCode/AlternateGridFeatures";
+import WrapperContainer from "@/Layout/WrapperContainer";
+import Heading from "@/Layout/Heading";
 
 const binanceFeatures = [
   {
     title: "Spot Trading",
     icon: "TrendingUp",
     description: "Buy and sell crypto instantly.",
-    detailContent: "Trade cryptocurrencies like BTC, ETH at market or limit prices.",
-    image: "https://i.pinimg.com/736x/75/20/52/752052aeedfaa78c2f27f442f197d310.jpg",
+    detailContent:
+      "Trade cryptocurrencies like BTC, ETH at market or limit prices with real-time data and deep liquidity. Execute fast transactions and take advantage of low trading fees to maximize profits.",
+    image: "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/BinanceFeaturesImg1-gif.gif",
+    alt:'BinanceFeaturesImg1-gif'
   },
   {
     title: "Futures Trading",
     icon: "Activity",
     description: "Trade with leverage.",
-    detailContent: "Go long or short with leverage to maximize gains.",
-    image: "https://i.pinimg.com/736x/3d/9c/29/3d9c297e87452a9edc6d8ee0ca58594d.jpg",
+    detailContent:
+      "Go long or short with leverage up to 125x and manage risk using advanced tools like stop-loss, take-profit, and margin calculators. Ideal for experienced traders seeking higher potential returns.",
+    image: "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/BinanceFutureTrading.gif",
+    alt:'BinanceFeaturesImg2-gif'
   },
   {
     title: "Staking & Savings",
     icon: "DollarSign",
     description: "Earn passive income.",
-    detailContent: "Lock crypto in flexible or fixed terms to earn rewards.",
-    image: "https://i.pinimg.com/736x/4e/e3/5d/4ee35d9f8642c6d7bdaf5d2e10ea3e72.jpg",
+    detailContent:
+      "Lock your crypto assets in flexible or fixed savings plans to earn regular rewards. Support blockchain networks through staking and enjoy predictable returns while maintaining custody of your funds.",
+    image: "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/BinanceStacking-gif.gif",
+    alt:'BinanceFeaturesImg3-gif'
   },
   {
     title: "Secure Wallet",
     icon: "Shield",
     description: "Top-notch security.",
-    detailContent: "Assets are secured with multi-layer protection and cold storage.",
-    image: "https://i.pinimg.com/736x/66/61/27/666127427877528b3b454fd8d24e905c.jpg",
+    detailContent:
+      "Your digital assets are stored using industry-leading security protocols including cold wallet storage, two-factor authentication, and AI-based fraud detection systems.",
+    image: "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/BinanceSecureWallet-gif.gif",
+    alt:'BinanceFeaturesImg4-gif'
   },
   {
     title: "P2P Trading",
     icon: "Users",
     description: "Trade directly with other users.",
-    detailContent: "Buy and sell crypto with local currency using peer-to-peer trades.",
-    image: "https://img.freepik.com/free-vector/illustrated-stock-exchange-data_23-2148584366.jpg?t=st=1744106314~exp=1744109914~hmac=68777eea9c07f61117d5e356994ad4e566719b3b3844987dae6afa2231af26ad&w=996",
+    detailContent:
+      "Enjoy localized crypto trading by connecting directly with buyers and sellers. Use various payment methods securely, with escrow protection ensuring safe transactions for all parties.",
+    image: "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/BinanceP2pTrading-gif.gif",
+    alt:'BinanceFeaturesImg5-gif'
   },
   {
     title: "Launchpad",
     icon: "Rocket",
     description: "Invest in new crypto projects.",
-    detailContent: "Participate in token sales of emerging crypto startups.",
-    image: "https://img.freepik.com/free-vector/trading-graph-rising-high-with-rocket-gradient-background-with-sparkling-stars-flat-vector-illustration_1284-80325.jpg?t=st=1744106385~exp=1744109985~hmac=a0c6012c8501f54511340f238482475dd06704154a716b3eef933ea779a38e2d&w=826",
+    detailContent:
+      "Access exclusive token launches and support early-stage blockchain projects. Participate in vetted, high-potential investments with transparency and guaranteed allocations.",
+    image: "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/BinanceLaunchpad-gif.gif",
+    alt:'BinanceFeaturesImg6-gif'
   },
   {
     title: "NFT Marketplace",
     icon: "Image",
     description: "Buy and sell NFTs.",
-    detailContent: "Explore digital collectibles and NFTs from global creators.",
-    image: "https://img.freepik.com/free-vector/gradient-nft-concept_23-2148964595.jpg?t=st=1744106432~exp=1744110032~hmac=769f9e56424e31d3cd95ac10a22e3fcbdc1c40631c1e6d9308ef59f00dd0e24a&w=996",
+    detailContent:
+      "Explore a wide range of digital art, collectibles, and virtual goods. Mint, list, and trade NFTs with low fees and seamless wallet integration within the Binance ecosystem.",
+    image: "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/BinanceNftMarketPlace-gif.gif",
+    alt:'BinanceFeaturesImg7-gif'
   },
   {
     title: "API Integration",
     icon: "Code",
     description: "Automate your trading.",
-    detailContent: "Use Binance API for trading bots and integrations.",
-    image: "https://img.freepik.com/free-photo/application-programming-interface-hologram_23-2149092255.jpg?t=st=1744106488~exp=1744110088~hmac=0cb2c237362dcef6ce85799f2637be3a32bc305cc8c7118691a1b8d172942b65&w=996",
+    detailContent:
+      "Utilize Binance’s powerful API to build custom bots, automate trading strategies, and integrate with third-party platforms. Get real-time data feeds and execute trades with precision.",
+    image: "https://sin1.contabostorage.com/d1fa3867924f4c149226431ef8cbe8ee:digiflex/BinanceApiIntegration-jpg.jpg",
+    alt:'BinanceFeaturesImg8-jpg'
   },
 ];
 
 const BinanceCloneFeatures = () => {
   return (
-    <AlternateGridFeatures
-      title="Key Features of Our Binance Clone"
-      description="Build your own crypto exchange platform inspired by Binance's power and flexibility."
-      services={binanceFeatures}
-    />
+    <WrapperContainer>
+      <section className="p-4 bg-gray-100">
+        <Heading className="text-3xl font-bold text-center mb-4">Key Features of Our Binance Clone</Heading>
+        <p className="text-center mb-10 text-gray-600 max-w-2xl mx-auto">
+          Build your own crypto exchange platform inspired by Binance's power and flexibility.
+        </p>
+
+        {/* Horizontal scroll container */}
+        <div className="overflow-x-auto">
+          <div className="flex gap-6 px-2 pb-4 h-[450px]">
+            {binanceFeatures.map((feature, index) => (
+              <div
+                key={index}
+                className="bg-white p-4 rounded-lg shadow w-[380px] flex-shrink-0"
+              >
+                <div className="overflow-hidden rounded">
+                  <img
+                    src={feature.image}
+                    alt={feature.title}
+                    className="w-full h-48 object-cover rounded transform transition duration-500 hover:rotate-3 hover:scale-105"
+                  />
+                </div>
+                <h3 className="mt-4 text-xl font-semibold">{feature.title}</h3>
+                <p className="text-gray-600">{feature.description}</p>
+                <p className="mt-2 text-sm text-gray-500">{feature.detailContent}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    </WrapperContainer>
   );
 };
 

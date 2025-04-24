@@ -6,12 +6,12 @@ import { OpenSeaFaqs } from '../FaqData';
 
 export default function Body() {
   return (
-    <div>
+    <>
       <OpenSeaCloneFeatures/>
       <GlobalReach/>
       <OpenSeaRealWorld/>
       <Faq faqs={OpenSeaFaqs}/>
-    </div>
+    </>
   )
 }
 

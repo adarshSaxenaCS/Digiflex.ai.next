@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 import Hero from '@/container/products/WhiteLabel/AllInOneCode/Hero';
 import Body from '@/container/products/WhiteLabel/AIRBNB CLONE/Body';
-=======
-import Hero from '@/container/Products/WhiteLabel/AllInOneCode/Hero';
-import Body from '@/container/Products/WhiteLabel/AIRBNB CLONE/Body';
->>>>>>> 886e26feb3489e64e350ec7dcb695bd063deac7e
 
 export default function AirBnbClone() {
   return (
