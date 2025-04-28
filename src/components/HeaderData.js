@@ -473,47 +473,7 @@ export const serviceCategories = [
     image:
       "https://i.pinimg.com/736x/81/12/a7/8112a764174b72479ac2afdd0a9fb458.jpg",
   },
-  {
-    id: "E-Commerce3",
-    title: "E-Commerce Development3",
-    icon: ShoppingCart, // Added missing icon
-    color: "text-blue-600",
-    description: "Cutting-edge solutions using blockchain technologies.",
-    features: [
-      {
-        title: "Shopify Development",
-        icon: ShoppingCart, // Added missing icon
-        path: "/shopify-development-services",
-      },
-      {
-        title: "WooCommerce Development",
-        icon: ShoppingCart, // Added missing icon
-        path: "/woocommerce-development-services",
-      },
-      {
-        title: "OpenCart Development",
-        icon: ShoppingCart, // Added missing icon
-        path: "/opencart-development-services",
-      },
-      {
-        title: "Magento Development",
-        icon: ShoppingCart, // Added missing icon
-        path: "/magento-development-services",
-      },
-      {
-        title: "PrestaShop Development",
-        icon: ShoppingCart, // Added missing icon
-        path: "/prestashop-development-services",
-      },
-      {
-        title: "Odoo Development",
-        icon: ShoppingCart, // Added missing icon
-        path: "/odoo-development-services",
-      },
-    ],
-    image:
-      "https://i.pinimg.com/736x/81/12/a7/8112a764174b72479ac2afdd0a9fb458.jpg",
-  },
+
   {
     id: "salesforce",
     icon: Database,
