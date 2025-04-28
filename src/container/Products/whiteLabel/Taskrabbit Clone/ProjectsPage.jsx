@@ -45,7 +45,7 @@ const services = [
   }
 ];
 
-export default function ServicesPage() {
+export default function ProjectsPage() {
   return (
     <WrapperContainer>
         <Heading>Popular Projects</Heading>

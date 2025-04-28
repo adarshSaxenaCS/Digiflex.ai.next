@@ -129,7 +129,7 @@ export default function TiktokFeatures() {
                 title: 'Trending Section:',
                 text:
                   'A dynamic section showing the most viewed, liked, or shared videos in real-time. Algorithms ensure fresh and engaging content always surfaces.'
-              }
+              } 
             ].map(({ icon, title, text }, index) => (
                 <div
                 key={index}

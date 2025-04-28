@@ -6,7 +6,7 @@ import Subheading from '@/Layout/Subheading';
 import Paragraph from '@/Layout/Paragraph';
 import WrapperContainer from '@/Layout/WrapperContainer';
 
-const TechStack = () => {
+const RaribleTechStack = () => {
   const categories = {
     frontend: {
       title: 'Frontend Technologies',
@@ -98,4 +98,4 @@ const TechStack = () => {
   );
 };
 
-export default TechStack;
+export default RaribleTechStack;

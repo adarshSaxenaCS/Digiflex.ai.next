@@ -7,7 +7,7 @@ export default function UserEatsClone() {
         
             <>
             <Hero 
-        title="Build Your Own UberEats Clone App | Best Food Delivery Solution"
+        title="Launch Your Own Food Delivery Business with an UberEats Clone"
         description="Create a powerful food delivery platform with an UberEats clone app. Get the best Uber Eats clone script, open-source solutions on GitHub, and start your business today!"
       />
             <Body/>

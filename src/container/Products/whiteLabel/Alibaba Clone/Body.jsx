@@ -2,7 +2,7 @@ import AlibabaCloneFeatures from "@/container/products/WhiteLabel/Alibaba Clone/
 import TechStack from "@/container/products/WhiteLabel/Alibaba Clone/Techstack";
 import AliBabaApps from "@/container/products/WhiteLabel/Alibaba Clone/AlibabaApps";
 import Faq from "@/components/Faq";
-import { AlibabaFaqs } from "@/container/Products/whiteLabel/FaqData";
+import { AlibabaFaqs } from "../FaqData";
 
 export default function Body() {
   return (

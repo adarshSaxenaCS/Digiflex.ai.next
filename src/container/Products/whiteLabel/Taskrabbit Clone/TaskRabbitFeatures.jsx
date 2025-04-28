@@ -50,7 +50,7 @@ const features = [
   }
 ];
 
-export default function FeaturesPage() {
+export default function TaskRabbitFeatures() {
   return (
     <WrapperContainer>
       <Heading>Features of our TaskRabbit clone</Heading>

@@ -66,7 +66,7 @@ const features = [
     },
 ]
 
-export default function FeaturesPage() {
+export default function TinderFeatures() {
     return (
         <WrapperContainer>
             <div className="container mx-auto p-8">

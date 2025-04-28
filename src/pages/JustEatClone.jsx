@@ -6,7 +6,7 @@ export default function JustEatClone() {
         
             <>
             <Hero 
-        title="Build Your Own Just Eat Clone | Best Food Delivery App Script" 
+        title="Start Your Own Food Delivery Business with a Just Eat Clone" 
         description="Create a powerful online food ordering platform with a Just Eat clone script. Launch your own Just Eat-like app with advanced features and seamless delivery services."
       />
             <Body/>

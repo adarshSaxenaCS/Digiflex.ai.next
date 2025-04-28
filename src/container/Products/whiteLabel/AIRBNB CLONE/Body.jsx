@@ -2,7 +2,7 @@ import AirBnbCloneFeatures from "@/container/products/WhiteLabel/AIRBNB CLONE/Ai
 import WhyChooseUs from "@/container/products/WhiteLabel/AIRBNB CLONE/WhyChooseUs";
 import GalleryPage from "@/container/products/WhiteLabel/AIRBNB CLONE/GalleryPage";
 import Faq from "@/components/Faq";
-import { AirbnbFaqs } from "@/container/Products/whiteLabel/FaqData";
+import { AirbnbFaqs } from "../FaqData";
 
 export default function Body() {
   return (

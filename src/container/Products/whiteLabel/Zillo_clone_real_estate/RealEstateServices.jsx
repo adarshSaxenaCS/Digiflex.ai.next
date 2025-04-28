@@ -45,46 +45,42 @@ const services = [
   },
 ];
 
-
 const RealEstateServices = () => {
   return (
-    <WrapperContainer>
-      <section>
-        <div className="text-center mb-12">
-          <Heading>Our Real Estate Services</Heading>
-          <Paragraph className="text-center text-gray-600">
-            Comprehensive solutions to help you buy, sell, rent, and manage properties effortlessly.
-          </Paragraph>
-        </div>
+    <div className="py-12 px-4 sm:px-10">
+      <Heading>Our Real Estate Services</Heading>
+      <Paragraph className="text-center text-gray-600 mb-10">
+        Comprehensive solutions to help you buy, sell, rent, and manage properties effortlessly.
+      </Paragraph>
 
-        <div className="flex flex-col gap-6">
+      <WrapperContainer>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-[-30px]">
           {services.map((service, index) => {
             const Icon = service.icon;
             return (
               <div
                 key={index}
-                className="flex flex-col md:flex-row items-center md:items-start bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-lg transition duration-300 ease-in-out group p-6 gap-6"
+                className="bg-white p-6 rounded-xl shadow-lg transition-all duration-300 hover:scale-105 text-center group relative overflow-hidden"
               >
+                {/* Hover gradient background */}
+                <div className="absolute inset-0 bg-gradient-to-r from-blue-200 to-blue-600  opacity-0 group-hover:opacity-20 transition-opacity duration-500 rounded-xl" />
+                
                 {/* ICON */}
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center shadow-md group-hover:bg-blue-600 transition shrink-0">
-                  <Icon size={28} className="text-blue-600 group-hover:text-white transition" />
+                <div className="text-blue-600 text-4xl mb-4 group-hover:text-green-600 transition-all duration-300 relative z-10">
+                  <Icon size={36} />
                 </div>
 
-                {/* TEXT */}
-                <div className="flex-1 text-left">
-                  <Subheading className="mb-2 text-gray-800 text-xl group-hover:text-blue-600 transition">
-                    {service.title}
-                  </Subheading>
-                  <Paragraph className="text-gray-600 text-[16px] leading-relaxed group-hover:text-gray-800 transition">
-                    {service.description}
-                  </Paragraph>
-                </div>
+                {/* TITLE */}
+                <h3 className="text-xl font-semibold mb-2 text-gray-800 relative z-10">{service.title}</h3>
+
+                {/* DESCRIPTION */}
+                <p className="text-gray-600 text-sm leading-relaxed relative z-10">{service.description}</p>
               </div>
             );
           })}
         </div>
-      </section>
-    </WrapperContainer>
+      </WrapperContainer>
+    </div>
   );
 };
 
